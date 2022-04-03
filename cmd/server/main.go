@@ -9,6 +9,7 @@ import (
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/resource"
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/storage"
 	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
+	"os"
 )
 
 func main() {
@@ -17,6 +18,8 @@ func main() {
 
 	router := gin.Default()
 	router.Use(cors.Default())
+
+	router.Static("/textures", os.Getenv("API_TEXTURES_DIR"))
 
 	api := api2go.NewAPIWithRouting(
 		"v1",
