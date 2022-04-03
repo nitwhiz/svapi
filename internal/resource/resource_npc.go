@@ -15,6 +15,7 @@ func (n NpcResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mode
 	ApplyFilters(
 		r.QueryParams,
 		map[string]string{
+			"filter[npc]":            "npc_names.id",
 			"filter[birthdaySeason]": "birthdaySeason",
 			"filter[birthdayDay]":    "birthdayDay",
 		},
@@ -29,6 +30,18 @@ func (n NpcResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mode
 			FilterColumn:  "gift_tastes.id",
 			LeftOn:        "npcs.id",
 			RightOn:       "gift_tastes.npc_id",
+		},
+		opts,
+	)
+
+	TryApplyJoinFilter(
+		r.QueryParams,
+		&JoinFilterOptions{
+			QueryParamKey: "npcNamesID",
+			TableName:     "npc_names",
+			FilterColumn:  "npc_names.id",
+			LeftOn:        "npcs.id",
+			RightOn:       "npc_names.npc_id",
 		},
 		opts,
 	)

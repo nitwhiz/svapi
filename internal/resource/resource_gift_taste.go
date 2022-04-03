@@ -50,7 +50,6 @@ func (g GiftTasteResource) FindAll(r api2go.Request) (api2go.Responder, error) {
 
 func (g GiftTasteResource) FindOne(id string, r api2go.Request) (api2go.Responder, error) {
 	queryOpts := &storage.QueryOptions{
-		WhereColumns: map[string]any{},
 		Preload: []string{
 			"Npc.DisplayNames",
 			"Item.DisplayNames",

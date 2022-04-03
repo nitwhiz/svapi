@@ -16,6 +16,7 @@ func (i ItemNameResource) GetAll(r api2go.Request, opts *storage.QueryOptions) [
 		r.QueryParams,
 		map[string]string{
 			"itemsID":          "item_id",
+			"filter[item]":     "item_id",
 			"filter[language]": "language",
 			"filter[name]":     "name",
 			"filter[query]":    "name",

@@ -15,6 +15,7 @@ func (i ItemResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mod
 	ApplyFilters(
 		r.QueryParams,
 		map[string]string{
+			"filter[item]":       "item_names.id",
 			"filter[internalId]": "internalId",
 			"filter[category]":   "category",
 			"filter[type]":       "type",
@@ -30,6 +31,18 @@ func (i ItemResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mod
 			FilterColumn:  "gift_tastes.id",
 			LeftOn:        "items.id",
 			RightOn:       "gift_tastes.item_id",
+		},
+		opts,
+	)
+
+	TryApplyJoinFilter(
+		r.QueryParams,
+		&JoinFilterOptions{
+			QueryParamKey: "itemNamesID",
+			TableName:     "item_names",
+			FilterColumn:  "item_names.id",
+			LeftOn:        "items.id",
+			RightOn:       "item_names.item_id",
 		},
 		opts,
 	)
