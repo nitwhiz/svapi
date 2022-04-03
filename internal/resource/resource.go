@@ -98,8 +98,15 @@ func ApplyFilters(queryParams map[string][]string, mappings map[string]string, q
 
 		if ok {
 			if queryOpts.WhereColumns == nil {
-				queryOpts.WhereColumns = map[string]any{
-					queryOptsColumn: filterValue,
+				queryOpts.WhereColumns = map[string]any{}
+			}
+
+			if queryParamKey == "filter[query]" {
+				if len(filterValue) == 1 {
+					queryOpts.Search = &storage.Search{
+						Query:  filterValue[0],
+						Column: queryOptsColumn,
+					}
 				}
 			} else {
 				queryOpts.WhereColumns[queryOptsColumn] = filterValue

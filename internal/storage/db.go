@@ -50,6 +50,8 @@ func InitDB() (*gorm.DB, error) {
 		return nil, err
 	}
 
+	db.Raw("CREATE EXTENSION pg_trgm")
+
 	return db, nil
 }
 
@@ -63,6 +65,11 @@ type Order struct {
 	Direction int
 }
 
+type Search struct {
+	Query  string
+	Column string
+}
+
 type QueryOptions struct {
 	WhereColumns map[string]any
 	Join         []string
@@ -70,6 +77,7 @@ type QueryOptions struct {
 	Offset       uint64
 	Limit        uint64
 	Orders       []Order
+	Search       *Search
 }
 
 func applyWhere(tx *gorm.DB, opts *QueryOptions) {
@@ -88,7 +96,6 @@ func applyWhere(tx *gorm.DB, opts *QueryOptions) {
 }
 
 func applyPreload(tx *gorm.DB, opts *QueryOptions) {
-
 	if opts.Preload != nil && len(opts.Preload) > 0 {
 		for _, preload := range opts.Preload {
 			tx.Preload(preload)
@@ -111,6 +118,18 @@ func applyOffsetAndLimit(tx *gorm.DB, opts *QueryOptions) {
 
 	if opts.Limit != 0 {
 		tx.Limit(int(opts.Limit))
+	}
+}
+
+func applySearchQuery(tx *gorm.DB, opts *QueryOptions) {
+	if opts.Search == nil {
+		return
+	}
+
+	tx.Order("SIMILARITY(" + opts.Search.Column + ", '" + opts.Search.Query + "') DESC")
+
+	if opts.Limit == 0 {
+		tx.Limit(5)
 	}
 }
 
@@ -164,6 +183,7 @@ func QueryAll[ResultModelType any](db *gorm.DB, opts *QueryOptions) []ResultMode
 		applyPreload(tx, opts)
 		applyWhere(tx, opts)
 		applyJoin(tx, opts)
+		applySearchQuery(tx, opts)
 		applyOrder(tx, opts)
 		applyOffsetAndLimit(tx, opts)
 	}
@@ -182,6 +202,7 @@ func QueryOne[ResultModelType any](db *gorm.DB, id string, opts *QueryOptions) (
 		applyPreload(tx, opts)
 		applyWhere(tx, opts)
 		applyJoin(tx, opts)
+		applySearchQuery(tx, opts)
 		applyOrder(tx, opts)
 		applyOffsetAndLimit(tx, opts)
 	}

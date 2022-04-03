@@ -18,6 +18,7 @@ func (n NpcNameResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []
 			"npcsID":           "npc_id",
 			"filter[language]": "language",
 			"filter[name]":     "name",
+			"filter[query]":    "name",
 		},
 		opts,
 	)
