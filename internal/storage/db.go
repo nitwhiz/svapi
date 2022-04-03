@@ -18,12 +18,12 @@ func InitDB() (*gorm.DB, error) {
 
 	db, err := gorm.Open(postgres.Open(strings.Trim(fmt.Sprintf(
 		"host=%s port=%s user=%s password=%s dbname=%s %s",
-		os.Getenv("IMPORTER_DB_HOST"),
-		os.Getenv("IMPORTER_DB_PORT"),
-		os.Getenv("IMPORTER_DB_USER"),
-		os.Getenv("IMPORTER_DB_PASSWORD"),
-		os.Getenv("IMPORTER_DB_DATABASE"),
-		os.Getenv("IMPORTER_DB_DSN_OPTS"),
+		os.Getenv("API_SERVER_DB_HOST"),
+		os.Getenv("API_SERVER_DB_PORT"),
+		os.Getenv("API_SERVER_DB_USER"),
+		os.Getenv("API_SERVER_DB_PASSWORD"),
+		os.Getenv("API_SERVER_DB_DATABASE"),
+		os.Getenv("API_SERVER_DB_DSN_OPTS"),
 	), " ")), &gorm.Config{
 		Logger: logger.New(
 			log.New(os.Stdout, "\n", log.LstdFlags),
