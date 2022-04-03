@@ -11,7 +11,9 @@ type ItemResource struct {
 	DB *gorm.DB
 }
 
-func (i ItemResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []model.Item {
+func (i ItemResource) getQueryOptions(r api2go.Request) *storage.QueryOptions {
+	opts := &storage.QueryOptions{}
+
 	ApplyFilters(
 		r.QueryParams,
 		map[string]string{
@@ -48,22 +50,21 @@ func (i ItemResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mod
 	)
 
 	ApplySorting(r.QueryParams, opts)
+	ApplyPagination(r.QueryParams, opts)
 
-	return storage.QueryAll[model.Item](i.DB, opts)
+	return opts
 }
 
 func (i ItemResource) PaginatedFindAll(r api2go.Request) (uint, api2go.Responder, error) {
-	queryOpts := &storage.QueryOptions{}
+	opts := i.getQueryOptions(r)
 
-	ApplyPagination(r.QueryParams, queryOpts)
+	totalCount := storage.QueryTotalCount[model.Item](i.DB, opts)
 
-	totalCount := storage.QueryTotalCount[model.Item](i.DB, queryOpts)
-
-	return totalCount, &Response{Res: i.GetAll(r, queryOpts)}, nil
+	return totalCount, &Response{Res: storage.QueryAll[model.Item](i.DB, opts)}, nil
 }
 
 func (i ItemResource) FindAll(r api2go.Request) (api2go.Responder, error) {
-	return &Response{Res: i.GetAll(r, &storage.QueryOptions{})}, nil
+	return &Response{Res: storage.QueryAll[model.Item](i.DB, i.getQueryOptions(r))}, nil
 }
 
 func (i ItemResource) FindOne(id string, r api2go.Request) (api2go.Responder, error) {

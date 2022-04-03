@@ -50,8 +50,6 @@ func InitDB() (*gorm.DB, error) {
 		return nil, err
 	}
 
-	db.Raw("CREATE EXTENSION pg_trgm")
-
 	return db, nil
 }
 
@@ -126,7 +124,7 @@ func applySearchQuery(tx *gorm.DB, opts *QueryOptions) {
 		return
 	}
 
-	tx.Order("SIMILARITY(" + opts.Search.Column + ", '" + opts.Search.Query + "') DESC")
+	tx.Where(opts.Search.Column + " ILIKE '%" + opts.Search.Query + "%'")
 
 	if opts.Limit == 0 {
 		tx.Limit(5)
@@ -165,6 +163,7 @@ func QueryTotalCount[ModelType any](db *gorm.DB, opts *QueryOptions) uint {
 		applyPreload(tx, opts)
 		applyWhere(tx, opts)
 		applyJoin(tx, opts)
+		applySearchQuery(tx, opts)
 	}
 
 	var res int64

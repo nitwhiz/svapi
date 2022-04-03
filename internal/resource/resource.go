@@ -1,7 +1,6 @@
 package resource
 
 import (
-	"fmt"
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/storage"
 	"strconv"
 	"strings"
@@ -55,8 +54,6 @@ func ApplyPagination(queryParams map[string][]string, queryOpts *storage.QueryOp
 }
 
 func ApplySorting(queryParams map[string][]string, queryOpts *storage.QueryOptions) {
-	fmt.Println("%+v\n", queryOpts)
-
 	if queryOpts == nil {
 		return
 	}

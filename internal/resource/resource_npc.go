@@ -11,7 +11,9 @@ type NpcResource struct {
 	DB *gorm.DB
 }
 
-func (n NpcResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []model.Npc {
+func (n NpcResource) getQueryOptions(r api2go.Request) *storage.QueryOptions {
+	opts := &storage.QueryOptions{}
+
 	ApplyFilters(
 		r.QueryParams,
 		map[string]string{
@@ -47,22 +49,21 @@ func (n NpcResource) GetAll(r api2go.Request, opts *storage.QueryOptions) []mode
 	)
 
 	ApplySorting(r.QueryParams, opts)
+	ApplyPagination(r.QueryParams, opts)
 
-	return storage.QueryAll[model.Npc](n.DB, opts)
+	return opts
 }
 
 func (n NpcResource) PaginatedFindAll(r api2go.Request) (uint, api2go.Responder, error) {
-	queryOpts := &storage.QueryOptions{}
+	opts := n.getQueryOptions(r)
 
-	ApplyPagination(r.QueryParams, queryOpts)
+	totalCount := storage.QueryTotalCount[model.Npc](n.DB, opts)
 
-	totalCount := storage.QueryTotalCount[model.Npc](n.DB, queryOpts)
-
-	return totalCount, &Response{Res: n.GetAll(r, queryOpts)}, nil
+	return totalCount, &Response{Res: storage.QueryAll[model.Npc](n.DB, opts)}, nil
 }
 
 func (n NpcResource) FindAll(r api2go.Request) (api2go.Responder, error) {
-	return &Response{Res: n.GetAll(r, &storage.QueryOptions{})}, nil
+	return &Response{Res: storage.QueryAll[model.Npc](n.DB, n.getQueryOptions(r))}, nil
 }
 
 func (n NpcResource) FindOne(id string, r api2go.Request) (api2go.Responder, error) {
