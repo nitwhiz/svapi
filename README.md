@@ -1,1 +1,3 @@
-# stardew-valley-guide-api
+# svapi
+
+An API for Stardew Valley Data.

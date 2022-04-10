@@ -12,9 +12,15 @@ import (
 	"os"
 )
 
+var isRelease = false
+
 func main() {
 	_ = godotenv.Load(".env.local")
 	_ = godotenv.Load()
+
+	if isRelease {
+		gin.SetMode(gin.ReleaseMode)
+	}
 
 	router := gin.Default()
 	router.Use(cors.Default())
@@ -27,7 +33,7 @@ func main() {
 		routing.Gin(router),
 	)
 
-	db, err := storage.InitDB()
+	db, err := storage.InitDB(isRelease)
 
 	if err != nil {
 		panic(err)

@@ -14,7 +14,20 @@ import (
 	"time"
 )
 
-func InitDB() (*gorm.DB, error) {
+func InitDB(isRelease bool) (*gorm.DB, error) {
+	dbConfig := &gorm.Config{}
+
+	if !isRelease {
+		dbConfig.Logger = logger.New(
+			log.New(os.Stdout, "\n", log.LstdFlags),
+			logger.Config{
+				SlowThreshold:             time.Second,
+				Colorful:                  true,
+				IgnoreRecordNotFoundError: false,
+				LogLevel:                  logger.Info,
+			},
+		)
+	}
 
 	db, err := gorm.Open(postgres.Open(strings.Trim(fmt.Sprintf(
 		"host=%s port=%s user=%s password=%s dbname=%s %s",
@@ -24,17 +37,7 @@ func InitDB() (*gorm.DB, error) {
 		os.Getenv("API_SERVER_DB_PASSWORD"),
 		os.Getenv("API_SERVER_DB_DATABASE"),
 		os.Getenv("API_SERVER_DB_DSN_OPTS"),
-	), " ")), &gorm.Config{
-		Logger: logger.New(
-			log.New(os.Stdout, "\n", log.LstdFlags),
-			logger.Config{
-				SlowThreshold:             time.Second,
-				Colorful:                  true,
-				IgnoreRecordNotFoundError: false,
-				LogLevel:                  logger.Info,
-			},
-		),
-	})
+	), " ")), dbConfig)
 
 	if err != nil {
 		return nil, err
