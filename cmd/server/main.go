@@ -6,16 +6,16 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/manyminds/api2go"
 	"github.com/manyminds/api2go/routing"
+	"github.com/nitwhiz/stardew-valley-guide-api/internal/data"
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/resource"
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/storage"
 	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
-	"os"
+	"net/http"
 )
 
 var isRelease = false
 
 func main() {
-	_ = godotenv.Load(".env.local")
 	_ = godotenv.Load()
 
 	if isRelease {
@@ -25,7 +25,13 @@ func main() {
 	router := gin.Default()
 	router.Use(cors.Default())
 
-	router.Static("/textures", os.Getenv("API_TEXTURES_DIR"))
+	texturesFS, err := data.GetTexturesFS()
+
+	if err != nil {
+		panic(err)
+	}
+
+	router.StaticFS("/v1/textures", http.FS(texturesFS))
 
 	api := api2go.NewAPIWithRouting(
 		"v1",

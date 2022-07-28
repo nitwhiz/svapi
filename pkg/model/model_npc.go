@@ -1,6 +1,9 @@
 package model
 
-import "github.com/manyminds/api2go/jsonapi"
+import (
+	"fmt"
+	"github.com/manyminds/api2go/jsonapi"
+)
 
 type Npc struct {
 	ID             string    `gorm:"primaryKey" json:"-"`
@@ -35,4 +38,12 @@ func (n Npc) GetReferencedIDs() []jsonapi.ReferenceID {
 	}
 
 	return result
+}
+
+func (n Npc) GetCustomLinks(string) jsonapi.Links {
+	return jsonapi.Links{
+		"texture": {
+			Href: fmt.Sprintf("/v1/textures/portraits/%s.png", n.ID),
+		},
+	}
 }
