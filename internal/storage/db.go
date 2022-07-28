@@ -2,6 +2,7 @@ package storage
 
 import (
 	"fmt"
+	"github.com/nitwhiz/stardew-valley-guide-api/internal/importer"
 	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -51,6 +52,24 @@ func InitDB(isRelease bool) (*gorm.DB, error) {
 		&model.GiftTaste{},
 	); err != nil {
 		return nil, err
+	}
+
+	itemCount := int64(0)
+
+	db.Model(&model.Item{}).Count(&itemCount)
+
+	if itemCount == 0 {
+		if err := importer.ImportItems(db); err != nil {
+			return nil, err
+		}
+
+		if err := importer.ImportNpcs(db); err != nil {
+			return nil, err
+		}
+
+		if err := importer.ImportGiftTastes(db); err != nil {
+			return nil, err
+		}
 	}
 
 	return db, nil

@@ -1,12 +1,11 @@
 package importer
 
 import (
-	"encoding/json"
 	"errors"
 	"github.com/google/uuid"
+	"github.com/nitwhiz/stardew-valley-guide-api/internal/data"
 	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
 	"gorm.io/gorm"
-	"os"
 )
 
 type Importable interface {
@@ -17,38 +16,32 @@ type Model interface {
 	model.Item | model.Npc | model.GiftTaste
 }
 
-func ReadJSON[I Importable](jsonPath string) ([]I, error) {
-	var data map[string][]I
-
-	bs, err := os.ReadFile(jsonPath)
+func ReadData[I Importable](path string) ([]I, error) {
+	d, err := data.Parse[map[string][]I](path)
 
 	if err != nil {
 		return nil, err
 	}
 
-	if err := json.Unmarshal(bs, &data); err != nil {
-		return nil, err
-	}
-
-	for _, v := range data {
+	for _, v := range d {
 		return v, nil
 	}
 
 	return nil, nil
 }
 
-func ImportItems(jsonPath string, db *gorm.DB) error {
-	data, err := ReadJSON[Item](jsonPath)
+func ImportItems(db *gorm.DB) error {
+	internalData, err := ReadData[Item]("items.json")
 
 	if err != nil {
 		return err
 	}
 
-	if data == nil {
+	if internalData == nil {
 		return errors.New("no item data")
 	}
 
-	for _, d := range data {
+	for _, d := range internalData {
 		itemModel := model.Item{
 			ID:           d.ID,
 			InternalID:   d.InternalID,
@@ -73,18 +66,18 @@ func ImportItems(jsonPath string, db *gorm.DB) error {
 	return nil
 }
 
-func ImportNpcs(jsonPath string, db *gorm.DB) error {
-	data, err := ReadJSON[Npc](jsonPath)
+func ImportNpcs(db *gorm.DB) error {
+	internalData, err := ReadData[Npc]("npcs.json")
 
 	if err != nil {
 		return err
 	}
 
-	if data == nil {
+	if internalData == nil {
 		return errors.New("no npc data")
 	}
 
-	for _, d := range data {
+	for _, d := range internalData {
 		npcModel := model.Npc{
 			ID:             d.ID,
 			BirthdaySeason: d.BirthdaySeason,
@@ -108,18 +101,18 @@ func ImportNpcs(jsonPath string, db *gorm.DB) error {
 	return nil
 }
 
-func ImportGiftTastes(jsonPath string, db *gorm.DB) error {
-	data, err := ReadJSON[GiftTasteByNpc](jsonPath)
+func ImportGiftTastes(db *gorm.DB) error {
+	internalData, err := ReadData[GiftTasteByNpc]("gift-tastes-by-npc.json")
 
 	if err != nil {
 		return err
 	}
 
-	if data == nil {
+	if internalData == nil {
 		return errors.New("no gift taste data")
 	}
 
-	for _, d := range data {
+	for _, d := range internalData {
 		itemTasteMap := map[string][]string{
 			model.TasteDislike: d.DislikeItems,
 			model.TasteHate:    d.HateItems,

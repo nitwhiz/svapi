@@ -1,6 +1,7 @@
 package model
 
 import (
+	"fmt"
 	"github.com/manyminds/api2go/jsonapi"
 )
 
@@ -37,4 +38,12 @@ func (i Item) GetReferencedIDs() []jsonapi.ReferenceID {
 	}
 
 	return result
+}
+
+func (i Item) GetCustomLinks(string) jsonapi.Links {
+	return jsonapi.Links{
+		"texture": {
+			Href: fmt.Sprintf("/v1/textures/items/%s.png", i.ID),
+		},
+	}
 }

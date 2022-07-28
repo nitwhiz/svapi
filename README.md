@@ -2,7 +2,13 @@
 
 An API for Stardew Valley Data.
 
-## Getting Started
+## Environment Variables
 
-- Edit `.env` appropiately and put it next to the binary.
-- Run the `importer` to import the data provided by [stardew-valley-json-exporter](https://github.com/nitwhiz/stardew-valley-json-exporter)
+```text
+API_SERVER_DB_HOST
+API_SERVER_DB_PORT
+API_SERVER_DB_USER
+API_SERVER_DB_PASSWORD
+API_SERVER_DB_DATABASE
+API_SERVER_DB_DSN_OPTS
+```
