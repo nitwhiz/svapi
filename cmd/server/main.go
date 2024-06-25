@@ -25,14 +25,6 @@ func main() {
 	router := gin.Default()
 	router.Use(cors.Default())
 
-	texturesFS, err := data.GetTexturesFS()
-
-	if err != nil {
-		panic(err)
-	}
-
-	router.StaticFS("/v1/textures", http.FS(texturesFS))
-
 	api := api2go.NewAPIWithRouting(
 		"v1",
 		api2go.NewStaticResolver("/"),
@@ -52,6 +44,14 @@ func main() {
 	api.AddResource(model.Npc{}, resource.NpcResource{DB: db})
 
 	api.AddResource(model.GiftTaste{}, resource.GiftTasteResource{DB: db})
+
+	texturesFS, err := data.GetTexturesFS()
+
+	if err != nil {
+		panic(err)
+	}
+
+	router.StaticFS("/v1/textures", http.FS(texturesFS))
 
 	err = router.Run("0.0.0.0:4200")
 

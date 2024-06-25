@@ -6,3 +6,8 @@ type Npc struct {
 	BirthdaySeason string            `json:"birthdaySeason"`
 	BirthdayDay    int               `json:"birthdayDay"`
 }
+
+type Npcs struct {
+	Version string `json:"version"`
+	Npcs    []Npc  `json:"npcs"`
+}

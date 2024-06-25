@@ -8,3 +8,8 @@ type GiftTasteByNpc struct {
 	LoveItems    []string `json:"loveItems"`
 	NeutralItems []string `json:"neutralItems"`
 }
+
+type GiftTastes struct {
+	Version     string           `json:"version"`
+	TastesByNpc []GiftTasteByNpc `json:"tastesByNpc"`
+}

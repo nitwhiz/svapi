@@ -50,26 +50,21 @@ func InitDB(isRelease bool) (*gorm.DB, error) {
 		&model.ItemName{},
 		&model.NpcName{},
 		&model.GiftTaste{},
+		&model.Version{},
 	); err != nil {
 		return nil, err
 	}
 
-	itemCount := int64(0)
+	if err := importer.ImportItems(db); err != nil {
+		return nil, err
+	}
 
-	db.Model(&model.Item{}).Count(&itemCount)
+	if err := importer.ImportNpcs(db); err != nil {
+		return nil, err
+	}
 
-	if itemCount == 0 {
-		if err := importer.ImportItems(db); err != nil {
-			return nil, err
-		}
-
-		if err := importer.ImportNpcs(db); err != nil {
-			return nil, err
-		}
-
-		if err := importer.ImportGiftTastes(db); err != nil {
-			return nil, err
-		}
+	if err := importer.ImportGiftTastes(db); err != nil {
+		return nil, err
 	}
 
 	return db, nil

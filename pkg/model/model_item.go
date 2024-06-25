@@ -7,7 +7,6 @@ import (
 
 type Item struct {
 	ID           string     `gorm:"primaryKey" json:"-"`
-	InternalID   int        `json:"internalId"`
 	Category     int        `json:"category"`
 	Type         string     `json:"type"`
 	DisplayNames []ItemName `gorm:"constraint:OnDelete:CASCADE" json:"-"`

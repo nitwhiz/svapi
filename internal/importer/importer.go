@@ -1,50 +1,49 @@
 package importer
 
 import (
-	"errors"
 	"github.com/google/uuid"
 	"github.com/nitwhiz/stardew-valley-guide-api/internal/data"
 	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
 	"gorm.io/gorm"
+	"log"
 )
 
 type Importable interface {
-	Item | Npc | GiftTasteByNpc
+	Items | Npcs | GiftTastes
 }
 
 type Model interface {
 	model.Item | model.Npc | model.GiftTaste
 }
 
-func ReadData[I Importable](path string) ([]I, error) {
-	d, err := data.Parse[map[string][]I](path)
-
-	if err != nil {
-		return nil, err
+func needsUpdate(db *gorm.DB, identifier string, internalVersion string) bool {
+	v := &model.Version{
+		ID: identifier,
 	}
 
-	for _, v := range d {
-		return v, nil
-	}
+	db.First(&v)
 
-	return nil, nil
+	return v.Version == "" || v.Version != internalVersion
 }
 
 func ImportItems(db *gorm.DB) error {
-	internalData, err := ReadData[Item]("items.json")
+	internalData, err := data.Parse[Items]("items.json")
 
 	if err != nil {
 		return err
 	}
 
-	if internalData == nil {
-		return errors.New("no item data")
+	if !needsUpdate(db, "items", internalData.Version) {
+		return nil
 	}
 
-	for _, d := range internalData {
+	log.Println("updating items ...")
+
+	db.Where("1 = 1").Delete(&model.Item{})
+
+	for _, d := range internalData.Objects {
 		itemModel := model.Item{
 			ID:           d.ID,
-			InternalID:   d.InternalID,
 			Category:     d.Category,
 			Type:         d.Type,
 			DisplayNames: []model.ItemName{},
@@ -63,21 +62,30 @@ func ImportItems(db *gorm.DB) error {
 		db.Create(&itemModel)
 	}
 
+	db.Save(&model.Version{
+		ID:      "items",
+		Version: internalData.Version,
+	})
+
 	return nil
 }
 
 func ImportNpcs(db *gorm.DB) error {
-	internalData, err := ReadData[Npc]("npcs.json")
+	internalData, err := data.Parse[Npcs]("npcs.json")
 
 	if err != nil {
 		return err
 	}
 
-	if internalData == nil {
-		return errors.New("no npc data")
+	if !needsUpdate(db, "npcs", internalData.Version) {
+		return nil
 	}
 
-	for _, d := range internalData {
+	log.Println("updating npcs ...")
+
+	db.Where("1 = 1").Delete(&model.Npc{})
+
+	for _, d := range internalData.Npcs {
 		npcModel := model.Npc{
 			ID:             d.ID,
 			BirthdaySeason: d.BirthdaySeason,
@@ -98,21 +106,30 @@ func ImportNpcs(db *gorm.DB) error {
 		db.Create(&npcModel)
 	}
 
+	db.Save(&model.Version{
+		ID:      "npcs",
+		Version: internalData.Version,
+	})
+
 	return nil
 }
 
 func ImportGiftTastes(db *gorm.DB) error {
-	internalData, err := ReadData[GiftTasteByNpc]("gift-tastes-by-npc.json")
+	internalData, err := data.Parse[GiftTastes]("gift-tastes-by-npc.json")
 
 	if err != nil {
 		return err
 	}
 
-	if internalData == nil {
-		return errors.New("no gift taste data")
+	if !needsUpdate(db, "giftTastes", internalData.Version) {
+		return nil
 	}
 
-	for _, d := range internalData {
+	log.Println("updating gift tastes ...")
+
+	db.Where("1 = 1").Delete(&model.GiftTaste{})
+
+	for _, d := range internalData.TastesByNpc {
 		itemTasteMap := map[string][]string{
 			model.TasteDislike: d.DislikeItems,
 			model.TasteHate:    d.HateItems,
@@ -135,6 +152,11 @@ func ImportGiftTastes(db *gorm.DB) error {
 		}
 
 	}
+
+	db.Save(&model.Version{
+		ID:      "giftTastes",
+		Version: internalData.Version,
+	})
 
 	return nil
 }
