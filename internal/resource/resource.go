@@ -1,113 +1,134 @@
 package resource
 
 import (
-	"github.com/nitwhiz/stardew-valley-guide-api/internal/storage"
-	"strconv"
+	"errors"
+	"github.com/manyminds/api2go"
+	"github.com/nitwhiz/svapi/internal/storage"
+	"github.com/nitwhiz/svapi/pkg/responder"
+	"github.com/nitwhiz/svapi/pkg/util"
+	"reflect"
 	"strings"
 )
 
-type JoinFilterOptions struct {
-	QueryParamKey string
-	TableName     string
-	FilterColumn  string
-	LeftOn        string
-	RightOn       string
+func First[ModelType storage.Model](id string) (api2go.Responder, error) {
+	txn := storage.Database.Txn(false)
+	defer txn.Commit()
+
+	m := new(ModelType)
+
+	res, err := storage.First(txn, (*m).TableName(), "id", id)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &responder.Response{Res: res}, nil
 }
 
-// TryApplyJoinFilter only applies the join filter if JoinFilterOptions.QueryParamKey is found in queryParams
-func TryApplyJoinFilter(queryParams map[string][]string, joinFilterOpts *JoinFilterOptions, queryOpts *storage.QueryOptions) {
-	filter, ok := queryParams[joinFilterOpts.QueryParamKey]
+func Search(tableName string, queryParams map[string][]string) (api2go.Responder, error) {
+	txn := storage.Database.Txn(false)
+	defer txn.Commit()
 
-	if ok {
-		if queryOpts.WhereColumns == nil {
-			queryOpts.WhereColumns = map[string]any{
-				joinFilterOpts.FilterColumn: filter,
-			}
-		} else {
-			queryOpts.WhereColumns[joinFilterOpts.FilterColumn] = filter
+	srcModel, ok := storage.ModelByTable[tableName]
+
+	if !ok {
+		return nil, errors.New("model not found")
+	}
+
+	// todo: these allocations are unnecessary in non-filter[] situations
+
+	search := reflect.New(reflect.TypeOf(srcModel).Elem()).Interface()
+
+	searchValue := reflect.ValueOf(search).Elem()
+	searchType := searchValue.Type()
+
+	isFilterSearch := false
+
+	searchTableName := srcModel.TableName()
+	searchFieldName := ""
+
+	var searchIdFilter string
+
+	for param, values := range queryParams {
+		if len(values) == 0 {
+			continue
 		}
 
-		joinStr := "JOIN " + joinFilterOpts.TableName + " ON " + joinFilterOpts.LeftOn + " = " + joinFilterOpts.RightOn
+		if strings.HasSuffix(param, "ID") {
+			// categoriesID, itemsID, etc.
+			// we only support one of these filters
 
-		if queryOpts.Join == nil {
-			queryOpts.Join = append(queryOpts.Join, joinStr)
-		} else {
-			queryOpts.Join = []string{
-				joinStr,
-			}
-		}
-	}
-}
+			typeName := strings.TrimSuffix(param, "ID")
+			typeModel, ok := storage.ModelByTable[typeName]
 
-func ApplyPagination(queryParams map[string][]string, queryOpts *storage.QueryOptions) {
-	if offsetQuery, ok := queryParams["page[offset]"]; ok && len(offsetQuery) > 0 {
-		offset, _ := strconv.ParseUint(offsetQuery[0], 10, 64)
-
-		queryOpts.Offset = offset
-	}
-
-	if limitQuery, ok := queryParams["page[limit]"]; ok && len(limitQuery) > 0 {
-		limit, _ := strconv.ParseUint(limitQuery[0], 10, 64)
-
-		queryOpts.Limit = limit
-	}
-}
-
-func ApplySorting(queryParams map[string][]string, queryOpts *storage.QueryOptions) {
-	if queryOpts == nil {
-		return
-	}
-
-	if queryOpts.Orders == nil {
-		queryOpts.Orders = []storage.Order{}
-	}
-
-	if sortingQuery, ok := queryParams["sort"]; ok && len(sortingQuery) > 0 {
-		for _, sortField := range sortingQuery {
-			desc := strings.HasPrefix(sortField, "-")
-
-			if desc && len(sortField) <= 1 {
+			if !ok {
 				continue
 			}
 
-			order := storage.Order{}
+			searchTableName = typeModel.TableName()
 
-			if desc {
-				order.Direction = storage.OrderDirectionDesc
-			} else {
-				order.Direction = storage.OrderDirectionAsc
+			searchIdFilter = values[0]
+
+			nameParams, ok := queryParams[typeName+"Name"]
+
+			if ok {
+				searchFieldName = nameParams[0]
 			}
 
-			order.Field = strings.TrimPrefix(sortField, "-")
+			break
+		} else if strings.HasPrefix(param, "filter[") && strings.HasSuffix(param, "]") {
+			// filter[someField] = x -> searchStruct.SomeField.SetABC(x)
 
-			queryOpts.Orders = append(queryOpts.Orders, order)
-		}
-	}
-}
+			filterField := strings.ToLower(strings.TrimPrefix(strings.TrimSuffix(param, "]"), "filter["))
 
-func ApplyFilters(queryParams map[string][]string, mappings map[string]string, queryOpts *storage.QueryOptions) {
-	if queryOpts == nil {
-		return
-	}
+			for i := 0; i < searchType.NumField(); i++ {
+				if strings.ToLower(searchType.Field(i).Name) == filterField {
+					f := searchValue.Field(i)
 
-	for queryParamKey, queryOptsColumn := range mappings {
-		filterValue, ok := queryParams[queryParamKey]
+					switch f.Type().Kind() {
+					case reflect.Bool:
+						f.SetBool(util.AsBool(values[0]))
+						isFilterSearch = true
+						break
+					case reflect.String:
+						f.SetString(values[0])
+						isFilterSearch = true
+						break
+					case reflect.Pointer:
+						v := reflect.New(f.Type().Elem()).Elem()
+						idField := v.FieldByName("ID")
 
-		if ok {
-			if queryOpts.WhereColumns == nil {
-				queryOpts.WhereColumns = map[string]any{}
-			}
-
-			if queryParamKey == "filter[query]" {
-				if len(filterValue) == 1 {
-					queryOpts.Search = &storage.Search{
-						Query:  filterValue[0],
-						Column: queryOptsColumn,
+						if idField.IsValid() {
+							idField.SetString(values[0])
+							f.Set(v.Addr())
+							isFilterSearch = true
+						}
+					default:
+						break
 					}
+
+					break
 				}
-			} else {
-				queryOpts.WhereColumns[queryOptsColumn] = filterValue
 			}
 		}
 	}
+
+	var res interface{}
+	var err error
+
+	if isFilterSearch {
+		res, err = storage.SearchAll(txn, (search).(storage.Model))
+	} else {
+		if searchIdFilter == "" {
+			res, err = storage.FindAll(txn, searchTableName, "id")
+		} else {
+			res, err = storage.FindAllIn(txn, searchTableName, "id", strings.ToLower(searchFieldName), searchIdFilter)
+		}
+	}
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &responder.Response{Res: res}, nil
 }

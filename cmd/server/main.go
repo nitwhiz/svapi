@@ -3,21 +3,19 @@ package main
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/joho/godotenv"
 	"github.com/manyminds/api2go"
 	"github.com/manyminds/api2go/routing"
-	"github.com/nitwhiz/stardew-valley-guide-api/internal/data"
-	"github.com/nitwhiz/stardew-valley-guide-api/internal/resource"
-	"github.com/nitwhiz/stardew-valley-guide-api/internal/storage"
-	"github.com/nitwhiz/stardew-valley-guide-api/pkg/model"
+	"github.com/nitwhiz/svapi/internal/data"
+	"github.com/nitwhiz/svapi/internal/loader"
+	"github.com/nitwhiz/svapi/internal/resource"
+	"github.com/nitwhiz/svapi/internal/storage"
+	"github.com/nitwhiz/svapi/pkg/model"
 	"net/http"
 )
 
 var isRelease = false
 
 func main() {
-	_ = godotenv.Load()
-
 	if isRelease {
 		gin.SetMode(gin.ReleaseMode)
 	}
@@ -31,19 +29,31 @@ func main() {
 		routing.Gin(router),
 	)
 
-	db, err := storage.InitDB(isRelease)
+	storage.RegisterModelAndResource(&model.Language{}, resource.LanguageResource{})
+	storage.RegisterModelAndResource(&model.Category{}, resource.CategoryResource{})
+	storage.RegisterModelAndResource(&model.CategoryName{}, resource.CategoryNameResource{})
+	storage.RegisterModelAndResource(&model.Npc{}, resource.NpcResource{})
+	storage.RegisterModelAndResource(&model.NpcName{}, resource.NpcNameResource{})
+	storage.RegisterModelAndResource(&model.Item{}, resource.ItemResource{})
+	storage.RegisterModelAndResource(&model.ItemName{}, resource.ItemNameResource{})
+	storage.RegisterModelAndResource(&model.GiftTaste{}, resource.GiftTasteResource{})
+	storage.RegisterModelAndResource(&model.Recipe{}, resource.RecipeResource{})
+	storage.RegisterModelAndResource(&model.RecipeIngredient{}, resource.RecipeIngredientResource{})
+	storage.RegisterModelAndResource(&model.RecipeIngredientGroup{}, resource.RecipeIngredientGroupResource{})
+
+	err := storage.InitDB()
 
 	if err != nil {
 		panic(err)
 	}
 
-	api.AddResource(model.ItemName{}, resource.ItemNameResource{DB: db})
-	api.AddResource(model.Item{}, resource.ItemResource{DB: db})
+	if err := loader.Load(); err != nil {
+		panic(err)
+	}
 
-	api.AddResource(model.NpcName{}, resource.NpcNameResource{DB: db})
-	api.AddResource(model.Npc{}, resource.NpcResource{DB: db})
-
-	api.AddResource(model.GiftTaste{}, resource.GiftTasteResource{DB: db})
+	for m, r := range storage.ResourceByModel {
+		api.AddResource(m, r)
+	}
 
 	texturesFS, err := data.GetTexturesFS()
 

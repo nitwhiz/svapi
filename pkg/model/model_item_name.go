@@ -1,12 +1,29 @@
 package model
 
-import "github.com/manyminds/api2go/jsonapi"
+import (
+	"github.com/hashicorp/go-memdb"
+	"github.com/manyminds/api2go/jsonapi"
+)
+
+const TypeItemName = "itemNames"
 
 type ItemName struct {
-	ID       string `gorm:"primaryKey" json:"-"`
-	ItemID   string `gorm:"uniqueIndex:idx_item_name_id_lang" json:"-"`
-	Language string `gorm:"uniqueIndex:idx_item_name_id_lang" json:"language"`
-	Name     string `json:"name"`
+	ID       string    `json:"-"`
+	Item     *Item     `json:"-"`
+	Language *Language `json:"-"`
+	Name     string    `json:"name"`
+}
+
+func (n ItemName) SearchIndexContents() [][]string {
+	return [][]string{{n.Item.ID, n.Language.ID, n.Name}}
+}
+
+func (n ItemName) TableName() string {
+	return TypeItemName
+}
+
+func (n ItemName) Indexes() map[string]*memdb.IndexSchema {
+	return map[string]*memdb.IndexSchema{}
 }
 
 func (n ItemName) GetID() string {
@@ -16,18 +33,30 @@ func (n ItemName) GetID() string {
 func (n ItemName) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: "items",
+			Type: TypeItem,
 			Name: "item",
+		},
+		{
+			Type: TypeLanguage,
+			Name: "language",
 		},
 	}
 }
 
 func (n ItemName) GetReferencedIDs() []jsonapi.ReferenceID {
-	return []jsonapi.ReferenceID{
-		{
-			ID:   n.ItemID,
-			Type: "items",
-			Name: "item",
-		},
-	}
+	res := []jsonapi.ReferenceID{}
+
+	res = append(res, jsonapi.ReferenceID{
+		ID:   n.Item.ID,
+		Type: TypeItem,
+		Name: "item",
+	})
+
+	res = append(res, jsonapi.ReferenceID{
+		ID:   n.Language.ID,
+		Type: TypeLanguage,
+		Name: "language",
+	})
+
+	return res
 }

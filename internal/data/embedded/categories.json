@@ -1,0 +1,620 @@
+{
+  "version": "2024-10-13 12:29:07Z",
+  "categories": [
+    {
+      "id": -300,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -81,
+      "displayNames": {
+        "en": "Forage",
+        "ja": "採取アイテム",
+        "ru": "Дикие растения",
+        "pt": "Coleta",
+        "es": "Recolección",
+        "de": "Sammeln",
+        "fr": "Cueillette",
+        "it": "Racc. selvatica",
+        "tr": "Toplama",
+        "hu": "Gyűjtögetés"
+      }
+    },
+    {
+      "id": -2,
+      "displayNames": {
+        "en": "Mineral",
+        "ja": "鉱物",
+        "ru": "Минерал",
+        "pt": "Mineral",
+        "es": "Mineral",
+        "de": "Mineral",
+        "fr": "Minéral",
+        "it": "Minerale",
+        "tr": "Mineral",
+        "hu": "Ásvány"
+      }
+    },
+    {
+      "id": -75,
+      "displayNames": {
+        "en": "Vegetable",
+        "ja": "野菜",
+        "ru": "Овощ/злак",
+        "pt": "Vegetal",
+        "es": "Verdura",
+        "de": "Gemüse",
+        "fr": "Légume",
+        "it": "Verdura",
+        "tr": "Sebze",
+        "hu": "Zöldség"
+      }
+    },
+    {
+      "id": -4,
+      "displayNames": {
+        "en": "Fish",
+        "ja": "魚",
+        "ru": "Рыба",
+        "pt": "Peixe",
+        "es": "Pez",
+        "de": "Fisch",
+        "fr": "Poisson",
+        "it": "Pesce",
+        "tr": "Balık",
+        "hu": "Hal"
+      }
+    },
+    {
+      "id": -5,
+      "displayNames": {
+        "en": "Animal Product",
+        "ja": "動物アイテム",
+        "ru": "Животный продукт",
+        "pt": "Produto Animal",
+        "es": "Producto animal",
+        "de": "Tierprodukt",
+        "fr": "Produit animalier",
+        "it": "Prodotto animale",
+        "tr": "Hayvansal Ürün",
+        "hu": "Állati termék"
+      }
+    },
+    {
+      "id": -6,
+      "displayNames": {
+        "en": "Animal Product",
+        "ja": "動物アイテム",
+        "ru": "Животный продукт",
+        "pt": "Produto Animal",
+        "es": "Producto animal",
+        "de": "Tierprodukt",
+        "fr": "Produit animalier",
+        "it": "Prodotto animale",
+        "tr": "Hayvansal Ürün",
+        "hu": "Állati termék"
+      }
+    },
+    {
+      "id": -7,
+      "displayNames": {
+        "en": "Cooking",
+        "ja": "料理",
+        "ru": "Готовка",
+        "pt": "Culinária",
+        "es": "Cocina",
+        "de": "Kochen",
+        "fr": "Cuisine",
+        "it": "Cucina",
+        "tr": "Yemek",
+        "hu": "Étel"
+      }
+    },
+    {
+      "id": -8,
+      "displayNames": {
+        "en": "Crafting",
+        "ja": "クラフト",
+        "ru": "Изготовление предметов",
+        "pt": "Fabricação",
+        "es": "Fabricación",
+        "de": "Herstellung",
+        "fr": "Fabrication",
+        "it": "Fabbricazione",
+        "tr": "Oluşturulmuş Nesne",
+        "hu": "Barkácsolás"
+      }
+    },
+    {
+      "id": -9,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -79,
+      "displayNames": {
+        "en": "Fruit",
+        "ja": "くだもの",
+        "ru": "Плод/ягода",
+        "pt": "Fruta",
+        "es": "Fruta",
+        "de": "Frucht",
+        "fr": "Fruit",
+        "it": "Frutta",
+        "tr": "Meyve",
+        "hu": "Gyümölcs"
+      }
+    },
+    {
+      "id": -74,
+      "displayNames": {
+        "en": "Seed",
+        "ja": "タネ",
+        "ru": "Семена/посад. материал",
+        "pt": "Sementes",
+        "es": "Semilla",
+        "de": "Saat",
+        "fr": "Graine",
+        "it": "Seme",
+        "tr": "Tohum",
+        "hu": "Magvak"
+      }
+    },
+    {
+      "id": -12,
+      "displayNames": {
+        "en": "Mineral",
+        "ja": "鉱物",
+        "ru": "Минерал",
+        "pt": "Mineral",
+        "es": "Mineral",
+        "de": "Mineral",
+        "fr": "Minéral",
+        "it": "Minerale",
+        "tr": "Mineral",
+        "hu": "Ásvány"
+      }
+    },
+    {
+      "id": -80,
+      "displayNames": {
+        "en": "Flower",
+        "ja": "花",
+        "ru": "Цветок",
+        "pt": "Flor",
+        "es": "Flor",
+        "de": "Blume",
+        "fr": "Fleur",
+        "it": "Fiore",
+        "tr": "Çiçek",
+        "hu": "Virág"
+      }
+    },
+    {
+      "id": -14,
+      "displayNames": {
+        "en": "Animal Product",
+        "ja": "動物アイテム",
+        "ru": "Животный продукт",
+        "pt": "Produto Animal",
+        "es": "Producto animal",
+        "de": "Tierprodukt",
+        "fr": "Produit animalier",
+        "it": "Prodotto animale",
+        "tr": "Hayvansal Ürün",
+        "hu": "Állati termék"
+      }
+    },
+    {
+      "id": -15,
+      "displayNames": {
+        "en": "Resource",
+        "ja": "素材",
+        "ru": "Материал",
+        "pt": "Recursos",
+        "es": "Recurso",
+        "de": "Naturgut",
+        "fr": "Ressource",
+        "it": "Risorsa",
+        "tr": "Kaynak",
+        "hu": "Alapanyag"
+      }
+    },
+    {
+      "id": -16,
+      "displayNames": {
+        "en": "Resource",
+        "ja": "素材",
+        "ru": "Материал",
+        "pt": "Recursos",
+        "es": "Recurso",
+        "de": "Naturgut",
+        "fr": "Ressource",
+        "it": "Risorsa",
+        "tr": "Kaynak",
+        "hu": "Alapanyag"
+      }
+    },
+    {
+      "id": -17,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -18,
+      "displayNames": {
+        "en": "Animal Product",
+        "ja": "動物アイテム",
+        "ru": "Животный продукт",
+        "pt": "Produto Animal",
+        "es": "Producto animal",
+        "de": "Tierprodukt",
+        "fr": "Produit animalier",
+        "it": "Prodotto animale",
+        "tr": "Hayvansal Ürün",
+        "hu": "Állati termék"
+      }
+    },
+    {
+      "id": -19,
+      "displayNames": {
+        "en": "Fertilizer",
+        "ja": "肥料",
+        "ru": "Удобрение",
+        "pt": "Fertilizante",
+        "es": "Fertilizante",
+        "de": "Dünger",
+        "fr": "Engrais",
+        "it": "Fertilizzante",
+        "tr": "Gübre",
+        "hu": "Trágya"
+      }
+    },
+    {
+      "id": -20,
+      "displayNames": {
+        "en": "Trash",
+        "ja": "ゴミ",
+        "ru": "Мусор",
+        "pt": "Lixo",
+        "es": "Basura",
+        "de": "Müll",
+        "fr": "Déchets",
+        "it": "Rifiuti",
+        "tr": "Çöp",
+        "hu": "Szemét"
+      }
+    },
+    {
+      "id": -21,
+      "displayNames": {
+        "en": "Bait",
+        "ja": "釣りエサ",
+        "ru": "Наживка",
+        "pt": "Isca",
+        "es": "Cebo",
+        "de": "Köder",
+        "fr": "Appât",
+        "it": "Esca",
+        "tr": "Yem",
+        "hu": "Csali"
+      }
+    },
+    {
+      "id": -22,
+      "displayNames": {
+        "en": "Fishing Tackle",
+        "ja": "釣り具",
+        "ru": "Рыболовная снасть",
+        "pt": "Anzol",
+        "es": "Aparejo de pesca",
+        "de": "Angelgerät",
+        "fr": "Matériel de pêche",
+        "it": "Attr. pesca",
+        "tr": "Olta Takımı",
+        "hu": "Horgászcsali"
+      }
+    },
+    {
+      "id": -23,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -24,
+      "displayNames": {
+        "en": "Decor",
+        "ja": "装飾アイテム",
+        "ru": "Декор",
+        "pt": "Decoração",
+        "es": "Decoración",
+        "de": "Dekor",
+        "fr": "Décoration",
+        "it": "Arredo",
+        "tr": "Süs",
+        "hu": "Dekoráció"
+      }
+    },
+    {
+      "id": -25,
+      "displayNames": {
+        "en": "Cooking",
+        "ja": "料理",
+        "ru": "Готовка",
+        "pt": "Culinária",
+        "es": "Cocina",
+        "de": "Kochen",
+        "fr": "Cuisine",
+        "it": "Cucina",
+        "tr": "Yemek",
+        "hu": "Étel"
+      }
+    },
+    {
+      "id": -26,
+      "displayNames": {
+        "en": "Artisan Goods",
+        "ja": "加工品",
+        "ru": "Товары собств. пр-ва",
+        "pt": "Mercadorias Artesanais",
+        "es": "Producto artesanal",
+        "de": "Handwerkswaren",
+        "fr": "Produits artisanaux",
+        "it": "Beni artigianali",
+        "tr": "Zanaat Ürünü",
+        "hu": "Kézműves termék"
+      }
+    },
+    {
+      "id": -27,
+      "displayNames": {
+        "en": "Artisan Goods",
+        "ja": "加工品",
+        "ru": "Товары собств. пр-ва",
+        "pt": "Mercadorias Artesanais",
+        "es": "Producto artesanal",
+        "de": "Handwerkswaren",
+        "fr": "Produits artisanaux",
+        "it": "Beni artigianali",
+        "tr": "Zanaat Ürünü",
+        "hu": "Kézműves termék"
+      }
+    },
+    {
+      "id": -28,
+      "displayNames": {
+        "en": "Monster Loot",
+        "ja": "モンスターアイテム",
+        "ru": "Добыча с монстров",
+        "pt": "Espólios de Monstros",
+        "es": "Botín de monstruo",
+        "de": "Monsterbeute",
+        "fr": "Butin de monstre",
+        "it": "Bottino di mostro",
+        "tr": "Canavar Yağması",
+        "hu": "Szörnyzsákmány"
+      }
+    },
+    {
+      "id": -29,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -94,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -95,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -96,
+      "displayNames": {
+        "en": "Ring",
+        "ja": "指輪",
+        "ru": "Кольцо",
+        "pt": "Anel",
+        "es": "Anillo",
+        "de": "Ring",
+        "fr": "Bague",
+        "it": "Anello",
+        "tr": "Yüzük",
+        "hu": "Gyűrű"
+      }
+    },
+    {
+      "id": -98,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -97,
+      "displayNames": {
+        "en": "Footwear",
+        "ja": "はき物",
+        "ru": "Обувь",
+        "pt": "Calçados",
+        "es": "Calzado",
+        "de": "Schuhe",
+        "fr": "Chaussures",
+        "it": "Calzature",
+        "tr": "Ayakkabı",
+        "hu": "Lábbeli"
+      }
+    },
+    {
+      "id": -99,
+      "displayNames": {
+        "en": "Tool",
+        "ja": "どうぐ",
+        "ru": "Инструмент",
+        "pt": "Ferramentas",
+        "es": "Herramienta",
+        "de": "Werkzeug",
+        "fr": "Outil",
+        "it": "Attrezzo",
+        "tr": "Araç",
+        "hu": "Eszköz"
+      }
+    },
+    {
+      "id": -100,
+      "displayNames": {
+        "en": "Clothes",
+        "ja": "洋服",
+        "ru": "Одежда",
+        "pt": "Roupas",
+        "es": "Ropa",
+        "de": "Kleidung",
+        "fr": "Vêtements",
+        "it": "Vestiti",
+        "tr": "Giysiler",
+        "hu": "Ruhák"
+      }
+    },
+    {
+      "id": -101,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    },
+    {
+      "id": -102,
+      "displayNames": {
+        "en": "Book",
+        "ja": "本",
+        "ru": "Книга",
+        "pt": "Livro",
+        "es": "Libro",
+        "de": "Buch",
+        "fr": "Livre",
+        "it": "Libro",
+        "tr": "Kitap",
+        "hu": "Könyv"
+      }
+    },
+    {
+      "id": -103,
+      "displayNames": {
+        "en": "Skill Book",
+        "ja": "スキルブック",
+        "ru": "Книга навыка",
+        "pt": "Livro de Habilidade",
+        "es": "Libro de Habilidades",
+        "de": "Fähigkeitsbuch",
+        "fr": "Livre de compétences",
+        "it": "Libro delle abilità",
+        "tr": "Yetenek Kitabı",
+        "hu": "Képesség könyv"
+      }
+    },
+    {
+      "id": -999,
+      "displayNames": {
+        "en": "",
+        "ja": "",
+        "ru": "",
+        "pt": "",
+        "es": "",
+        "de": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "hu": ""
+      }
+    }
+  ]
+}
