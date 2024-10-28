@@ -47,7 +47,7 @@ func newDbSchema() *memdb.DBSchema {
 	return schema
 }
 
-func InitDB() error {
+func Init() error {
 	if Database != nil {
 		return errors.New("already initialized")
 	}

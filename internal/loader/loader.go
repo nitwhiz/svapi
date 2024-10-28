@@ -50,7 +50,7 @@ func findOrCreateLanguageByCode(txn *memdb.Txn, code string) (*model.Language, e
 	return l.(*model.Language), nil
 }
 
-func Load() error {
+func LoadAll() error {
 	txn := storage.Database.Txn(true)
 
 	if err := loadCategories(txn); err != nil {
