@@ -18,7 +18,11 @@ func loadItems(txn *memdb.Txn) error {
 	for _, obj := range items.Objects {
 		catModel, err := first[model.Category](txn, "internalId", fmt.Sprintf("%d", obj.Category))
 
-		if err != nil || catModel == nil {
+		if err != nil {
+			return err
+		}
+
+		if catModel == nil {
 			continue
 		}
 
@@ -32,6 +36,8 @@ func loadItems(txn *memdb.Txn) error {
 			IsBigCraftable: obj.IsBigCraftable,
 			Names:          []*model.ItemName{},
 		}
+
+		catModel.Items = append(catModel.Items, itemModel)
 
 		for langCode, name := range obj.DisplayNames {
 			lang, err := findOrCreateLanguageByCode(txn, langCode)
