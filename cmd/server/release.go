@@ -2,6 +2,8 @@
 
 package main
 
+import "github.com/gin-gonic/gin"
+
 func init() {
-	isRelease = true
+	gin.SetMode(gin.ReleaseMode)
 }

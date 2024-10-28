@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/hashicorp/go-memdb"
 	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/svapi/internal/data"
 	"github.com/nitwhiz/svapi/pkg/util"
 )
 
@@ -121,7 +122,7 @@ func (i Item) GetReferencedIDs() []jsonapi.ReferenceID {
 func (i Item) GetCustomLinks(string) jsonapi.Links {
 	return jsonapi.Links{
 		"texture": {
-			Href: fmt.Sprintf("/v1/textures/items/%c/%s.png", i.TextureName[0], i.TextureName),
+			Href: fmt.Sprintf("/%s/textures/items/%c/%s.png", data.Version, i.TextureName[0], i.TextureName),
 		},
 	}
 }

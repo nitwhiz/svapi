@@ -34,7 +34,7 @@ func InitRouter() error {
 	Router.Use(cors.Default())
 
 	api := api2go.NewAPIWithRouting(
-		"v1",
+		data.Version,
 		api2go.NewStaticResolver("/"),
 		routing.Gin(Router),
 	)
@@ -49,7 +49,7 @@ func InitRouter() error {
 		return err
 	}
 
-	Router.StaticFS("/v1/textures", http.FS(texturesFS))
+	Router.StaticFS("/"+data.Version+"/textures", http.FS(texturesFS))
 
 	return nil
 }
