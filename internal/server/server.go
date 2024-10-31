@@ -13,7 +13,7 @@ import (
 	"net/http"
 )
 
-var Router *gin.Engine
+var router *gin.Engine
 
 func RegisterModels() {
 	storage.RegisterModelAndResource(&model.Language{}, resource.LanguageResource{})
@@ -30,13 +30,13 @@ func RegisterModels() {
 }
 
 func InitRouter() error {
-	Router = gin.Default()
-	Router.Use(cors.Default())
+	router = gin.Default()
+	router.Use(cors.Default())
 
 	api := api2go.NewAPIWithRouting(
 		data.Version,
 		api2go.NewStaticResolver("/"),
-		routing.Gin(Router),
+		routing.Gin(router),
 	)
 
 	for m, r := range storage.ResourceByModel {
@@ -49,7 +49,7 @@ func InitRouter() error {
 		return err
 	}
 
-	Router.StaticFS("/"+data.Version+"/textures", http.FS(texturesFS))
+	router.StaticFS("/"+data.Version+"/textures", http.FS(texturesFS))
 
 	return nil
 }
@@ -77,5 +77,5 @@ func Start() error {
 		return err
 	}
 
-	return Router.Run("0.0.0.0:4200")
+	return router.Run("0.0.0.0:4200")
 }
