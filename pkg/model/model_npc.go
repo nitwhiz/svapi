@@ -46,36 +46,20 @@ func (n Npc) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeNpcName,
 			Name:         "names",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeGiftTaste,
 			Name:         "giftTastes",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (n Npc) GetReferencedIDs() []jsonapi.ReferenceID {
-	var result []jsonapi.ReferenceID
-
-	for _, npcName := range n.Names {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   npcName.ID,
-			Type: TypeNpcName,
-			Name: "names",
-		})
-	}
-
-	for _, giftTaste := range n.GiftTastes {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   giftTaste.ID,
-			Type: TypeGiftTaste,
-			Name: "giftTastes",
-		})
-	}
-
-	return result
+	return nil
 }
 
 func (n Npc) GetCustomLinks(string) jsonapi.Links {

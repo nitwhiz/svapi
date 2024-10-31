@@ -42,47 +42,24 @@ func (l Language) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeCategoryName,
 			Name:         "categoryNames",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItemName,
 			Name:         "itemNames",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeNpcName,
 			Name:         "npcNames",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (l Language) GetReferencedIDs() []jsonapi.ReferenceID {
-	var res []jsonapi.ReferenceID
-
-	for _, catName := range l.CategoryNames {
-		res = append(res, jsonapi.ReferenceID{
-			ID:   catName.ID,
-			Type: TypeCategoryName,
-			Name: "categoryNames",
-		})
-	}
-
-	for _, catName := range l.CategoryNames {
-		res = append(res, jsonapi.ReferenceID{
-			ID:   catName.ID,
-			Type: TypeItemName,
-			Name: "itemNames",
-		})
-	}
-
-	for _, catName := range l.NpcNames {
-		res = append(res, jsonapi.ReferenceID{
-			ID:   catName.ID,
-			Type: TypeNpcName,
-			Name: "npcNames",
-		})
-	}
-
-	return res
+	return nil
 }

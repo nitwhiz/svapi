@@ -36,27 +36,18 @@ func (i RecipeIngredient) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeRecipe,
 			Name:         "recipe",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "ingredientGroup",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (i RecipeIngredient) GetReferencedIDs() []jsonapi.ReferenceID {
-	return []jsonapi.ReferenceID{
-		{
-			ID:   i.Recipe.ID,
-			Type: TypeRecipe,
-			Name: "recipe",
-		},
-		{
-			ID:   i.IngredientGroup.ID,
-			Type: TypeRecipeIngredientGroup,
-			Name: "ingredientGroup",
-		},
-	}
+	return nil
 }

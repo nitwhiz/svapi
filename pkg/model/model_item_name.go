@@ -35,30 +35,18 @@ func (n ItemName) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItem,
 			Name:         "item",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeLanguage,
 			Name:         "language",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n ItemName) GetReferencedIDs() []jsonapi.ReferenceID {
-	var res []jsonapi.ReferenceID
-
-	res = append(res, jsonapi.ReferenceID{
-		ID:   n.Item.ID,
-		Type: TypeItem,
-		Name: "item",
-	})
-
-	res = append(res, jsonapi.ReferenceID{
-		ID:   n.Language.ID,
-		Type: TypeLanguage,
-		Name: "language",
-	})
-
-	return res
+	return nil
 }

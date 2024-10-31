@@ -14,3 +14,6 @@ func (c CategoryResource) FindAll(r api2go.Request) (api2go.Responder, error) {
 func (c CategoryResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
 	return First[model.Category](id)
 }
+
+//func (c CategoryResource) PaginatedFindAll(r api2go.Request) (uint, api2go.Responder, error) {
+//}

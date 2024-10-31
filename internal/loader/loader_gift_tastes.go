@@ -53,7 +53,7 @@ func loadGiftTastes(txn *memdb.Txn) error {
 				}
 
 				giftTaste := &model.GiftTaste{
-					ID:    newUUID(npc.ID + "_" + item.ID + "_" + itemTaste),
+					ID:    newUUID(npc.InternalID + "_" + item.InternalID + "_" + itemTaste),
 					Npc:   npc,
 					Item:  item,
 					Taste: itemTaste,

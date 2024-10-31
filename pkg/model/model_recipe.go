@@ -46,34 +46,18 @@ func (r Recipe) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeRecipeIngredient,
 			Name:         "ingredients",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItem,
 			Name:         "outputItems",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (r Recipe) GetReferencedIDs() []jsonapi.ReferenceID {
-	var result []jsonapi.ReferenceID
-
-	for _, ingredient := range r.Ingredients {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   ingredient.ID,
-			Type: TypeRecipeIngredient,
-			Name: "ingredients",
-		})
-	}
-
-	for _, item := range r.OutputItems {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   item.ID,
-			Type: TypeItem,
-			Name: "outputItems",
-		})
-	}
-
-	return result
+	return nil
 }

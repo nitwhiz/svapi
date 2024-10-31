@@ -41,27 +41,18 @@ func (g GiftTaste) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItem,
 			Name:         "item",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeNpc,
 			Name:         "npc",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (g GiftTaste) GetReferencedIDs() []jsonapi.ReferenceID {
-	return []jsonapi.ReferenceID{
-		{
-			ID:   g.Item.ID,
-			Type: TypeItem,
-			Name: "item",
-		},
-		{
-			ID:   g.Npc.ID,
-			Type: TypeNpc,
-			Name: "npc",
-		},
-	}
+	return nil
 }

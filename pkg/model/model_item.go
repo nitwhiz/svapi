@@ -64,73 +64,38 @@ func (i Item) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItemName,
 			Name:         "names",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeCategory,
 			Name:         "category",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeGiftTaste,
 			Name:         "giftTastes",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "ingredientGroups",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "sourceRecipes",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (i Item) GetReferencedIDs() []jsonapi.ReferenceID {
-	var result []jsonapi.ReferenceID
-
-	for _, itemName := range i.Names {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   itemName.ID,
-			Type: TypeItemName,
-			Name: "names",
-		})
-	}
-
-	result = append(result, jsonapi.ReferenceID{
-		ID:   i.Category.ID,
-		Type: TypeCategory,
-		Name: "category",
-	})
-
-	for _, giftTaste := range i.GiftTastes {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   giftTaste.ID,
-			Type: TypeGiftTaste,
-			Name: "giftTastes",
-		})
-	}
-
-	for _, recipeIngredientGroup := range i.IngredientGroups {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   recipeIngredientGroup.ID,
-			Type: TypeRecipeIngredientGroup,
-			Name: "ingredientGroups",
-		})
-	}
-
-	for _, sourceRecipe := range i.SourceRecipes {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   sourceRecipe.ID,
-			Type: TypeRecipe,
-			Name: "sourceRecipes",
-		})
-	}
-
-	return result
+	return nil
 }
 
 func (i Item) GetCustomLinks(string) jsonapi.Links {

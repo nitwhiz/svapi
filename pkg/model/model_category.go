@@ -40,34 +40,18 @@ func (c Category) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeCategoryName,
 			Name:         "names",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItem,
 			Name:         "items",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (c Category) GetReferencedIDs() []jsonapi.ReferenceID {
-	var result []jsonapi.ReferenceID
-
-	for _, catName := range c.Names {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   catName.ID,
-			Type: TypeCategoryName,
-			Name: "names",
-		})
-	}
-
-	for _, itemName := range c.Items {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   itemName.ID,
-			Type: TypeItem,
-			Name: "items",
-		})
-	}
-
-	return result
+	return nil
 }

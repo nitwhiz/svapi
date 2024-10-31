@@ -43,7 +43,7 @@ func loadCategories(txn *memdb.Txn) error {
 			}
 
 			catNameModel := &model.CategoryName{
-				ID:       newUUID(internalId + "_" + lang.ID),
+				ID:       newUUID(internalId + "_" + lang.Code),
 				Category: catModel,
 				Language: lang,
 				Name:     name,

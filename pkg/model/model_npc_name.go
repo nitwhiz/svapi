@@ -35,30 +35,18 @@ func (n NpcName) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeNpc,
 			Name:         "npc",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeLanguage,
 			Name:         "language",
+			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n NpcName) GetReferencedIDs() []jsonapi.ReferenceID {
-	var res []jsonapi.ReferenceID
-
-	res = append(res, jsonapi.ReferenceID{
-		ID:   n.Npc.ID,
-		Type: TypeNpc,
-		Name: "npc",
-	})
-
-	res = append(res, jsonapi.ReferenceID{
-		ID:   n.Language.ID,
-		Type: TypeLanguage,
-		Name: "language",
-	})
-
-	return res
+	return nil
 }

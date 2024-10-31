@@ -32,7 +32,7 @@ func loadNpcs(txn *memdb.Txn) error {
 			}
 
 			npcNameModel := &model.NpcName{
-				ID:       newUUID(npc.ID + "_" + lang.ID),
+				ID:       newUUID(npcModel.InternalID + "_" + lang.Code),
 				Npc:      npcModel,
 				Language: lang,
 				Name:     name,

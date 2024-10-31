@@ -16,8 +16,8 @@ func loadItems(txn *memdb.Txn) error {
 		return err
 	}
 
-	for _, obj := range items.Objects {
-		catModel, err := first[model.Category](txn, "internalId", fmt.Sprintf("%d", obj.Category))
+	for _, itm := range items.Objects {
+		catModel, err := first[model.Category](txn, "internalId", fmt.Sprintf("%d", itm.Category))
 
 		if err != nil {
 			return err
@@ -28,26 +28,26 @@ func loadItems(txn *memdb.Txn) error {
 		}
 
 		itemModel := &model.Item{
-			ID:          newUUID(obj.ID),
-			InternalID:  obj.ID,
-			TextureName: obj.TextureName,
+			ID:          newUUID(itm.ID),
+			InternalID:  itm.ID,
+			TextureName: itm.TextureName,
 			Category:    catModel,
-			Type:        obj.Type,
+			Type:        itm.Type,
 			Flags:       []*flags.Flag{},
 			Names:       []*model.ItemName{},
 		}
 
-		if obj.IsGiftable {
+		if itm.IsGiftable {
 			itemModel.Flags = append(itemModel.Flags, flags.IsGiftable)
 		}
 
-		if obj.IsBigCraftable {
+		if itm.IsBigCraftable {
 			itemModel.Flags = append(itemModel.Flags, flags.IsBigCraftable)
 		}
 
 		catModel.Items = append(catModel.Items, itemModel)
 
-		for langCode, name := range obj.DisplayNames {
+		for langCode, name := range itm.DisplayNames {
 			lang, err := findOrCreateLanguageByCode(txn, langCode)
 
 			if err != nil {
@@ -55,7 +55,7 @@ func loadItems(txn *memdb.Txn) error {
 			}
 
 			itemNameModel := &model.ItemName{
-				ID:       newUUID(obj.ID + "_" + lang.ID),
+				ID:       newUUID(itemModel.InternalID + "_" + lang.Code),
 				Item:     itemModel,
 				Language: lang,
 				Name:     name,
