@@ -6,6 +6,7 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/nitwhiz/svapi/internal/data"
 	"github.com/nitwhiz/svapi/internal/storage"
+	"github.com/nitwhiz/svapi/pkg/flags"
 	"github.com/nitwhiz/svapi/pkg/model"
 	"strings"
 )
@@ -32,9 +33,13 @@ func loadRecipes(txn *memdb.Txn) error {
 			ID:          uuid.NewV5(namespaceId, recipe.Name).String(),
 			Ingredients: []*model.RecipeIngredient{},
 			Name:        recipe.Name,
-			IsCooking:   recipe.IsCooking,
+			Flags:       []*flags.Flag{},
 			OutputItems: []*model.Item{},
 			OutputYield: recipe.Output.Amount,
+		}
+
+		if recipe.IsCooking {
+			recipeModel.Flags = append(recipeModel.Flags, flags.IsCooking)
 		}
 
 		for idx, ingredient := range recipe.Ingredients {
@@ -145,6 +150,7 @@ func loadRecipes(txn *memdb.Txn) error {
 			}
 
 			recipeModel.OutputItems = append(recipeModel.OutputItems, outputItem)
+			outputItem.SourceRecipes = append(outputItem.SourceRecipes, recipeModel)
 		}
 
 		if err := storage.Insert(txn, recipeModel); err != nil {

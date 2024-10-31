@@ -5,6 +5,7 @@ import "strings"
 func Combinations(values ...string) []string {
 	var result []string
 
+	seen := map[string]struct{}{}
 	n := len(values)
 	totalCombinations := 1 << n
 
@@ -15,14 +16,25 @@ func Combinations(values ...string) []string {
 		for j := 0; j < n; j++ {
 			if i&(1<<j) != 0 {
 				combination = append(combination, values[j])
-				hasNonEmpty = true
+
+				if values[j] != "" {
+					hasNonEmpty = true
+				}
 			} else {
 				combination = append(combination, "")
 			}
 		}
 
 		if hasNonEmpty {
-			result = append(result, strings.Join(combination, "_"))
+			combinationString := strings.Join(combination, "_")
+
+			if _, ok := seen[combinationString]; ok {
+				continue
+			}
+
+			seen[combinationString] = struct{}{}
+
+			result = append(result, combinationString)
 		}
 	}
 

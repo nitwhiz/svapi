@@ -24,8 +24,8 @@ func (g GiftTaste) Indexes() map[string]*memdb.IndexSchema {
 	return map[string]*memdb.IndexSchema{}
 }
 
-func (g GiftTaste) SearchIndexContents() [][]string {
-	return [][]string{{g.Npc.ID, g.Item.ID, g.Taste}}
+func (g GiftTaste) SearchIndexContents() []string {
+	return []string{g.Taste}
 }
 
 func (g GiftTaste) TableName() string {
@@ -39,12 +39,14 @@ func (g GiftTaste) GetID() string {
 func (g GiftTaste) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeItem,
-			Name: "item",
+			Type:         TypeItem,
+			Name:         "item",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeNpc,
-			Name: "npc",
+			Type:         TypeNpc,
+			Name:         "npc",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }

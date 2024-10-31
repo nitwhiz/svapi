@@ -14,8 +14,8 @@ type Category struct {
 	Names      []*CategoryName `json:"-"`
 }
 
-func (c Category) SearchIndexContents() [][]string {
-	return [][]string{{c.InternalID}}
+func (c Category) SearchIndexContents() []string {
+	return []string{c.InternalID}
 }
 
 func (c Category) TableName() string {
@@ -38,12 +38,14 @@ func (c Category) GetID() string {
 func (c Category) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeCategoryName,
-			Name: "names",
+			Type:         TypeCategoryName,
+			Name:         "names",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeItem,
-			Name: "items",
+			Type:         TypeItem,
+			Name:         "items",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }

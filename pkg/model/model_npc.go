@@ -19,8 +19,8 @@ type Npc struct {
 	GiftTastes     []*GiftTaste `json:"-"`
 }
 
-func (n Npc) SearchIndexContents() [][]string {
-	return [][]string{{n.InternalID, n.BirthdaySeason, fmt.Sprintf("%d", n.BirthdayDay)}}
+func (n Npc) SearchIndexContents() []string {
+	return []string{n.InternalID, n.BirthdaySeason, fmt.Sprintf("%d", n.BirthdayDay)}
 }
 
 func (n Npc) TableName() string {
@@ -44,12 +44,14 @@ func (n Npc) GetID() string {
 func (n Npc) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeNpcName,
-			Name: "names",
+			Type:         TypeNpcName,
+			Name:         "names",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeGiftTaste,
-			Name: "giftTastes",
+			Type:         TypeGiftTaste,
+			Name:         "giftTastes",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }

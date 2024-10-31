@@ -14,8 +14,8 @@ type NpcName struct {
 	Name     string    `json:"name"`
 }
 
-func (n NpcName) SearchIndexContents() [][]string {
-	return [][]string{{n.Npc.ID, n.Language.ID, n.Name}}
+func (n NpcName) SearchIndexContents() []string {
+	return []string{n.Name}
 }
 
 func (n NpcName) TableName() string {
@@ -33,18 +33,20 @@ func (n NpcName) GetID() string {
 func (n NpcName) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeNpc,
-			Name: "npc",
+			Type:         TypeNpc,
+			Name:         "npc",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeLanguage,
-			Name: "language",
+			Type:         TypeLanguage,
+			Name:         "language",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n NpcName) GetReferencedIDs() []jsonapi.ReferenceID {
-	res := []jsonapi.ReferenceID{}
+	var res []jsonapi.ReferenceID
 
 	res = append(res, jsonapi.ReferenceID{
 		ID:   n.Npc.ID,

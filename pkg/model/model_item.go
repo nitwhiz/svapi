@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/manyminds/api2go/jsonapi"
 	"github.com/nitwhiz/svapi/internal/data"
-	"github.com/nitwhiz/svapi/pkg/util"
+	"github.com/nitwhiz/svapi/pkg/flags"
 )
 
 const TypeItem = "items"
@@ -16,32 +16,29 @@ type Item struct {
 	TextureName      string                   `json:"-"`
 	Category         *Category                `json:"-"`
 	Type             string                   `json:"type"`
-	IsGiftable       bool                     `json:"isGiftable"`
-	IsBigCraftable   bool                     `json:"isBigCraftable"`
+	Flags            []*flags.Flag            `json:"flags"`
 	Names            []*ItemName              `json:"-"`
 	GiftTastes       []*GiftTaste             `json:"-"`
 	IngredientGroups []*RecipeIngredientGroup `json:"-"`
+	SourceRecipes    []*Recipe                `json:"-"`
 }
 
-func (i Item) SearchIndexContents() [][]string {
-	res := [][]string{}
-
+func (i Item) SearchIndexContents() []string {
 	catId := ""
 
 	if i.Category != nil {
 		catId = i.Category.ID
 	}
 
-	// todo: correct filtering
+	res := []string{
+		i.InternalID,
+		i.Type,
+		catId,
+	}
 
-	res = append(res, []string{
-		fmt.Sprintf("category:%s", catId),
-		fmt.Sprintf("isBigCraftable:%s", util.BoolAsString(i.IsBigCraftable)),
-	})
+	res = flags.AppendToIndex(res, i.Flags)
 
 	return res
-
-	//return [][]string{{catId, i.InternalID, i.Type}}
 }
 
 func (i Item) TableName() string {
@@ -65,20 +62,29 @@ func (i Item) GetID() string {
 func (i Item) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeItemName,
-			Name: "names",
+			Type:         TypeItemName,
+			Name:         "names",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeCategory,
-			Name: "category",
+			Type:         TypeCategory,
+			Name:         "category",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeGiftTaste,
-			Name: "giftTastes",
+			Type:         TypeGiftTaste,
+			Name:         "giftTastes",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeRecipeIngredientGroup,
-			Name: "ingredientGroups",
+			Type:         TypeRecipeIngredientGroup,
+			Name:         "ingredientGroups",
+			Relationship: jsonapi.ToManyRelationship,
+		},
+		{
+			Type:         TypeRecipeIngredientGroup,
+			Name:         "sourceRecipes",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
@@ -113,6 +119,14 @@ func (i Item) GetReferencedIDs() []jsonapi.ReferenceID {
 			ID:   recipeIngredientGroup.ID,
 			Type: TypeRecipeIngredientGroup,
 			Name: "ingredientGroups",
+		})
+	}
+
+	for _, sourceRecipe := range i.SourceRecipes {
+		result = append(result, jsonapi.ReferenceID{
+			ID:   sourceRecipe.ID,
+			Type: TypeRecipe,
+			Name: "sourceRecipes",
 		})
 	}
 

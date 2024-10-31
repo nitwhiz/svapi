@@ -11,6 +11,6 @@ func (g GiftTasteResource) FindAll(r api2go.Request) (api2go.Responder, error) {
 	return Search(model.TypeGiftTaste, r.QueryParams)
 }
 
-func (g GiftTasteResource) FindOne(id string, r api2go.Request) (api2go.Responder, error) {
+func (g GiftTasteResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
 	return First[model.GiftTaste](id)
 }

@@ -9,5 +9,5 @@ type Model interface {
 	jsonapi.MarshalIdentifier
 	TableName() string
 	Indexes() map[string]*memdb.IndexSchema
-	SearchIndexContents() [][]string
+	SearchIndexContents() []string
 }

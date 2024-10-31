@@ -14,8 +14,8 @@ type ItemName struct {
 	Name     string    `json:"name"`
 }
 
-func (n ItemName) SearchIndexContents() [][]string {
-	return [][]string{{n.Item.ID, n.Language.ID, n.Name}}
+func (n ItemName) SearchIndexContents() []string {
+	return []string{n.Name}
 }
 
 func (n ItemName) TableName() string {
@@ -33,18 +33,20 @@ func (n ItemName) GetID() string {
 func (n ItemName) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeItem,
-			Name: "item",
+			Type:         TypeItem,
+			Name:         "item",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeLanguage,
-			Name: "language",
+			Type:         TypeLanguage,
+			Name:         "language",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n ItemName) GetReferencedIDs() []jsonapi.ReferenceID {
-	res := []jsonapi.ReferenceID{}
+	var res []jsonapi.ReferenceID
 
 	res = append(res, jsonapi.ReferenceID{
 		ID:   n.Item.ID,

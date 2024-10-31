@@ -1,6 +1,7 @@
 package model
 
 import (
+	"fmt"
 	"github.com/hashicorp/go-memdb"
 	"github.com/manyminds/api2go/jsonapi"
 )
@@ -22,8 +23,8 @@ func (i RecipeIngredient) Indexes() map[string]*memdb.IndexSchema {
 	return map[string]*memdb.IndexSchema{}
 }
 
-func (i RecipeIngredient) SearchIndexContents() [][]string {
-	return [][]string{{i.Recipe.ID, i.IngredientGroup.ID}}
+func (i RecipeIngredient) SearchIndexContents() []string {
+	return []string{fmt.Sprintf("%d", i.Quantity)}
 }
 
 func (i RecipeIngredient) GetID() string {
@@ -33,12 +34,14 @@ func (i RecipeIngredient) GetID() string {
 func (i RecipeIngredient) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeRecipe,
-			Name: "recipe",
+			Type:         TypeRecipe,
+			Name:         "recipe",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeRecipeIngredientGroup,
-			Name: "ingredientGroup",
+			Type:         TypeRecipeIngredientGroup,
+			Name:         "ingredientGroup",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }

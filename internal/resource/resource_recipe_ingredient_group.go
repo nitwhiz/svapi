@@ -12,6 +12,6 @@ func (c RecipeIngredientGroupResource) FindAll(r api2go.Request) (api2go.Respond
 	return Search(model.TypeRecipeIngredientGroup, r.QueryParams)
 }
 
-func (c RecipeIngredientGroupResource) FindOne(id string, r api2go.Request) (api2go.Responder, error) {
+func (c RecipeIngredientGroupResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
 	return First[model.RecipeIngredientGroup](id)
 }

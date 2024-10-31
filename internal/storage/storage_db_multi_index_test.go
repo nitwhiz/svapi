@@ -24,11 +24,11 @@ func (t TestModel) Indexes() map[string]*memdb.IndexSchema {
 	return map[string]*memdb.IndexSchema{}
 }
 
-func (t TestModel) SearchIndexContents() [][]string {
-	var res [][]string
+func (t TestModel) SearchIndexContents() []string {
+	var res []string
 
 	for _, s := range t.C {
-		res = append(res, []string{fmt.Sprintf("v:%s", s)})
+		res = append(res, fmt.Sprintf("v:%s", s))
 	}
 
 	return res
@@ -50,14 +50,15 @@ func TestSearchIndex_FromObject(t *testing.T) {
 			name: "basic",
 			args: args{
 				raw: &TestModel{
-					A: "",
+					A: "Something",
 					C: []string{"A", "B"},
 				},
 			},
 			want: true,
 			want1: [][]byte{
-				{'v', ':', 'A', 0},
-				{'v', ':', 'B', 0},
+				{'v', ':', 'A', '_', 0},
+				{'_', 'v', ':', 'B', 0},
+				{'v', ':', 'A', '_', 'v', ':', 'B', 0},
 			},
 		},
 	}
@@ -66,6 +67,7 @@ func TestSearchIndex_FromObject(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			se := SearchIndex{}
 			got, got1, err := se.FromObject(tt.args.raw)
+
 			if (err != nil) != tt.wantErr {
 				t.Errorf("FromObject() error = %v, wantErr %v", err, tt.wantErr)
 				return
@@ -75,6 +77,14 @@ func TestSearchIndex_FromObject(t *testing.T) {
 			}
 			if !reflect.DeepEqual(got1, tt.want1) {
 				t.Errorf("FromObject() got1 = %v, want %v", got1, tt.want1)
+
+				for _, got1Element := range got1 {
+					t.Log("got: " + string(got1Element))
+				}
+
+				for _, want1 := range tt.want1 {
+					t.Log("want: " + string(want1))
+				}
 			}
 		})
 	}

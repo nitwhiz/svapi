@@ -17,12 +17,8 @@ func (i RecipeIngredientGroup) TableName() string {
 	return TypeRecipeIngredientGroup
 }
 
-func (i RecipeIngredientGroup) SearchIndexContents() [][]string {
-	var res [][]string
-
-	// todo?
-
-	return res
+func (i RecipeIngredientGroup) SearchIndexContents() []string {
+	return nil
 }
 
 func (i RecipeIngredientGroup) Indexes() map[string]*memdb.IndexSchema {
@@ -36,12 +32,14 @@ func (i RecipeIngredientGroup) GetID() string {
 func (i RecipeIngredientGroup) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeItem,
-			Name: "items",
+			Type:         TypeItem,
+			Name:         "items",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeItem,
-			Name: "ingredients",
+			Type:         TypeItem,
+			Name:         "ingredients",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }

@@ -64,13 +64,13 @@ func Init() error {
 }
 
 func SearchAll(txn *memdb.Txn, search Model) ([]Model, error) {
-	it, err := txn.Get(search.TableName(), "search", search.SearchIndexContents())
+	it, err := txn.Get(search.TableName(), "search", strings.Join(search.SearchIndexContents(), "_"))
 
 	if err != nil {
 		return nil, err
 	}
 
-	res := []Model{}
+	var res []Model
 
 	for obj := it.Next(); obj != nil; obj = it.Next() {
 		res = append(res, obj.(Model))
@@ -86,7 +86,7 @@ func FindAll(txn *memdb.Txn, tableName string, index string, args ...interface{}
 		return nil, err
 	}
 
-	res := []Model{}
+	var res []Model
 
 	for obj := it.Next(); obj != nil; obj = it.Next() {
 		res = append(res, obj.(Model))
@@ -102,7 +102,7 @@ func FindAllIn(txn *memdb.Txn, tableName string, index string, fieldName string,
 		return nil, err
 	}
 
-	res := []any{}
+	var res []any
 	isSingleResult := false
 	findCount := 0
 

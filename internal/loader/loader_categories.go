@@ -15,6 +15,17 @@ func loadCategories(txn *memdb.Txn) error {
 		return err
 	}
 
+	cat0Model := &model.Category{
+		ID:         newUUID("0"),
+		InternalID: "0",
+		Items:      []*model.Item{},
+		Names:      []*model.CategoryName{},
+	}
+
+	if err = storage.Insert(txn, cat0Model); err != nil {
+		return err
+	}
+
 	for _, cat := range cats.Categories {
 		internalId := fmt.Sprintf("%d", cat.ID)
 

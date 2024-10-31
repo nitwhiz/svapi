@@ -18,6 +18,9 @@ func TestCombinations(t *testing.T) {
 		{"1 element", args{[]string{"A"}}, []string{"A"}},
 		{"2 elements", args{[]string{"A", "B"}}, []string{"A_", "_B", "A_B"}},
 		{"3 elements", args{[]string{"A", "B", "C"}}, []string{"A__", "_B_", "A_B_", "__C", "A__C", "_B_C", "A_B_C"}},
+		{"2 elements, 2nd empty", args{[]string{"A", ""}}, []string{"A_"}},
+		{"3 elements, 2nd empty", args{[]string{"A", "", "C"}}, []string{"A__", "__C", "A__C"}},
+		{"3 elements, 3rd empty", args{[]string{"A", "B", ""}}, []string{"A__", "_B_", "A_B_"}},
 	}
 
 	for _, tt := range tests {

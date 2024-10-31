@@ -15,12 +15,8 @@ type Language struct {
 	NpcNames      []*NpcName      `json:"-"`
 }
 
-func (l Language) SearchIndexContents() [][]string {
-	var res [][]string
-
-	res = append(res, []string{l.Code})
-
-	return res
+func (l Language) SearchIndexContents() []string {
+	return []string{l.Code}
 }
 
 func (l Language) TableName() string {
@@ -44,22 +40,25 @@ func (l Language) GetID() string {
 func (l Language) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeCategoryName,
-			Name: "categoryNames",
+			Type:         TypeCategoryName,
+			Name:         "categoryNames",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeItemName,
-			Name: "itemNames",
+			Type:         TypeItemName,
+			Name:         "itemNames",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
-			Type: TypeNpcName,
-			Name: "npcNames",
+			Type:         TypeNpcName,
+			Name:         "npcNames",
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (l Language) GetReferencedIDs() []jsonapi.ReferenceID {
-	res := []jsonapi.ReferenceID{}
+	var res []jsonapi.ReferenceID
 
 	for _, catName := range l.CategoryNames {
 		res = append(res, jsonapi.ReferenceID{

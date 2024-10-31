@@ -14,8 +14,8 @@ type CategoryName struct {
 	Name     string    `json:"name"`
 }
 
-func (n CategoryName) SearchIndexContents() [][]string {
-	return [][]string{{n.Language.ID, n.Category.ID, n.Name}}
+func (n CategoryName) SearchIndexContents() []string {
+	return []string{n.Name}
 }
 
 func (n CategoryName) TableName() string {
@@ -33,12 +33,14 @@ func (n CategoryName) GetID() string {
 func (n CategoryName) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: TypeCategory,
-			Name: "category",
+			Type:         TypeCategory,
+			Name:         "category",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: TypeLanguage,
-			Name: "language",
+			Type:         TypeLanguage,
+			Name:         "language",
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }

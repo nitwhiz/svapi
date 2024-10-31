@@ -5,6 +5,7 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/nitwhiz/svapi/internal/data"
 	"github.com/nitwhiz/svapi/internal/storage"
+	"github.com/nitwhiz/svapi/pkg/flags"
 	"github.com/nitwhiz/svapi/pkg/model"
 )
 
@@ -27,14 +28,21 @@ func loadItems(txn *memdb.Txn) error {
 		}
 
 		itemModel := &model.Item{
-			ID:             newUUID(obj.ID),
-			InternalID:     obj.ID,
-			TextureName:    obj.TextureName,
-			Category:       catModel,
-			Type:           obj.Type,
-			IsGiftable:     obj.IsGiftable,
-			IsBigCraftable: obj.IsBigCraftable,
-			Names:          []*model.ItemName{},
+			ID:          newUUID(obj.ID),
+			InternalID:  obj.ID,
+			TextureName: obj.TextureName,
+			Category:    catModel,
+			Type:        obj.Type,
+			Flags:       []*flags.Flag{},
+			Names:       []*model.ItemName{},
+		}
+
+		if obj.IsGiftable {
+			itemModel.Flags = append(itemModel.Flags, flags.IsGiftable)
+		}
+
+		if obj.IsBigCraftable {
+			itemModel.Flags = append(itemModel.Flags, flags.IsBigCraftable)
 		}
 
 		catModel.Items = append(catModel.Items, itemModel)

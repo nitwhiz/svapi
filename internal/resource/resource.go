@@ -4,8 +4,8 @@ import (
 	"errors"
 	"github.com/manyminds/api2go"
 	"github.com/nitwhiz/svapi/internal/storage"
+	"github.com/nitwhiz/svapi/pkg/flags"
 	"github.com/nitwhiz/svapi/pkg/responder"
-	"github.com/nitwhiz/svapi/pkg/util"
 	"reflect"
 	"strings"
 )
@@ -35,19 +35,17 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 		return nil, errors.New("model not found")
 	}
 
-	// todo: these allocations are unnecessary in non-filter[] situations
-
 	search := reflect.New(reflect.TypeOf(srcModel).Elem()).Interface()
 
 	searchValue := reflect.ValueOf(search).Elem()
 	searchType := searchValue.Type()
 
-	isFilterSearch := false
-
 	searchTableName := srcModel.TableName()
-	searchFieldName := ""
 
+	var searchFieldName string
 	var searchIdFilter string
+
+	isFilterSearch := false
 
 	for param, values := range queryParams {
 		if len(values) == 0 {
@@ -56,7 +54,7 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 
 		if strings.HasSuffix(param, "ID") {
 			// categoriesID, itemsID, etc.
-			// we only support one of these filters
+			// only support one of these filters
 
 			typeName := strings.TrimSuffix(param, "ID")
 			typeModel, ok := storage.ModelByTable[typeName]
@@ -76,25 +74,24 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 			}
 
 			break
-		} else if strings.HasPrefix(param, "filter[") && strings.HasSuffix(param, "]") {
+		} else if param, ok := strings.CutPrefix(param, "filter"); ok {
+
 			// filter[someField] = x -> searchStruct.SomeField.SetABC(x)
 
-			filterField := strings.ToLower(strings.TrimPrefix(strings.TrimSuffix(param, "]"), "filter["))
+			filterField := strings.ToLower(param[1:strings.Index(param, "]")])
 
 			for i := 0; i < searchType.NumField(); i++ {
 				if strings.ToLower(searchType.Field(i).Name) == filterField {
 					f := searchValue.Field(i)
 
 					switch f.Type().Kind() {
-					case reflect.Bool:
-						f.SetBool(util.AsBool(values[0]))
-						isFilterSearch = true
-						break
 					case reflect.String:
 						f.SetString(values[0])
 						isFilterSearch = true
 						break
 					case reflect.Pointer:
+						// resolve as another model with only it's id being set
+
 						v := reflect.New(f.Type().Elem()).Elem()
 						idField := v.FieldByName("ID")
 
@@ -103,6 +100,40 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 							f.Set(v.Addr())
 							isFilterSearch = true
 						}
+						break
+					case reflect.Slice:
+						slicePointerType := f.Type().Elem().Elem()
+
+						if slicePointerType == reflect.TypeOf(flags.Flag{}) {
+							// handle flags
+
+							fs := make([]*flags.Flag, len(values))
+
+							for idx, flagSegment := range values {
+								fs[idx] = flags.Get(flagSegment)
+							}
+
+							f.Set(reflect.ValueOf(fs))
+							isFilterSearch = true
+						} else if slicePointerType.Implements(reflect.TypeFor[storage.Model]()) {
+							// create instances, set ID
+
+							v := reflect.New(slicePointerType).Elem()
+							idField := v.FieldByName("ID")
+
+							if idField.IsValid() {
+								idField.SetString(values[0])
+
+								s := reflect.MakeSlice(reflect.SliceOf(reflect.PointerTo(slicePointerType)), 1, 1)
+
+								s.Index(0).Set(v.Addr())
+
+								f.Set(s)
+								isFilterSearch = true
+							}
+						}
+
+						break
 					default:
 						break
 					}
