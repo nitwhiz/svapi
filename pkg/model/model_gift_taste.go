@@ -1,8 +1,11 @@
 package model
 
 import (
+	"github.com/hashicorp/go-memdb"
 	"github.com/manyminds/api2go/jsonapi"
 )
+
+const TypeGiftTaste = "giftTastes"
 
 const TasteDislike = "dislike"
 const TasteHate = "hate"
@@ -11,12 +14,22 @@ const TasteLove = "love"
 const TasteNeutral = "neutral"
 
 type GiftTaste struct {
-	ID     string `gorm:"primaryKey" json:"-"`
-	ItemID string `gorm:"uniqueIndex:idx_gift_taste_item_npc_id" json:"-"`
-	Item   Item   `gorm:"constraint:OnDelete:CASCADE" json:"-"`
-	NpcID  string `gorm:"uniqueIndex:idx_gift_taste_item_npc_id" json:"-"`
-	Npc    Npc    `gorm:"constraint:OnDelete:CASCADE" json:"-"`
-	Taste  string `json:"taste"`
+	ID    string `json:"-"`
+	Npc   *Npc   `json:"-"`
+	Item  *Item  `json:"-"`
+	Taste string `json:"taste"`
+}
+
+func (g GiftTaste) Indexes() map[string]*memdb.IndexSchema {
+	return map[string]*memdb.IndexSchema{}
+}
+
+func (g GiftTaste) SearchIndexContents() []string {
+	return []string{g.Taste}
+}
+
+func (g GiftTaste) TableName() string {
+	return TypeGiftTaste
 }
 
 func (g GiftTaste) GetID() string {
@@ -26,27 +39,20 @@ func (g GiftTaste) GetID() string {
 func (g GiftTaste) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: "items",
-			Name: "item",
+			Type:         TypeItem,
+			Name:         "item",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
-			Type: "npcs",
-			Name: "npc",
+			Type:         TypeNpc,
+			Name:         "npc",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (g GiftTaste) GetReferencedIDs() []jsonapi.ReferenceID {
-	return []jsonapi.ReferenceID{
-		{
-			ID:   g.ItemID,
-			Type: "items",
-			Name: "item",
-		},
-		{
-			ID:   g.NpcID,
-			Type: "npcs",
-			Name: "npc",
-		},
-	}
+	return nil
 }

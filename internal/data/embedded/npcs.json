@@ -1,1 +1,617 @@
-{"version":"2024-06-25 20:57:04Z","npcs":[{"birthdayDay":21,"birthdaySeason":"fall","displayNames":{"en":"Robin","ja":"ロビン","ru":"Робин","pt":"Robin","es":"Robin","de":"Robin","fr":"Robine","it":"Robin","tr":"Robin","hu":"Robin"},"id":"25"},{"birthdayDay":19,"birthdaySeason":"summer","displayNames":{"en":"Demetrius","ja":"ディメトリウス","ru":"Деметриус","pt":"Demetrius","es":"Demetrius","de":"Demetrius","fr":"Demetrius","it":"Demetrius","tr":"Demetrius","hu":"Demetrius"},"id":"3"},{"birthdayDay":10,"birthdaySeason":"summer","displayNames":{"en":"Maru","ja":"マル","ru":"Мару","pt":"Maru","es":"Maru","de":"Maru","fr":"Maru","it":"Maru","tr":"Maru","hu":"Maru"},"id":"21"},{"birthdayDay":10,"birthdaySeason":"winter","displayNames":{"en":"Sebastian","ja":"セバスチャン","ru":"Себастиан","pt":"Sebastian","es":"Sebastian","de":"Sebastian","fr":"Sebastian","it":"Sebastian","tr":"Sebastian","hu":"Sebastian"},"id":"27"},{"birthdayDay":3,"birthdaySeason":"winter","displayNames":{"en":"Linus","ja":"ライナス","ru":"Линус","pt":"Linus","es":"Linus","de":"Linus","fr":"Linus","it":"Linus","tr":"Linus","hu":"Linus"},"id":"18"},{"birthdayDay":26,"birthdaySeason":"spring","displayNames":{"en":"Pierre","ja":"ピエール","ru":"Пьер","pt":"Pierre","es":"Pierre","de":"Pierre","fr":"Pierre","it":"Pierre","tr":"Pierre","hu":"Pierre"},"id":"24"},{"birthdayDay":7,"birthdaySeason":"winter","displayNames":{"en":"Caroline","ja":"キャロライン","ru":"Кэролайн","pt":"Caroline","es":"Caroline","de":"Caroline","fr":"Caroline","it":"Caroline","tr":"Caroline","hu":"Caroline"},"id":"1"},{"birthdayDay":13,"birthdaySeason":"fall","displayNames":{"en":"Abigail","ja":"アビゲイル","ru":"Абигейл","pt":"Abigail","es":"Abigail","de":"Abigail","fr":"Abigail","it":"Abigail","tr":"Abigail","hu":"Abigail"},"id":"0"},{"birthdayDay":13,"birthdaySeason":"summer","displayNames":{"en":"Alex","ja":"アレックス","ru":"Алекс","pt":"Alex","es":"Alex","de":"Alex","fr":"Alex","it":"Alex","tr":"Alex","hu":"Alex"},"id":"14"},{"birthdayDay":24,"birthdaySeason":"fall","displayNames":{"en":"George","ja":"ジョージ","ru":"Джордж","pt":"George","es":"George","de":"George","fr":"George","it":"George","tr":"George","hu":"George"},"id":"8"},{"birthdayDay":20,"birthdaySeason":"winter","displayNames":{"en":"Evelyn","ja":"エブリン","ru":"Эвелин","pt":"Evelyn","es":"Evelyn","de":"Evelyn","fr":"Evelyn","it":"Evelyn","tr":"Evelyn","hu":"Evelyn"},"id":"7"},{"birthdayDay":7,"birthdaySeason":"spring","displayNames":{"en":"Lewis","ja":"ルイス","ru":"Льюис","pt":"Lewis","es":"Lewis","de":"Lewis","fr":"Lewis","it":"Lewis","tr":"Lewis","hu":"Lewis"},"id":"17"},{"birthdayDay":26,"birthdaySeason":"winter","displayNames":{"en":"Clint","ja":"クリント","ru":"Клинт","pt":"Clint","es":"Clint","de":"Clint","fr":"Clint","it":"Clint","tr":"Clint","hu":"Clint"},"id":"2"},{"birthdayDay":2,"birthdaySeason":"fall","displayNames":{"en":"Penny","ja":"ペニー","ru":"Пенни","pt":"Penny","es":"Penny","de":"Penny","fr":"Penny","it":"Penny","tr":"Penny","hu":"Penny"},"id":"23"},{"birthdayDay":18,"birthdaySeason":"spring","displayNames":{"en":"Pam","ja":"パム","ru":"Пэм","pt":"Pam","es":"Pam","de":"Pam","fr":"Pam","it":"Pam","tr":"Pam","hu":"Pam"},"id":"22"},{"birthdayDay":27,"birthdaySeason":"spring","displayNames":{"en":"Emily","ja":"エミリー","ru":"Эмили","pt":"Emily","es":"Emily","de":"Emily","fr":"Emily","it":"Emily","tr":"Emily","hu":"Emily"},"id":"6"},{"birthdayDay":14,"birthdaySeason":"spring","displayNames":{"en":"Haley","ja":"ヘイリー","ru":"Хэйли","pt":"Haley","es":"Haley","de":"Haley","fr":"Haley","it":"Haley","tr":"Haley","hu":"Haley"},"id":"10"},{"birthdayDay":4,"birthdaySeason":"summer","displayNames":{"en":"Jas","ja":"ジャス","ru":"Джас","pt":"Jas","es":"Jas","de":"Jas","fr":"Jas","it":"Jas","tr":"Jas","hu":"Jas"},"id":"12"},{"birthdayDay":10,"birthdaySeason":"spring","displayNames":{"en":"Vincent","ja":"ヴィンセント","ru":"Винсент","pt":"Vincent","es":"Vincent","de":"Vincent","fr":"Vincent","it":"Vincent","tr":"Vincent","hu":"Vincent"},"id":"29"},{"birthdayDay":11,"birthdaySeason":"fall","displayNames":{"en":"Jodi","ja":"ジョディ","ru":"Джоди","pt":"Jodi","es":"Jodi","de":"Jodi","fr":"Jodi","it":"Jodi","tr":"Jodi","hu":"Jodi"},"id":"13"},{"birthdayDay":4,"birthdaySeason":"spring","displayNames":{"en":"Kent","ja":"ケント","ru":"Кент","pt":"Kent","es":"Kent","de":"Kent","fr":"Kent","it":"Kent","tr":"Kent","hu":"Kent"},"id":"15"},{"birthdayDay":17,"birthdaySeason":"summer","displayNames":{"en":"Sam","ja":"サム","ru":"Сэм","pt":"Sam","es":"Sam","de":"Sam","fr":"Sam","it":"Sam","tr":"Sam","hu":"Sam"},"id":"26"},{"birthdayDay":23,"birthdaySeason":"winter","displayNames":{"en":"Leah","ja":"リア","ru":"Лея","pt":"Leah","es":"Leah","de":"Leah","fr":"Leah","it":"Leah","tr":"Leah","hu":"Leah"},"id":"16"},{"birthdayDay":20,"birthdaySeason":"spring","displayNames":{"en":"Shane","ja":"シェーン","ru":"Шейн","pt":"Shane","es":"Shane","de":"Shane","fr":"Shane","it":"Shane","tr":"Shane","hu":"Shane"},"id":"28"},{"birthdayDay":18,"birthdaySeason":"fall","displayNames":{"en":"Marnie","ja":"マーニー","ru":"Марни","pt":"Marnie","es":"Marnie","de":"Marnie","fr":"Marnie","it":"Marnie","tr":"Marnie","hu":"Marnie"},"id":"20"},{"birthdayDay":5,"birthdaySeason":"fall","displayNames":{"en":"Elliott","ja":"エリオット","ru":"Эллиот","pt":"Elliott","es":"Elliott","de":"Elliott","fr":"Elliott","it":"Elliott","tr":"Elliott","hu":"Elliott"},"id":"5"},{"birthdayDay":8,"birthdaySeason":"summer","displayNames":{"en":"Gus","ja":"ガス","ru":"Гас","pt":"Gus","es":"Gus","de":"Gus","fr":"Gus","it":"Gus","tr":"Gus","hu":"Gus"},"id":"9"},{"birthdayDay":22,"birthdaySeason":"summer","displayNames":{"en":"Dwarf","ja":"ドワーフ","ru":"Дварф","pt":"Anão","es":"Enano","de":"Zwerg","fr":"Nain","it":"Nano","tr":"Cüce","hu":"Törpe"},"id":"31"},{"birthdayDay":17,"birthdaySeason":"winter","displayNames":{"en":"Wizard","ja":"魔術師","ru":"Волшебник","pt":"Feiticeiro","es":"Rasmodius","de":"Zauberer","fr":"Sorcier","it":"Mago","tr":"Büyücü","hu":"Varázsló"},"id":"30"},{"birthdayDay":14,"birthdaySeason":"winter","displayNames":{"en":"Harvey","ja":"ハーヴィー","ru":"Харви","pt":"Harvey","es":"Harvey","de":"Harvey","fr":"Harvey","it":"Harvey","tr":"Harvey","hu":"Harvey"},"id":"11"},{"birthdayDay":15,"birthdaySeason":"fall","displayNames":{"en":"Sandy","ja":"サンディ","ru":"Сэнди","pt":"Sandy","es":"Sandy","de":"Sandy","fr":"Sandy","it":"Sandy","tr":"Sandy","hu":"Sandy"},"id":"32"},{"birthdayDay":24,"birthdaySeason":"summer","displayNames":{"en":"Willy","ja":"ウィリー","ru":"Вилли","pt":"Willy","es":"Willy","de":"Willy","fr":"Willy","it":"Willy","tr":"Willy","hu":"Willy"},"id":"4"},{"birthdayDay":1,"birthdaySeason":"winter","displayNames":{"en":"Krobus","ja":"クロバス","ru":"Кробус","pt":"Krobus","es":"Krobus","de":"Krobus","fr":"Krobus","it":"Krobus","tr":"Krobus","hu":"Krobus"},"id":"33"},{"birthdayDay":26,"birthdaySeason":"summer","displayNames":{"en":"Leo","ja":"レオ","ru":"Лео","pt":"Leo","es":"Leo","de":"Leo","fr":"Léo","it":"Leo","tr":"Leo","hu":"Leo"},"id":"34"}]}
+{
+  "version": "2024-10-13 12:29:05Z",
+  "npcs": [
+    {
+      "birthdayDay": 21,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Robin",
+        "ja": "ロビン",
+        "ru": "Робин",
+        "pt": "Robin",
+        "es": "Robin",
+        "de": "Robin",
+        "fr": "Robine",
+        "it": "Robin",
+        "tr": "Robin",
+        "hu": "Robin"
+      },
+      "id": "25",
+      "textureName": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569"
+    },
+    {
+      "birthdayDay": 19,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Demetrius",
+        "ja": "ディメトリウス",
+        "ru": "Деметриус",
+        "pt": "Demetrius",
+        "es": "Demetrius",
+        "de": "Demetrius",
+        "fr": "Demetrius",
+        "it": "Demetrius",
+        "tr": "Demetrius",
+        "hu": "Demetrius"
+      },
+      "id": "3",
+      "textureName": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "birthdayDay": 10,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Maru",
+        "ja": "マル",
+        "ru": "Мару",
+        "pt": "Maru",
+        "es": "Maru",
+        "de": "Maru",
+        "fr": "Maru",
+        "it": "Maru",
+        "tr": "Maru",
+        "hu": "Maru"
+      },
+      "id": "21",
+      "textureName": "6f4b6612125fb3a0daecd2799dfd6c9c299424fd920f9b308110a2c1fbd8f443"
+    },
+    {
+      "birthdayDay": 10,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Sebastian",
+        "ja": "セバスチャン",
+        "ru": "Себастиан",
+        "pt": "Sebastian",
+        "es": "Sebastian",
+        "de": "Sebastian",
+        "fr": "Sebastian",
+        "it": "Sebastian",
+        "tr": "Sebastian",
+        "hu": "Sebastian"
+      },
+      "id": "27",
+      "textureName": "670671cd97404156226e507973f2ab8330d3022ca96e0c93bdbdb320c41adcaf"
+    },
+    {
+      "birthdayDay": 3,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Linus",
+        "ja": "ライナス",
+        "ru": "Линус",
+        "pt": "Linus",
+        "es": "Linus",
+        "de": "Linus",
+        "fr": "Linus",
+        "it": "Linus",
+        "tr": "Linus",
+        "hu": "Linus"
+      },
+      "id": "18",
+      "textureName": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"
+    },
+    {
+      "birthdayDay": 26,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Pierre",
+        "ja": "ピエール",
+        "ru": "Пьер",
+        "pt": "Pierre",
+        "es": "Pierre",
+        "de": "Pierre",
+        "fr": "Pierre",
+        "it": "Pierre",
+        "tr": "Pierre",
+        "hu": "Pierre"
+      },
+      "id": "24",
+      "textureName": "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db"
+    },
+    {
+      "birthdayDay": 7,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Caroline",
+        "ja": "キャロライン",
+        "ru": "Кэролайн",
+        "pt": "Caroline",
+        "es": "Caroline",
+        "de": "Caroline",
+        "fr": "Caroline",
+        "it": "Caroline",
+        "tr": "Caroline",
+        "hu": "Caroline"
+      },
+      "id": "1",
+      "textureName": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+    },
+    {
+      "birthdayDay": 13,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Abigail",
+        "ja": "アビゲイル",
+        "ru": "Абигейл",
+        "pt": "Abigail",
+        "es": "Abigail",
+        "de": "Abigail",
+        "fr": "Abigail",
+        "it": "Abigail",
+        "tr": "Abigail",
+        "hu": "Abigail"
+      },
+      "id": "0",
+      "textureName": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "birthdayDay": 13,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Alex",
+        "ja": "アレックス",
+        "ru": "Алекс",
+        "pt": "Alex",
+        "es": "Alex",
+        "de": "Alex",
+        "fr": "Alex",
+        "it": "Alex",
+        "tr": "Alex",
+        "hu": "Alex"
+      },
+      "id": "14",
+      "textureName": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61"
+    },
+    {
+      "birthdayDay": 24,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "George",
+        "ja": "ジョージ",
+        "ru": "Джордж",
+        "pt": "George",
+        "es": "George",
+        "de": "George",
+        "fr": "George",
+        "it": "George",
+        "tr": "George",
+        "hu": "George"
+      },
+      "id": "8",
+      "textureName": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+    },
+    {
+      "birthdayDay": 20,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Evelyn",
+        "ja": "エブリン",
+        "ru": "Эвелин",
+        "pt": "Evelyn",
+        "es": "Evelyn",
+        "de": "Evelyn",
+        "fr": "Evelyn",
+        "it": "Evelyn",
+        "tr": "Evelyn",
+        "hu": "Evelyn"
+      },
+      "id": "7",
+      "textureName": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+    },
+    {
+      "birthdayDay": 7,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Lewis",
+        "ja": "ルイス",
+        "ru": "Льюис",
+        "pt": "Lewis",
+        "es": "Lewis",
+        "de": "Lewis",
+        "fr": "Lewis",
+        "it": "Lewis",
+        "tr": "Lewis",
+        "hu": "Lewis"
+      },
+      "id": "17",
+      "textureName": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3"
+    },
+    {
+      "birthdayDay": 26,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Clint",
+        "ja": "クリント",
+        "ru": "Клинт",
+        "pt": "Clint",
+        "es": "Clint",
+        "de": "Clint",
+        "fr": "Clint",
+        "it": "Clint",
+        "tr": "Clint",
+        "hu": "Clint"
+      },
+      "id": "2",
+      "textureName": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+    },
+    {
+      "birthdayDay": 2,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Penny",
+        "ja": "ペニー",
+        "ru": "Пенни",
+        "pt": "Penny",
+        "es": "Penny",
+        "de": "Penny",
+        "fr": "Penny",
+        "it": "Penny",
+        "tr": "Penny",
+        "hu": "Penny"
+      },
+      "id": "23",
+      "textureName": "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790"
+    },
+    {
+      "birthdayDay": 18,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Pam",
+        "ja": "パム",
+        "ru": "Пэм",
+        "pt": "Pam",
+        "es": "Pam",
+        "de": "Pam",
+        "fr": "Pam",
+        "it": "Pam",
+        "tr": "Pam",
+        "hu": "Pam"
+      },
+      "id": "22",
+      "textureName": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09"
+    },
+    {
+      "birthdayDay": 27,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Emily",
+        "ja": "エミリー",
+        "ru": "Эмили",
+        "pt": "Emily",
+        "es": "Emily",
+        "de": "Emily",
+        "fr": "Emily",
+        "it": "Emily",
+        "tr": "Emily",
+        "hu": "Emily"
+      },
+      "id": "6",
+      "textureName": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+    },
+    {
+      "birthdayDay": 14,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Haley",
+        "ja": "ヘイリー",
+        "ru": "Хэйли",
+        "pt": "Haley",
+        "es": "Haley",
+        "de": "Haley",
+        "fr": "Haley",
+        "it": "Haley",
+        "tr": "Haley",
+        "hu": "Haley"
+      },
+      "id": "10",
+      "textureName": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5"
+    },
+    {
+      "birthdayDay": 4,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Jas",
+        "ja": "ジャス",
+        "ru": "Джас",
+        "pt": "Jas",
+        "es": "Jas",
+        "de": "Jas",
+        "fr": "Jas",
+        "it": "Jas",
+        "tr": "Jas",
+        "hu": "Jas"
+      },
+      "id": "12",
+      "textureName": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918"
+    },
+    {
+      "birthdayDay": 10,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Vincent",
+        "ja": "ヴィンセント",
+        "ru": "Винсент",
+        "pt": "Vincent",
+        "es": "Vincent",
+        "de": "Vincent",
+        "fr": "Vincent",
+        "it": "Vincent",
+        "tr": "Vincent",
+        "hu": "Vincent"
+      },
+      "id": "29",
+      "textureName": "35135aaa6cc23891b40cb3f378c53a17a1127210ce60e125ccf03efcfdaec458"
+    },
+    {
+      "birthdayDay": 11,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Jodi",
+        "ja": "ジョディ",
+        "ru": "Джоди",
+        "pt": "Jodi",
+        "es": "Jodi",
+        "de": "Jodi",
+        "fr": "Jodi",
+        "it": "Jodi",
+        "tr": "Jodi",
+        "hu": "Jodi"
+      },
+      "id": "13",
+      "textureName": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278"
+    },
+    {
+      "birthdayDay": 4,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Kent",
+        "ja": "ケント",
+        "ru": "Кент",
+        "pt": "Kent",
+        "es": "Kent",
+        "de": "Kent",
+        "fr": "Kent",
+        "it": "Kent",
+        "tr": "Kent",
+        "hu": "Kent"
+      },
+      "id": "15",
+      "textureName": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb"
+    },
+    {
+      "birthdayDay": 17,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Sam",
+        "ja": "サム",
+        "ru": "Сэм",
+        "pt": "Sam",
+        "es": "Sam",
+        "de": "Sam",
+        "fr": "Sam",
+        "it": "Sam",
+        "tr": "Sam",
+        "hu": "Sam"
+      },
+      "id": "26",
+      "textureName": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "birthdayDay": 23,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Leah",
+        "ja": "リア",
+        "ru": "Лея",
+        "pt": "Leah",
+        "es": "Leah",
+        "de": "Leah",
+        "fr": "Leah",
+        "it": "Leah",
+        "tr": "Leah",
+        "hu": "Leah"
+      },
+      "id": "16",
+      "textureName": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9"
+    },
+    {
+      "birthdayDay": 20,
+      "birthdaySeason": "spring",
+      "displayNames": {
+        "en": "Shane",
+        "ja": "シェーン",
+        "ru": "Шейн",
+        "pt": "Shane",
+        "es": "Shane",
+        "de": "Shane",
+        "fr": "Shane",
+        "it": "Shane",
+        "tr": "Shane",
+        "hu": "Shane"
+      },
+      "id": "28",
+      "textureName": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a"
+    },
+    {
+      "birthdayDay": 18,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Marnie",
+        "ja": "マーニー",
+        "ru": "Марни",
+        "pt": "Marnie",
+        "es": "Marnie",
+        "de": "Marnie",
+        "fr": "Marnie",
+        "it": "Marnie",
+        "tr": "Marnie",
+        "hu": "Marnie"
+      },
+      "id": "20",
+      "textureName": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b"
+    },
+    {
+      "birthdayDay": 5,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Elliott",
+        "ja": "エリオット",
+        "ru": "Эллиот",
+        "pt": "Elliott",
+        "es": "Elliott",
+        "de": "Elliott",
+        "fr": "Elliott",
+        "it": "Elliott",
+        "tr": "Elliott",
+        "hu": "Elliott"
+      },
+      "id": "5",
+      "textureName": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+    },
+    {
+      "birthdayDay": 8,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Gus",
+        "ja": "ガス",
+        "ru": "Гас",
+        "pt": "Gus",
+        "es": "Gus",
+        "de": "Gus",
+        "fr": "Gus",
+        "it": "Gus",
+        "tr": "Gus",
+        "hu": "Gus"
+      },
+      "id": "9",
+      "textureName": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
+    },
+    {
+      "birthdayDay": 22,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Dwarf",
+        "ja": "ドワーフ",
+        "ru": "Дварф",
+        "pt": "Anão",
+        "es": "Enano",
+        "de": "Zwerg",
+        "fr": "Nain",
+        "it": "Nano",
+        "tr": "Cüce",
+        "hu": "Törpe"
+      },
+      "id": "31",
+      "textureName": "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f"
+    },
+    {
+      "birthdayDay": 17,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Wizard",
+        "ja": "魔術師",
+        "ru": "Волшебник",
+        "pt": "Feiticeiro",
+        "es": "Rasmodius",
+        "de": "Zauberer",
+        "fr": "Sorcier",
+        "it": "Mago",
+        "tr": "Büyücü",
+        "hu": "Varázsló"
+      },
+      "id": "30",
+      "textureName": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4"
+    },
+    {
+      "birthdayDay": 14,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Harvey",
+        "ja": "ハーヴィー",
+        "ru": "Харви",
+        "pt": "Harvey",
+        "es": "Harvey",
+        "de": "Harvey",
+        "fr": "Harvey",
+        "it": "Harvey",
+        "tr": "Harvey",
+        "hu": "Harvey"
+      },
+      "id": "11",
+      "textureName": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+    },
+    {
+      "birthdayDay": 15,
+      "birthdaySeason": "fall",
+      "displayNames": {
+        "en": "Sandy",
+        "ja": "サンディ",
+        "ru": "Сэнди",
+        "pt": "Sandy",
+        "es": "Sandy",
+        "de": "Sandy",
+        "fr": "Sandy",
+        "it": "Sandy",
+        "tr": "Sandy",
+        "hu": "Sandy"
+      },
+      "id": "32",
+      "textureName": "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b"
+    },
+    {
+      "birthdayDay": 24,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Willy",
+        "ja": "ウィリー",
+        "ru": "Вилли",
+        "pt": "Willy",
+        "es": "Willy",
+        "de": "Willy",
+        "fr": "Willy",
+        "it": "Willy",
+        "tr": "Willy",
+        "hu": "Willy"
+      },
+      "id": "4",
+      "textureName": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+    },
+    {
+      "birthdayDay": 1,
+      "birthdaySeason": "winter",
+      "displayNames": {
+        "en": "Krobus",
+        "ja": "クロバス",
+        "ru": "Кробус",
+        "pt": "Krobus",
+        "es": "Krobus",
+        "de": "Krobus",
+        "fr": "Krobus",
+        "it": "Krobus",
+        "tr": "Krobus",
+        "hu": "Krobus"
+      },
+      "id": "33",
+      "textureName": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894"
+    },
+    {
+      "birthdayDay": 26,
+      "birthdaySeason": "summer",
+      "displayNames": {
+        "en": "Leo",
+        "ja": "レオ",
+        "ru": "Лео",
+        "pt": "Leo",
+        "es": "Leo",
+        "de": "Leo",
+        "fr": "Léo",
+        "it": "Leo",
+        "tr": "Leo",
+        "hu": "Leo"
+      },
+      "id": "34",
+      "textureName": "86e50149658661312a9e0b35558d84f6c6d3da797f552a9657fe0558ca40cdef"
+    }
+  ]
+}

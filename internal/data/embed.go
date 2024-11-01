@@ -7,6 +7,8 @@ import (
 	"io/fs"
 )
 
+var Version = "v2"
+
 //go:embed embedded/*
 var internalData embed.FS
 

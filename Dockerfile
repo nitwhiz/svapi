@@ -1,15 +1,15 @@
-FROM golang:1.18.4-alpine3.15 as builder
+FROM golang:1.23.2-alpine3.19 AS builder
 
-COPY ./ /tmp/svapi
+COPY ./ /build
 
 RUN apk add --no-cache git
 
-RUN cd /tmp/svapi && \
-    CGO_ENABLED=0 go build -o ./build/server -tags gingonic,release ./cmd/server
+RUN cd /build && \
+    CGO_ENABLED=0 go build -o ./out/server -tags gingonic,release ./cmd/server
 
-FROM alpine:3.15.4
+FROM alpine:3.19.4
 
-COPY --from=builder /tmp/svapi/build/server /opt/svapi/server
+COPY --from=builder /build/out/server /opt/svapi/server
 
 EXPOSE 4200
 

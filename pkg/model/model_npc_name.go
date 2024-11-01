@@ -1,12 +1,29 @@
 package model
 
-import "github.com/manyminds/api2go/jsonapi"
+import (
+	"github.com/hashicorp/go-memdb"
+	"github.com/manyminds/api2go/jsonapi"
+)
+
+const TypeNpcName = "npcNames"
 
 type NpcName struct {
-	ID       string `gorm:"primaryKey" json:"-"`
-	NpcID    string `gorm:"uniqueIndex:idx_npc_name_id_lang" json:"-"`
-	Language string `gorm:"uniqueIndex:idx_npc_name_id_lang" json:"language"`
-	Name     string `json:"name"`
+	ID       string    `json:"-"`
+	Npc      *Npc      `json:"-"`
+	Language *Language `json:"-"`
+	Name     string    `json:"name"`
+}
+
+func (n NpcName) SearchIndexContents() []string {
+	return []string{n.Name}
+}
+
+func (n NpcName) TableName() string {
+	return TypeNpcName
+}
+
+func (n NpcName) Indexes() map[string]*memdb.IndexSchema {
+	return map[string]*memdb.IndexSchema{}
 }
 
 func (n NpcName) GetID() string {
@@ -16,18 +33,20 @@ func (n NpcName) GetID() string {
 func (n NpcName) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: "npcs",
-			Name: "npc",
+			Type:         TypeNpc,
+			Name:         "npc",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToOneRelationship,
+		},
+		{
+			Type:         TypeLanguage,
+			Name:         "language",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n NpcName) GetReferencedIDs() []jsonapi.ReferenceID {
-	return []jsonapi.ReferenceID{
-		{
-			ID:   n.NpcID,
-			Type: "npcs",
-			Name: "npc",
-		},
-	}
+	return nil
 }

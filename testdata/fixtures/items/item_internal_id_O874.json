@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "type": "items",
+      "id": "6c0cfd6e-d83d-5102-90c3-42a4a06f7335",
+      "attributes": {
+        "internalId": "(O)874",
+        "type": "crafting",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/category",
+            "self": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/giftTastes",
+            "self": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/ingredientGroups",
+            "self": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/names",
+            "self": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/sourceRecipes",
+            "self": "/v2/items/6c0cfd6e-d83d-5102-90c3-42a4a06f7335/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/0/010dbb5dcd194652c7063c68d39d4fd93c8930fd41e4816e30bb9768b3802fd4.png"
+      }
+    }
+  ],
+  "meta": {
+    "author": "nitwhiz",
+    "license": "wtfpl",
+    "license-url": "http://www.wtfpl.net/about/"
+  }
+}

@@ -1,0 +1,4985 @@
+{
+  "version": "2024-10-13 12:29:07Z",
+  "recipes": [
+    {
+      "name": "Fried Egg",
+      "output": {
+        "itemIds": [
+          "(O)194"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Omelet",
+      "output": {
+        "itemIds": [
+          "(O)195"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-5",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Salad",
+      "output": {
+        "itemIds": [
+          "(O)196"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)20",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)22",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)419",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cheese Cauli.",
+      "output": {
+        "itemIds": [
+          "(O)197"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)190",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)424",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Baked Fish",
+      "output": {
+        "itemIds": [
+          "(O)198"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)145",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)132",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Parsnip Soup",
+      "output": {
+        "itemIds": [
+          "(O)199"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)24",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)419",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Stew",
+      "output": {
+        "itemIds": [
+          "(O)200"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)284",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Complete Breakfast",
+      "output": {
+        "itemIds": [
+          "(O)201"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)194",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)210",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)211",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fried Calamari",
+      "output": {
+        "itemIds": [
+          "(O)202"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)151",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Strange Bun",
+      "output": {
+        "itemIds": [
+          "(O)203"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)722",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)308",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Lucky Lunch",
+      "output": {
+        "itemIds": [
+          "(O)204"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)154",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)229",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)597",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fried Mushroom",
+      "output": {
+        "itemIds": [
+          "(O)205"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)404",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)257",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "output": {
+        "itemIds": [
+          "(O)206"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)424",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bean Hotpot",
+      "output": {
+        "itemIds": [
+          "(O)207"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)188",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Glazed Yams",
+      "output": {
+        "itemIds": [
+          "(O)208"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)280",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Carp Surprise",
+      "output": {
+        "itemIds": [
+          "(O)209"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)142",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "Hashbrowns",
+      "output": {
+        "itemIds": [
+          "(O)210"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)192",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Pancakes",
+      "output": {
+        "itemIds": [
+          "(O)211"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Salmon Dinner",
+      "output": {
+        "itemIds": [
+          "(O)212"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)139",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)300",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fish Taco",
+      "output": {
+        "itemIds": [
+          "(O)213"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)130",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)229",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)266",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)306",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crispy Bass",
+      "output": {
+        "itemIds": [
+          "(O)214"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)136",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Pepper Poppers",
+      "output": {
+        "itemIds": [
+          "(O)215"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)260",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)424",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bread",
+      "output": {
+        "itemIds": [
+          "(O)216"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Tom Kha Soup",
+      "output": {
+        "itemIds": [
+          "(O)218"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)88",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)720",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)404",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Trout Soup",
+      "output": {
+        "itemIds": [
+          "(O)219"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)138",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)153",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Chocolate Cake",
+      "output": {
+        "itemIds": [
+          "(O)220"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Pink Cake",
+      "output": {
+        "itemIds": [
+          "(O)221"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)254",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Rhubarb Pie",
+      "output": {
+        "itemIds": [
+          "(O)222"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)252",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cookies",
+      "output": {
+        "itemIds": [
+          "(O)223"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Spaghetti",
+      "output": {
+        "itemIds": [
+          "(O)224"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fried Eel",
+      "output": {
+        "itemIds": [
+          "(O)225"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)148",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Spicy Eel",
+      "output": {
+        "itemIds": [
+          "(O)226"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)148",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)260",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Sashimi",
+      "output": {
+        "itemIds": [
+          "(O)227"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-4",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Maki Roll",
+      "output": {
+        "itemIds": [
+          "(O)228"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-4",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)152",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)423",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Tortilla",
+      "output": {
+        "itemIds": [
+          "(O)229"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)270",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Red Plate",
+      "output": {
+        "itemIds": [
+          "(O)230"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)266",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)264",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Eggplant Parm.",
+      "output": {
+        "itemIds": [
+          "(O)231"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)272",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Rice Pudding",
+      "output": {
+        "itemIds": [
+          "(O)232"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)423",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "output": {
+        "itemIds": [
+          "(O)233"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Blueberry Tart",
+      "output": {
+        "itemIds": [
+          "(O)234"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)258",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Autumn's Bounty",
+      "output": {
+        "itemIds": [
+          "(O)235"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)280",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)276",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin Soup",
+      "output": {
+        "itemIds": [
+          "(O)236"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)276",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Super Meal",
+      "output": {
+        "itemIds": [
+          "(O)237"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)278",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)282",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)274",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cran. Sauce",
+      "output": {
+        "itemIds": [
+          "(O)238"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)282",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Stuffing",
+      "output": {
+        "itemIds": [
+          "(O)239"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)216",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)282",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)408",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Farmer's Lunch",
+      "output": {
+        "itemIds": [
+          "(O)240"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)195",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)24",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Survival Burger",
+      "output": {
+        "itemIds": [
+          "(O)241"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)216",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)78",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)272",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Dish o' The Sea",
+      "output": {
+        "itemIds": [
+          "(O)242"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)131",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)210",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Miner's Treat",
+      "output": {
+        "itemIds": [
+          "(O)243"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)78",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Roots Platter",
+      "output": {
+        "itemIds": [
+          "(O)244"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)78",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)412",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Algae Soup",
+      "output": {
+        "itemIds": [
+          "(O)456"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)153",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "Pale Broth",
+      "output": {
+        "itemIds": [
+          "(O)457"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)157",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Plum Pudding",
+      "output": {
+        "itemIds": [
+          "(O)604"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)406",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Artichoke Dip",
+      "output": {
+        "itemIds": [
+          "(O)605"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)274",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Stir Fry",
+      "output": {
+        "itemIds": [
+          "(O)606"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)78",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)404",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)250",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Roasted Hazelnuts",
+      "output": {
+        "itemIds": [
+          "(O)607"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)408",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin Pie",
+      "output": {
+        "itemIds": [
+          "(O)608"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)276",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Radish Salad",
+      "output": {
+        "itemIds": [
+          "(O)609"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)419",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)264",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fruit Salad",
+      "output": {
+        "itemIds": [
+          "(O)610"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)258",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)254",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)634",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Blackberry Cobbler",
+      "output": {
+        "itemIds": [
+          "(O)611"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)410",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cranberry Candy",
+      "output": {
+        "itemIds": [
+          "(O)612"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)282",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)613",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bruschetta",
+      "output": {
+        "itemIds": [
+          "(O)618"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)216",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Coleslaw",
+      "output": {
+        "itemIds": [
+          "(O)648"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)266",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)419",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)306",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fiddlehead Risotto",
+      "output": {
+        "itemIds": [
+          "(O)649"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)259",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)248",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Poppyseed Muffin",
+      "output": {
+        "itemIds": [
+          "(O)651"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)376",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Chowder",
+      "output": {
+        "itemIds": [
+          "(O)727"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)372",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Lobster Bisque",
+      "output": {
+        "itemIds": [
+          "(O)730"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)715",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fish Stew",
+      "output": {
+        "itemIds": [
+          "(O)728"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)716",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)719",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)722",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Escargot",
+      "output": {
+        "itemIds": [
+          "(O)729"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)721",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)248",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Maple Bar",
+      "output": {
+        "itemIds": [
+          "(O)731"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)724",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crab Cakes",
+      "output": {
+        "itemIds": [
+          "(O)732"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)717",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "-5",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Triple Shot Espresso",
+      "output": {
+        "itemIds": [
+          "(O)253"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)395",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Shrimp Cocktail",
+      "output": {
+        "itemIds": [
+          "(O)733"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)720",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)16",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Seafoam Pudding",
+      "output": {
+        "itemIds": [
+          "(O)265"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)267",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)269",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)814",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Ginger Ale",
+      "output": {
+        "itemIds": [
+          "(O)903"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)829",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Banana Pudding",
+      "output": {
+        "itemIds": [
+          "(O)904"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)91",
+          "quantity": 1
+        },
+        {
+          "itemId": "-6",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "output": {
+        "itemIds": [
+          "(O)905"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)834",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)88",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)423",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Poi",
+      "output": {
+        "itemIds": [
+          "(O)906"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)830",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "Tropical Curry",
+      "output": {
+        "itemIds": [
+          "(O)907"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)88",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)832",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)260",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Squid Ink Ravioli",
+      "output": {
+        "itemIds": [
+          "(O)921"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)814",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)246",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)256",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Moss Soup",
+      "output": {
+        "itemIds": [
+          "(O)MossSoup"
+        ],
+        "amount": 1
+      },
+      "isCooking": true,
+      "ingredients": [
+        {
+          "itemId": "(O)Moss",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Wood Fence",
+      "output": {
+        "itemIds": [
+          "(O)322"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Stone Fence",
+      "output": {
+        "itemIds": [
+          "(O)323"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Iron Fence",
+      "output": {
+        "itemIds": [
+          "(O)324"
+        ],
+        "amount": 10
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Hardwood Fence",
+      "output": {
+        "itemIds": [
+          "(O)298"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Grass Starter",
+      "output": {
+        "itemIds": [
+          "(O)297"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)771",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Blue Grass Starter",
+      "output": {
+        "itemIds": [
+          "(O)BlueGrassStarter"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)771",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)MysticSyrup",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Gate",
+      "output": {
+        "itemIds": [
+          "(O)325"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Chest",
+      "output": {
+        "itemIds": [
+          "(O)130"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Big Chest",
+      "output": {
+        "itemIds": [
+          "(BC)BigChest"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 120
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Stone Chest",
+      "output": {
+        "itemIds": [
+          "(O)232"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Big Stone Chest",
+      "output": {
+        "itemIds": [
+          "(BC)BigStoneChest"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 250
+        }
+      ]
+    },
+    {
+      "name": "Torch",
+      "output": {
+        "itemIds": [
+          "(O)93"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Scarecrow",
+      "output": {
+        "itemIds": [
+          "(O)8"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Scarecrow",
+      "output": {
+        "itemIds": [
+          "(O)167"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)386",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "name": "Bee House",
+      "output": {
+        "itemIds": [
+          "(O)10"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 40
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 8
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)724",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Keg",
+      "output": {
+        "itemIds": [
+          "(O)12"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)725",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cask",
+      "output": {
+        "itemIds": [
+          "(O)163"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Dehydrator",
+      "output": {
+        "itemIds": [
+          "(BC)Dehydrator"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)330",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)82",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Furnace",
+      "output": {
+        "itemIds": [
+          "(BC)13"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)378",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Heavy Furnace",
+      "output": {
+        "itemIds": [
+          "(BC)HeavyFurnace"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(BC)13",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Anvil",
+      "output": {
+        "itemIds": [
+          "(BC)Anvil"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Mini-Forge",
+      "output": {
+        "itemIds": [
+          "(BC)MiniForge"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)852",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)337",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Garden Pot",
+      "output": {
+        "itemIds": [
+          "(O)62"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)330",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)338",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wood Sign",
+      "output": {
+        "itemIds": [
+          "(BC)37"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Stone Sign",
+      "output": {
+        "itemIds": [
+          "(O)38"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Dark Sign",
+      "output": {
+        "itemIds": [
+          "(BC)39"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)767",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)881",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Text Sign",
+      "output": {
+        "itemIds": [
+          "(BC)TextSign"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Cheese Press",
+      "output": {
+        "itemIds": [
+          "(O)16"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 45
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 45
+        },
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Mayonnaise Machine",
+      "output": {
+        "itemIds": [
+          "(O)24"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 15
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 15
+        },
+        {
+          "itemId": "(O)86",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Seed Maker",
+      "output": {
+        "itemIds": [
+          "(O)25"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Loom",
+      "output": {
+        "itemIds": [
+          "(BC)17"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 60
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)726",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Oil Maker",
+      "output": {
+        "itemIds": [
+          "(BC)19"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)766",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)709",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Recycling Machine",
+      "output": {
+        "itemIds": [
+          "(O)20"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Worm Bin",
+      "output": {
+        "itemIds": [
+          "(O)154"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 15
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Worm Bin",
+      "output": {
+        "itemIds": [
+          "(BC)DeluxeWormBin"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(BC)154",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 30
+        }
+      ]
+    },
+    {
+      "name": "Bait Maker",
+      "output": {
+        "itemIds": [
+          "(BC)BaitMaker"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)393",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)397",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fish Smoker",
+      "output": {
+        "itemIds": [
+          "(BC)FishSmoker"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)SeaJelly",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)RiverJelly",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)CaveJelly",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Preserves Jar",
+      "output": {
+        "itemIds": [
+          "(BC)15"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 40
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "name": "Charcoal Kiln",
+      "output": {
+        "itemIds": [
+          "(O)114"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Tapper",
+      "output": {
+        "itemIds": [
+          "(O)105"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 40
+        },
+        {
+          "itemId": "(O)334",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Log",
+      "output": {
+        "itemIds": [
+          "(BC)MushroomLog"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Lightning Rod",
+      "output": {
+        "itemIds": [
+          "(BC)9"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)338",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)767",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Slime Incubator",
+      "output": {
+        "itemIds": [
+          "(O)156"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)337",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)766",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "name": "Slime Egg-Press",
+      "output": {
+        "itemIds": [
+          "(O)158"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)382",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)82",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crystalarium",
+      "output": {
+        "itemIds": [
+          "(BC)21"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 99
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)337",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Mini-Jukebox",
+      "output": {
+        "itemIds": [
+          "(O)209"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Sprinkler",
+      "output": {
+        "itemIds": [
+          "(O)599"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Quality Sprinkler",
+      "output": {
+        "itemIds": [
+          "(O)621"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)338",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Iridium Sprinkler",
+      "output": {
+        "itemIds": [
+          "(O)645"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)337",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Staircase",
+      "output": {
+        "itemIds": [
+          "(O)71"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 99
+        }
+      ]
+    },
+    {
+      "name": "Flute Block",
+      "output": {
+        "itemIds": [
+          "(O)464"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)378",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Drum Block",
+      "output": {
+        "itemIds": [
+          "(O)463"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)378",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Basic Fertilizer",
+      "output": {
+        "itemIds": [
+          "(O)368"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)92",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Tree Fertilizer",
+      "output": {
+        "itemIds": [
+          "(O)805"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)771",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Mystic Tree Seed",
+      "output": {
+        "itemIds": [
+          "(O)MysticTreeSeed"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)309",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)310",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)311",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)292",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Quality Fertilizer",
+      "output": {
+        "itemIds": [
+          "(O)369"
+        ],
+        "amount": 2
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)92",
+          "quantity": 4
+        },
+        {
+          "itemId": "-4",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Basic Retaining Soil",
+      "output": {
+        "itemIds": [
+          "(O)370"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Quality Retaining Soil",
+      "output": {
+        "itemIds": [
+          "(O)371"
+        ],
+        "amount": 2
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)330",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Speed-Gro",
+      "output": {
+        "itemIds": [
+          "(O)465"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)726",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Speed-Gro",
+      "output": {
+        "itemIds": [
+          "(O)466"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)725",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)881",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Hyper Speed-Gro",
+      "output": {
+        "itemIds": [
+          "(O)918"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)909",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)881",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Fertilizer",
+      "output": {
+        "itemIds": [
+          "(O)919"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)337",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Retaining Soil",
+      "output": {
+        "itemIds": [
+          "(O)920"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)330",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cherry Bomb",
+      "output": {
+        "itemIds": [
+          "(O)286"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)378",
+          "quantity": 4
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bomb",
+      "output": {
+        "itemIds": [
+          "(O)287"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)380",
+          "quantity": 4
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Mega Bomb",
+      "output": {
+        "itemIds": [
+          "(O)288"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)384",
+          "quantity": 4
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)769",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Explosive Ammo",
+      "output": {
+        "itemIds": [
+          "(O)441"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Transmute (Fe)",
+      "output": {
+        "itemIds": [
+          "(O)335"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Transmute (Au)",
+      "output": {
+        "itemIds": [
+          "(O)336"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Ancient Seeds",
+      "output": {
+        "itemIds": [
+          "(O)499"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)114",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wild Seeds (Sp)",
+      "output": {
+        "itemIds": [
+          "(O)495"
+        ],
+        "amount": 10
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)16",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)18",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)20",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)22",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wild Seeds (Su)",
+      "output": {
+        "itemIds": [
+          "(O)496"
+        ],
+        "amount": 10
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)396",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)398",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)402",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wild Seeds (Fa)",
+      "output": {
+        "itemIds": [
+          "(O)497"
+        ],
+        "amount": 10
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)404",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)406",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)408",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)410",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wild Seeds (Wi)",
+      "output": {
+        "itemIds": [
+          "(O)498"
+        ],
+        "amount": 10
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)412",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)414",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)416",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)418",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fiber Seeds",
+      "output": {
+        "itemIds": [
+          "(O)885"
+        ],
+        "amount": 4
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)770",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)330",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Tea Sapling",
+      "output": {
+        "itemIds": [
+          "(O)251"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "-777",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)388",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Warp Totem: Farm",
+      "output": {
+        "itemIds": [
+          "(O)688"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)340",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Warp Totem: Mountains",
+      "output": {
+        "itemIds": [
+          "(O)689"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Warp Totem: Beach",
+      "output": {
+        "itemIds": [
+          "(O)690"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)393",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Warp Totem: Desert",
+      "output": {
+        "itemIds": [
+          "(O)261"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)88",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)386",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "Warp Totem: Island",
+      "output": {
+        "itemIds": [
+          "(O)886"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)852",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)829",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Rain Totem",
+      "output": {
+        "itemIds": [
+          "(O)681"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)432",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)726",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Treasure Totem",
+      "output": {
+        "itemIds": [
+          "(O)TreasureTotem"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)MysticSyrup",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Cookout Kit",
+      "output": {
+        "itemIds": [
+          "(O)926"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 15
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Tent Kit",
+      "output": {
+        "itemIds": [
+          "(O)TentKit"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)428",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Field Snack",
+      "output": {
+        "itemIds": [
+          "(O)403"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)309",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)310",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)311",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Statue Of Blessings",
+      "output": {
+        "itemIds": [
+          "(BC)StatueOfBlessings"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 999
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 999
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 999
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 333
+        }
+      ]
+    },
+    {
+      "name": "Statue Of The Dwarf King",
+      "output": {
+        "itemIds": [
+          "(BC)StatueOfTheDwarfKing"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)337",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Jack-O-Lantern",
+      "output": {
+        "itemIds": [
+          "(O)746"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)276",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)93",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wood Floor",
+      "output": {
+        "itemIds": [
+          "(O)328"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Straw Floor",
+      "output": {
+        "itemIds": [
+          "(O)401"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Weathered Floor",
+      "output": {
+        "itemIds": [
+          "(O)331"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Rustic Plank Floor",
+      "output": {
+        "itemIds": [
+          "(O)840"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crystal Floor",
+      "output": {
+        "itemIds": [
+          "(O)333"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)338",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Stone Floor",
+      "output": {
+        "itemIds": [
+          "(O)329"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Stone Walkway Floor",
+      "output": {
+        "itemIds": [
+          "(O)841"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Brick Floor",
+      "output": {
+        "itemIds": [
+          "(O)293"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)330",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Wood Path",
+      "output": {
+        "itemIds": [
+          "(O)405"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Gravel Path",
+      "output": {
+        "itemIds": [
+          "(O)407"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Cobblestone Path",
+      "output": {
+        "itemIds": [
+          "(O)411"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Stepping Stone Path",
+      "output": {
+        "itemIds": [
+          "(O)415"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crystal Path",
+      "output": {
+        "itemIds": [
+          "(O)409"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)338",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bait",
+      "output": {
+        "itemIds": [
+          "(O)685"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)684",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Deluxe Bait",
+      "output": {
+        "itemIds": [
+          "(O)DeluxeBait"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)685",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Wild Bait",
+      "output": {
+        "itemIds": [
+          "(O)774"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)771",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)684",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)766",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Challenge Bait",
+      "output": {
+        "itemIds": [
+          "(O)ChallengeBait"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)881",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)Moss",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Magnet",
+      "output": {
+        "itemIds": [
+          "(O)703"
+        ],
+        "amount": 3
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Spinner",
+      "output": {
+        "itemIds": [
+          "(O)686"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Dressed Spinner",
+      "output": {
+        "itemIds": [
+          "(O)687"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)428",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Trap Bobber",
+      "output": {
+        "itemIds": [
+          "(O)694"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Sonar Bobber",
+      "output": {
+        "itemIds": [
+          "(O)SonarBobber"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)338",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Cork Bobber",
+      "output": {
+        "itemIds": [
+          "(O)695"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)709",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)766",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Treasure Hunter",
+      "output": {
+        "itemIds": [
+          "(O)693"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)336",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Barbed Hook",
+      "output": {
+        "itemIds": [
+          "(O)691"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Oil Of Garlic",
+      "output": {
+        "itemIds": [
+          "(O)772"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)248",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)247",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Life Elixir",
+      "output": {
+        "itemIds": [
+          "(O)773"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)420",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)422",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)257",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)281",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Crab Pot",
+      "output": {
+        "itemIds": [
+          "(O)710"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 40
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Iridium Band",
+      "output": {
+        "itemIds": [
+          "(O)527"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)337",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)769",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "name": "Wedding Ring",
+      "output": {
+        "itemIds": [
+          "(O)801"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)337",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)74",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Ring of Yoba",
+      "output": {
+        "itemIds": [
+          "(O)524"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)336",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)72",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Sturdy Ring",
+      "output": {
+        "itemIds": [
+          "(O)525"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)684",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)766",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Warrior Ring",
+      "output": {
+        "itemIds": [
+          "(O)521"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 25
+        },
+        {
+          "itemId": "(O)84",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Tub o' Flowers",
+      "output": {
+        "itemIds": [
+          "(O)108"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 15
+        },
+        {
+          "itemId": "(O)427",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)429",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)453",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)455",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Wooden Brazier",
+      "output": {
+        "itemIds": [
+          "(O)143"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Wicked Statue",
+      "output": {
+        "itemIds": [
+          "(BC)83"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)382",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "name": "Stone Brazier",
+      "output": {
+        "itemIds": [
+          "(O)144"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Gold Brazier",
+      "output": {
+        "itemIds": [
+          "(O)145"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Campfire",
+      "output": {
+        "itemIds": [
+          "(O)146"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)390",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)388",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)771",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Stump Brazier",
+      "output": {
+        "itemIds": [
+          "(O)147"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Carved Brazier",
+      "output": {
+        "itemIds": [
+          "(O)148"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Skull Brazier",
+      "output": {
+        "itemIds": [
+          "(O)149"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)881",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Barrel Brazier",
+      "output": {
+        "itemIds": [
+          "(O)150"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)382",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Marble Brazier",
+      "output": {
+        "itemIds": [
+          "(O)151"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)567",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)62",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "name": "Wood Lamp-post",
+      "output": {
+        "itemIds": [
+          "(O)152"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)388",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Iron Lamp-post",
+      "output": {
+        "itemIds": [
+          "(O)153"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)335",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Fairy Dust",
+      "output": {
+        "itemIds": [
+          "(O)872"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)72",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)595",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Bug Steak",
+      "output": {
+        "itemIds": [
+          "(O)874"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)684",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Quality Bobber",
+      "output": {
+        "itemIds": [
+          "(O)877"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)334",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)92",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Monster Musk",
+      "output": {
+        "itemIds": [
+          "(O)879"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)767",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)766",
+          "quantity": 30
+        }
+      ]
+    },
+    {
+      "name": "Mini-Obelisk",
+      "output": {
+        "itemIds": [
+          "(O)238"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)768",
+          "quantity": 20
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "Farm Computer",
+      "output": {
+        "itemIds": [
+          "(O)239"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)122",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)787",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)338",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Ostrich Incubator",
+      "output": {
+        "itemIds": [
+          "(O)254"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)881",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)709",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)848",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Geode Crusher",
+      "output": {
+        "itemIds": [
+          "(O)182"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)336",
+          "quantity": 2
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)72",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Solar Panel",
+      "output": {
+        "itemIds": [
+          "(O)231"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)338",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Bone Mill",
+      "output": {
+        "itemIds": [
+          "(O)90"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)881",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)330",
+          "quantity": 3
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "name": "Thorns Ring",
+      "output": {
+        "itemIds": [
+          "(O)839"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)881",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)390",
+          "quantity": 50
+        },
+        {
+          "itemId": "(O)336",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Glowstone Ring",
+      "output": {
+        "itemIds": [
+          "(O)888"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)768",
+          "quantity": 5
+        },
+        {
+          "itemId": "(O)335",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "Heavy Tapper",
+      "output": {
+        "itemIds": [
+          "(O)264"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 30
+        },
+        {
+          "itemId": "(O)910",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "output": {
+        "itemIds": [
+          "(O)275"
+        ],
+        "amount": 1
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)709",
+          "quantity": 10
+        },
+        {
+          "itemId": "(O)337",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)910",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Magic Bait",
+      "output": {
+        "itemIds": [
+          "(O)908"
+        ],
+        "amount": 5
+      },
+      "isCooking": false,
+      "ingredients": [
+        {
+          "itemId": "(O)909",
+          "quantity": 1
+        },
+        {
+          "itemId": "(O)684",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+}

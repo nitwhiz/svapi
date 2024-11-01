@@ -2,15 +2,39 @@ package model
 
 import (
 	"fmt"
+	"github.com/hashicorp/go-memdb"
 	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/svapi/internal/data"
 )
 
+const TypeNpc = "npcs"
+
 type Npc struct {
-	ID             string    `gorm:"primaryKey" json:"-"`
-	BirthdaySeason string    `json:"birthdaySeason"`
-	BirthdayDay    int       `json:"birthdayDay"`
-	DisplayNames   []NpcName `gorm:"constraint:OnDelete:CASCADE" json:"-"`
-	DisplayNameIDs []string  `gorm:"-" json:"-"`
+	ID             string       `json:"-"`
+	InternalID     string       `json:"internalId"`
+	TextureName    string       `json:"-"`
+	BirthdaySeason string       `json:"birthdaySeason"`
+	BirthdayDay    int          `json:"birthdayDay"`
+	Names          []*NpcName   `json:"-"`
+	GiftTastes     []*GiftTaste `json:"-"`
+}
+
+func (n Npc) SearchIndexContents() []string {
+	return []string{n.InternalID, n.BirthdaySeason, fmt.Sprintf("%d", n.BirthdayDay)}
+}
+
+func (n Npc) TableName() string {
+	return TypeNpc
+}
+
+func (n Npc) Indexes() map[string]*memdb.IndexSchema {
+	return map[string]*memdb.IndexSchema{
+		"internalId": {
+			Name:    "internalId",
+			Unique:  true,
+			Indexer: &memdb.StringFieldIndex{Field: "InternalID"},
+		},
+	}
 }
 
 func (n Npc) GetID() string {
@@ -20,30 +44,28 @@ func (n Npc) GetID() string {
 func (n Npc) GetReferences() []jsonapi.Reference {
 	return []jsonapi.Reference{
 		{
-			Type: "npcNames",
-			Name: "names",
+			Type:         TypeNpcName,
+			Name:         "names",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToManyRelationship,
+		},
+		{
+			Type:         TypeGiftTaste,
+			Name:         "giftTastes",
+			IsNotLoaded:  true,
+			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (n Npc) GetReferencedIDs() []jsonapi.ReferenceID {
-	var result []jsonapi.ReferenceID
-
-	for _, npcName := range n.DisplayNames {
-		result = append(result, jsonapi.ReferenceID{
-			ID:   npcName.ID,
-			Type: "npcNames",
-			Name: "names",
-		})
-	}
-
-	return result
+	return nil
 }
 
 func (n Npc) GetCustomLinks(string) jsonapi.Links {
 	return jsonapi.Links{
 		"texture": {
-			Href: fmt.Sprintf("/v1/textures/portraits/%s.png", n.ID),
+			Href: fmt.Sprintf("%s/textures/portraits/%c/%s.png", data.Version, n.TextureName[0], n.TextureName),
 		},
 	}
 }
