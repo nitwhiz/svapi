@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="BENCHMARK SERVER" type="GoTestRunConfiguration" factoryName="Go Test">
+    <module name="svapi" />
+    <working_directory value="$PROJECT_DIR$/internal/server" />
+    <useCustomBuildTags value="true" />
+    <parameters value="-test.benchmem" />
+    <root_directory value="$PROJECT_DIR$" />
+    <kind value="PACKAGE" />
+    <package value="github.com/nitwhiz/svapi/internal/server" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <framework value="gobench" />
+    <pattern value="^\QBenchmarkServer\E$" />
+    <method v="2" />
+  </configuration>
+</component>

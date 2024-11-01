@@ -12,5 +12,5 @@ func (n ItemNameResource) FindAll(r api2go.Request) (api2go.Responder, error) {
 }
 
 func (n ItemNameResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
-	return First[model.ItemName](id)
+	return FirstById[model.ItemName](id)
 }

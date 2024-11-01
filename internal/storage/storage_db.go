@@ -9,6 +9,7 @@ import (
 
 var ModelByTable = map[string]Model{}
 var ResourceByModel = map[Model]any{}
+var FieldsByModelTableName = map[string]map[string]reflect.StructField{}
 
 var Database *memdb.MemDB
 
@@ -42,6 +43,20 @@ func newDbSchema() *memdb.DBSchema {
 			Name:    t,
 			Indexes: indexes,
 		}
+
+		modelType := reflect.TypeOf(m).Elem()
+
+		fs, ok := FieldsByModelTableName[t]
+
+		if !ok {
+			fs = map[string]reflect.StructField{}
+			FieldsByModelTableName[t] = fs
+		}
+
+		for i := 0; i < modelType.NumField(); i++ {
+			f := modelType.Field(i)
+			fs[strings.ToLower(f.Name)] = f
+		}
 	}
 
 	return schema
@@ -64,19 +79,7 @@ func Init() error {
 }
 
 func SearchAll(txn *memdb.Txn, search Model) ([]Model, error) {
-	it, err := txn.Get(search.TableName(), "search", strings.Join(search.SearchIndexContents(), "_"))
-
-	if err != nil {
-		return nil, err
-	}
-
-	var res []Model
-
-	for obj := it.Next(); obj != nil; obj = it.Next() {
-		res = append(res, obj.(Model))
-	}
-
-	return res, nil
+	return FindAll(txn, search.TableName(), "search", strings.Join(search.SearchIndexContents(), "_"))
 }
 
 func FindAll(txn *memdb.Txn, tableName string, index string, args ...interface{}) ([]Model, error) {
@@ -95,7 +98,7 @@ func FindAll(txn *memdb.Txn, tableName string, index string, args ...interface{}
 	return res, nil
 }
 
-func FindAllIn(txn *memdb.Txn, tableName string, index string, fieldName string, args ...interface{}) (any, error) {
+func FindAllInField(txn *memdb.Txn, tableName string, index string, fieldName string, args ...interface{}) (any, error) {
 	it, err := txn.Get(tableName, index, args...)
 
 	if err != nil {
@@ -103,37 +106,39 @@ func FindAllIn(txn *memdb.Txn, tableName string, index string, fieldName string,
 	}
 
 	var res []any
-	isSingleResult := false
-	findCount := 0
+
+	fields, ok := FieldsByModelTableName[tableName]
+
+	if !ok {
+		return nil, errors.New("model not found")
+	}
+
+	tableModelField, ok := fields[fieldName]
+
+	if !ok {
+		return nil, errors.New("field not found")
+	}
+
+	tableModelFieldIsSlice := tableModelField.Type.Kind() == reflect.Slice
 
 	for obj := it.Next(); obj != nil; obj = it.Next() {
-		findCount++
+		objField := reflect.ValueOf(obj).Elem().FieldByName(tableModelField.Name)
 
-		resVal := reflect.ValueOf(obj).Elem()
-		resType := resVal.Type()
-
-		var resField reflect.Value
-
-		for i := 0; i < resVal.NumField(); i++ {
-			if strings.ToLower(resType.Field(i).Name) == fieldName {
-				resField = resVal.Field(i)
-				break
+		if tableModelFieldIsSlice {
+			for i := 0; i < objField.Len(); i++ {
+				res = append(res, objField.Index(i).Interface())
 			}
-		}
-
-		if resField.IsValid() {
-			if resField.Kind() == reflect.Slice {
-				for i := 0; i < resField.Len(); i++ {
-					res = append(res, resField.Index(i).Interface())
-				}
-			} else {
-				isSingleResult = true
-				res = append(res, resField.Interface())
-			}
+		} else {
+			res = append(res, objField.Interface())
+			break
 		}
 	}
 
-	if findCount == 1 && isSingleResult && len(res) == 1 {
+	if !tableModelFieldIsSlice {
+		if len(res) == 0 {
+			return nil, nil
+		}
+
 		return res[0], nil
 	}
 

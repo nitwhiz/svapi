@@ -13,5 +13,5 @@ func (c RecipeIngredientGroupResource) FindAll(r api2go.Request) (api2go.Respond
 }
 
 func (c RecipeIngredientGroupResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
-	return First[model.RecipeIngredientGroup](id)
+	return FirstById[model.RecipeIngredientGroup](id)
 }

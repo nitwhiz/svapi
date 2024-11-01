@@ -10,7 +10,16 @@ import (
 	"strings"
 )
 
-func First[ModelType storage.Model](id string) (api2go.Responder, error) {
+type search struct {
+	model     storage.Model
+	table     string
+	id        string
+	fieldName string
+	offset    int
+	limit     int
+}
+
+func FirstById[ModelType storage.Model](id string) (api2go.Responder, error) {
 	txn := storage.Database.Txn(false)
 	defer txn.Commit()
 
@@ -25,9 +34,13 @@ func First[ModelType storage.Model](id string) (api2go.Responder, error) {
 	return &responder.Response{Res: res}, nil
 }
 
-func Search(tableName string, queryParams map[string][]string) (api2go.Responder, error) {
-	txn := storage.Database.Txn(false)
-	defer txn.Commit()
+func buildSearch(tableName string, queryParams map[string][]string) (*search, error) {
+	s := search{
+		model:     nil,
+		table:     "",
+		id:        "",
+		fieldName: "",
+	}
 
 	srcModel, ok := storage.ModelByTable[tableName]
 
@@ -35,15 +48,12 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 		return nil, errors.New("model not found")
 	}
 
-	search := reflect.New(reflect.TypeOf(srcModel).Elem()).Interface()
+	searchModel := reflect.New(reflect.TypeOf(srcModel).Elem()).Interface()
 
-	searchValue := reflect.ValueOf(search).Elem()
+	searchValue := reflect.ValueOf(searchModel).Elem()
 	searchType := searchValue.Type()
 
-	searchTableName := srcModel.TableName()
-
-	var searchFieldName string
-	var searchIdFilter string
+	s.table = srcModel.TableName()
 
 	isFilterSearch := false
 
@@ -63,14 +73,13 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 				continue
 			}
 
-			searchTableName = typeModel.TableName()
-
-			searchIdFilter = values[0]
+			s.table = typeModel.TableName()
+			s.id = values[0]
 
 			nameParams, ok := queryParams[typeName+"Name"]
 
 			if ok {
-				searchFieldName = nameParams[0]
+				s.fieldName = nameParams[0]
 			}
 
 			break
@@ -144,16 +153,32 @@ func Search(tableName string, queryParams map[string][]string) (api2go.Responder
 		}
 	}
 
-	var res interface{}
-	var err error
-
 	if isFilterSearch {
-		res, err = storage.SearchAll(txn, (search).(storage.Model))
+		s.model = searchModel.(storage.Model)
+	}
+
+	return &s, nil
+}
+
+func Search(tableName string, queryParams map[string][]string) (response api2go.Responder, err error) {
+	s, err := buildSearch(tableName, queryParams)
+
+	if err != nil {
+		return nil, err
+	}
+
+	txn := storage.Database.Txn(false)
+	defer txn.Commit()
+
+	var res interface{}
+
+	if s.model != nil {
+		res, err = storage.SearchAll(txn, s.model)
 	} else {
-		if searchIdFilter == "" {
-			res, err = storage.FindAll(txn, searchTableName, "id")
+		if s.id == "" {
+			res, err = storage.FindAll(txn, s.table, "id")
 		} else {
-			res, err = storage.FindAllIn(txn, searchTableName, "id", strings.ToLower(searchFieldName), searchIdFilter)
+			res, err = storage.FindAllInField(txn, s.table, "id", strings.ToLower(s.fieldName), s.id)
 		}
 	}
 

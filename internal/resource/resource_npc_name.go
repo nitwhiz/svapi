@@ -12,5 +12,5 @@ func (n NpcNameResource) FindAll(r api2go.Request) (api2go.Responder, error) {
 }
 
 func (n NpcNameResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
-	return First[model.NpcName](id)
+	return FirstById[model.NpcName](id)
 }

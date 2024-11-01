@@ -12,5 +12,5 @@ func (c CategoryNameResource) FindAll(r api2go.Request) (api2go.Responder, error
 }
 
 func (c CategoryNameResource) FindOne(id string, _ api2go.Request) (api2go.Responder, error) {
-	return First[model.CategoryName](id)
+	return FirstById[model.CategoryName](id)
 }

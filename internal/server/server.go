@@ -29,8 +29,14 @@ func RegisterModels() {
 	storage.RegisterModelAndResource(&model.RecipeIngredientGroup{}, resource.RecipeIngredientGroupResource{})
 }
 
-func InitRouter() error {
-	router = gin.Default()
+func InitRouter(enableLogging bool) error {
+	router = gin.New()
+
+	if enableLogging {
+		router.Use(gin.Logger())
+	}
+
+	router.Use(gin.Recovery())
 	router.Use(cors.Default())
 
 	api := api2go.NewAPIWithRouting(
@@ -54,10 +60,10 @@ func InitRouter() error {
 	return nil
 }
 
-func Init() error {
+func Init(enableLogging bool) error {
 	RegisterModels()
 
-	if err := InitRouter(); err != nil {
+	if err := InitRouter(enableLogging); err != nil {
 		return err
 	}
 
@@ -73,7 +79,7 @@ func Init() error {
 }
 
 func Start() error {
-	if err := Init(); err != nil {
+	if err := Init(true); err != nil {
 		return err
 	}
 

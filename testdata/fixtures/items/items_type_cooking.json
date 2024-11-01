@@ -1,0 +1,3919 @@
+{
+  "data": [
+    {
+      "type": "items",
+      "id": "09c288cd-bee8-53ec-9220-1f7dcb2c29b2",
+      "attributes": {
+        "internalId": "(O)223",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/category",
+            "self": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/giftTastes",
+            "self": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/ingredientGroups",
+            "self": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/names",
+            "self": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/sourceRecipes",
+            "self": "/v2/items/09c288cd-bee8-53ec-9220-1f7dcb2c29b2/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/3/3c8be0869ec71e7dce3cb69da73144cd3a5cdf47f87024cfbe8507fd34ba1ae0.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "0b4807a5-39e1-561f-90f7-a408c6d3d0ae",
+      "attributes": {
+        "internalId": "(O)730",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/category",
+            "self": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/giftTastes",
+            "self": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/ingredientGroups",
+            "self": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/names",
+            "self": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/sourceRecipes",
+            "self": "/v2/items/0b4807a5-39e1-561f-90f7-a408c6d3d0ae/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6e64612beb4c0ab5b23bb209c5407efe0480dd575a7c7c6e01da42777138322f.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "0efdfedd-739d-5e19-9a44-379d67b5bcbf",
+      "attributes": {
+        "internalId": "(O)240",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/category",
+            "self": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/giftTastes",
+            "self": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/ingredientGroups",
+            "self": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/names",
+            "self": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/sourceRecipes",
+            "self": "/v2/items/0efdfedd-739d-5e19-9a44-379d67b5bcbf/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/7/75f4b6e2b111ee2c285f343773358ff78b44b245fc6e7baff6fba9630ab38c1a.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1063eb71-9c16-5685-9c42-7cc769d29bbd",
+      "attributes": {
+        "internalId": "(O)904",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/category",
+            "self": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/giftTastes",
+            "self": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/ingredientGroups",
+            "self": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/names",
+            "self": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/sourceRecipes",
+            "self": "/v2/items/1063eb71-9c16-5685-9c42-7cc769d29bbd/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/9a1f85de478c4c78bf217f5a0c81f7e55a87cdaa3b8f88805e81e36556314805.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "13f6ab2c-13aa-504c-a7c7-5915216fcf55",
+      "attributes": {
+        "internalId": "(O)211",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/category",
+            "self": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/giftTastes",
+            "self": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/ingredientGroups",
+            "self": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/names",
+            "self": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/sourceRecipes",
+            "self": "/v2/items/13f6ab2c-13aa-504c-a7c7-5915216fcf55/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/4/40452b7457c1bc1e3362de88aa5be27321ce3925605b1edbc3728ce7e5dcc460.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1af5edf4-366d-5e6c-b9b8-2af51998259a",
+      "attributes": {
+        "internalId": "(O)608",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/category",
+            "self": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/giftTastes",
+            "self": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/ingredientGroups",
+            "self": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/names",
+            "self": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/sourceRecipes",
+            "self": "/v2/items/1af5edf4-366d-5e6c-b9b8-2af51998259a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/c2480b7d6cd2eea312b07642e6a460803a6cf5117b3665d98e2d2327d44f10f2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f",
+      "attributes": {
+        "internalId": "(O)609",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/category",
+            "self": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/giftTastes",
+            "self": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/ingredientGroups",
+            "self": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/names",
+            "self": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/sourceRecipes",
+            "self": "/v2/items/1bbec1fd-8b5f-5cb7-a1a3-7209aac16e7f/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/4/41506f42335d91388239f185523dd25032c0a723c5dc9f4878cd428772ae1437.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1cde0e4d-c601-5530-95a7-a3634aed1d92",
+      "attributes": {
+        "internalId": "(O)232",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/category",
+            "self": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/giftTastes",
+            "self": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/ingredientGroups",
+            "self": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/names",
+            "self": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/sourceRecipes",
+            "self": "/v2/items/1cde0e4d-c601-5530-95a7-a3634aed1d92/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/5/587e02ff0e17d423d231ff2fb8e1137639c0972c1fec9e02ebb09d03addbca93.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1df97c92-745d-50d9-a60f-3215b0610bda",
+      "attributes": {
+        "internalId": "(O)194",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/category",
+            "self": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/giftTastes",
+            "self": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/ingredientGroups",
+            "self": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/names",
+            "self": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/sourceRecipes",
+            "self": "/v2/items/1df97c92-745d-50d9-a60f-3215b0610bda/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/0/00ac191ebfe024f7a326c3e4a01effc810ae2aedea9baac46ee3ef86af5e6c19.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1e9343d2-7922-50eb-b977-3bc9fe878bc3",
+      "attributes": {
+        "internalId": "(O)873",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/category",
+            "self": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/giftTastes",
+            "self": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/ingredientGroups",
+            "self": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/names",
+            "self": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/sourceRecipes",
+            "self": "/v2/items/1e9343d2-7922-50eb-b977-3bc9fe878bc3/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/dcc130d66a21cd6527b853a3e63cf53f5cfb60207375f2524a3db37258f9b122.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1fbf7204-c17e-5260-8194-e76316c1d99a",
+      "attributes": {
+        "internalId": "(O)212",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/category",
+            "self": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/giftTastes",
+            "self": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/ingredientGroups",
+            "self": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/names",
+            "self": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/sourceRecipes",
+            "self": "/v2/items/1fbf7204-c17e-5260-8194-e76316c1d99a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/9e251448c3f7a46cad98a630dd75d221ca39b0dbd18e7e840867b66e9eb4da50.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "2092172a-8048-5655-a132-8e9d829164d3",
+      "attributes": {
+        "internalId": "(O)243",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/category",
+            "self": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/giftTastes",
+            "self": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/ingredientGroups",
+            "self": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/names",
+            "self": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/sourceRecipes",
+            "self": "/v2/items/2092172a-8048-5655-a132-8e9d829164d3/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6c99ddf2d7e9ab31ed2103605020855f1818c020bdb4fdfbd08f8a80c62a9865.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "21c0fb78-644b-564b-9de8-2ef11adb8882",
+      "attributes": {
+        "internalId": "(O)604",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/category",
+            "self": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/giftTastes",
+            "self": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/ingredientGroups",
+            "self": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/names",
+            "self": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/sourceRecipes",
+            "self": "/v2/items/21c0fb78-644b-564b-9de8-2ef11adb8882/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/b/b5d0bbda1f10370ba3421eb3dbb1ab932840d3e0787dbe0e8b08d5d89b9780c8.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "220691a5-d567-5247-a158-6932f6c46005",
+      "attributes": {
+        "internalId": "(O)198",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/category",
+            "self": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/giftTastes",
+            "self": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/ingredientGroups",
+            "self": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/names",
+            "self": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/sourceRecipes",
+            "self": "/v2/items/220691a5-d567-5247-a158-6932f6c46005/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/e/e08f5bed5b71afe5069eb0443a6febbb0d16c0bbe0979ddd0eba8b308532e794.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "24841e87-247e-5ce7-8394-7c6a128922ce",
+      "attributes": {
+        "internalId": "(O)235",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/category",
+            "self": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/giftTastes",
+            "self": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/ingredientGroups",
+            "self": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/names",
+            "self": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/sourceRecipes",
+            "self": "/v2/items/24841e87-247e-5ce7-8394-7c6a128922ce/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/ddd9c0fe7c4b8fce92049e4214d670e8c9a398feee6662376da2d1e57416c70c.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5",
+      "attributes": {
+        "internalId": "(O)206",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/category",
+            "self": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/giftTastes",
+            "self": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/ingredientGroups",
+            "self": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/names",
+            "self": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/sourceRecipes",
+            "self": "/v2/items/2dcb0d8f-4e29-5e3e-87f3-33a9e59b7ab5/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/fd699abc38981779ca111e7cae8450f3b2e3c7116189b6f7ad795b4c54fc85d2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "30ad4fc4-055a-565b-9e38-60e021afaea2",
+      "attributes": {
+        "internalId": "(O)651",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/category",
+            "self": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/giftTastes",
+            "self": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/ingredientGroups",
+            "self": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/names",
+            "self": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/sourceRecipes",
+            "self": "/v2/items/30ad4fc4-055a-565b-9e38-60e021afaea2/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/2/28dc0c486ae5f3d25272378310a1cd76353314010eb7f2aa9b02a211397a9ae2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "32bdf007-aab0-572e-bd36-c58a129fc064",
+      "attributes": {
+        "internalId": "(O)648",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/category",
+            "self": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/giftTastes",
+            "self": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/ingredientGroups",
+            "self": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/names",
+            "self": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/sourceRecipes",
+            "self": "/v2/items/32bdf007-aab0-572e-bd36-c58a129fc064/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/82b8e8b03424b6ca78d170fdbfefbd9963130cc8df407b6ee16ff1a40e8b833d.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "336f2d18-83f1-5f32-bd9a-c867b47c7121",
+      "attributes": {
+        "internalId": "(O)229",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/category",
+            "self": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/giftTastes",
+            "self": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/ingredientGroups",
+            "self": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/names",
+            "self": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/sourceRecipes",
+            "self": "/v2/items/336f2d18-83f1-5f32-bd9a-c867b47c7121/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/ce1eddc6a3877e0287b71f2f7b6af491ebd8ddd484a401a50c0e12cb58be4fb7.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "348b9517-b6e0-5fff-8632-f5a498fe2342",
+      "attributes": {
+        "internalId": "(O)907",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/category",
+            "self": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/giftTastes",
+            "self": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/ingredientGroups",
+            "self": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/names",
+            "self": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/sourceRecipes",
+            "self": "/v2/items/348b9517-b6e0-5fff-8632-f5a498fe2342/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/c2401d631b332b9e2369b2ebc74248dee0602b00ad825f56e76fde3d831fd3b7.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "3620aef8-0dc2-5113-aa83-be76795653b8",
+      "attributes": {
+        "internalId": "(O)457",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/category",
+            "self": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/giftTastes",
+            "self": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/ingredientGroups",
+            "self": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/names",
+            "self": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/sourceRecipes",
+            "self": "/v2/items/3620aef8-0dc2-5113-aa83-be76795653b8/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/b/be5f0bcec4953f5dcb165d64f9db393f7adab6373e7e4b5dcb092d822b001e1b.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "38f959c0-a8da-5008-bd65-00b94d8bd646",
+      "attributes": {
+        "internalId": "(O)226",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/category",
+            "self": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/giftTastes",
+            "self": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/ingredientGroups",
+            "self": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/names",
+            "self": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/sourceRecipes",
+            "self": "/v2/items/38f959c0-a8da-5008-bd65-00b94d8bd646/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6adce8dd6978766cbb905414ee8a75fe207565bdf21da106f34bb53899e5aac6.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "3ded2a3e-43aa-5dc4-bde7-a09466b21b7a",
+      "attributes": {
+        "internalId": "(O)605",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/category",
+            "self": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/giftTastes",
+            "self": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/ingredientGroups",
+            "self": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/names",
+            "self": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/sourceRecipes",
+            "self": "/v2/items/3ded2a3e-43aa-5dc4-bde7-a09466b21b7a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/1/134d95615e6a46c63a46dc7376bef3338cd0d7ebdfd893c3a99525a73e42e800.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "3efe1a81-13e8-5835-8088-50fe5161f83c",
+      "attributes": {
+        "internalId": "(O)199",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/category",
+            "self": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/giftTastes",
+            "self": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/ingredientGroups",
+            "self": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/names",
+            "self": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/sourceRecipes",
+            "self": "/v2/items/3efe1a81-13e8-5835-8088-50fe5161f83c/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/1/1e1fe10595c92fe889b680c6df7c6630b5bd728621adfddd16cc2f9fd9744ffa.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "41d8117b-bf9c-53a5-889d-16290f02b074",
+      "attributes": {
+        "internalId": "(O)649",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/category",
+            "self": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/giftTastes",
+            "self": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/ingredientGroups",
+            "self": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/names",
+            "self": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/sourceRecipes",
+            "self": "/v2/items/41d8117b-bf9c-53a5-889d-16290f02b074/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/3/340cb6c3895a02ea3a9c93e1ab0d88fe6c2625d8b1133348273728f9aae82a07.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "42071dfc-a7eb-5015-ac28-4e253d957bd2",
+      "attributes": {
+        "internalId": "(O)205",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/category",
+            "self": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/giftTastes",
+            "self": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/ingredientGroups",
+            "self": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/names",
+            "self": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/sourceRecipes",
+            "self": "/v2/items/42071dfc-a7eb-5015-ac28-4e253d957bd2/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/e/ed5c674d51c06605abbcf438c788c9318419e9b08e4ce5d1922c9f120bf62f23.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "462e755c-b6f5-55b7-9760-0f4956e28874",
+      "attributes": {
+        "internalId": "(O)279",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/category",
+            "self": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/giftTastes",
+            "self": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/ingredientGroups",
+            "self": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/names",
+            "self": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/sourceRecipes",
+            "self": "/v2/items/462e755c-b6f5-55b7-9760-0f4956e28874/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/9a3d730644f8503912eca39cc64ddbd90842c19c5fe7622285a33a496b4ddfc8.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "49532c2a-3b9c-5677-bd9f-33ae73e09559",
+      "attributes": {
+        "internalId": "(O)MossSoup",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/category",
+            "self": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/giftTastes",
+            "self": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/ingredientGroups",
+            "self": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/names",
+            "self": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/sourceRecipes",
+            "self": "/v2/items/49532c2a-3b9c-5677-bd9f-33ae73e09559/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/db55f91d91b5da6abfa4df01db60331eccf9f249b09d61a0bcf70d291ba9ed5d.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447",
+      "attributes": {
+        "internalId": "(O)606",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/category",
+            "self": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/giftTastes",
+            "self": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/ingredientGroups",
+            "self": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/names",
+            "self": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/sourceRecipes",
+            "self": "/v2/items/4a1b9698-b2d9-54e6-b7cb-60cc2cc5a447/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/ca7a1097294f14f8b9bae34356bab4572b2e3a9bd46d12bd335b4e5e082ca564.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "4d91b519-52ea-5bd0-ba04-39204b5d4026",
+      "attributes": {
+        "internalId": "(O)227",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/category",
+            "self": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/giftTastes",
+            "self": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/ingredientGroups",
+            "self": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/names",
+            "self": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/sourceRecipes",
+            "self": "/v2/items/4d91b519-52ea-5bd0-ba04-39204b5d4026/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a486489849359341e1be156f1cd2c3b98c166d139cd00ff31a1a57e3f8c8de1c.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "4ec56887-4339-55cb-bd10-c8c3e0e26567",
+      "attributes": {
+        "internalId": "(O)244",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/category",
+            "self": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/giftTastes",
+            "self": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/ingredientGroups",
+            "self": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/names",
+            "self": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/sourceRecipes",
+            "self": "/v2/items/4ec56887-4339-55cb-bd10-c8c3e0e26567/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6a9409b431249db0d39697d8c9ab4731fae09fe6a7892a68a8d21c8ee6f15df5.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "4f2f1a87-2407-50ec-9c46-38a605099201",
+      "attributes": {
+        "internalId": "(O)195",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/category",
+            "self": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/giftTastes",
+            "self": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/ingredientGroups",
+            "self": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/names",
+            "self": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/sourceRecipes",
+            "self": "/v2/items/4f2f1a87-2407-50ec-9c46-38a605099201/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/64414f710e56c098283d00e869896be43a3474159d080cee576dbfa3bd90bbf4.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "5149ca6d-245c-5736-8000-7eb0d6e98bc1",
+      "attributes": {
+        "internalId": "(O)727",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/category",
+            "self": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/giftTastes",
+            "self": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/ingredientGroups",
+            "self": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/names",
+            "self": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/sourceRecipes",
+            "self": "/v2/items/5149ca6d-245c-5736-8000-7eb0d6e98bc1/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/c342655f36d4e7d6f19671ad718876baa88a4b4330d179ce7a1f9f027cbf7d54.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "62e581d8-bd9d-5639-9db7-38857c4fffb8",
+      "attributes": {
+        "internalId": "(O)222",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/category",
+            "self": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/giftTastes",
+            "self": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/ingredientGroups",
+            "self": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/names",
+            "self": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/sourceRecipes",
+            "self": "/v2/items/62e581d8-bd9d-5639-9db7-38857c4fffb8/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/ad09992e13bff775ed422409db988ec48a076f56c640f1f79fc17f37b135a283.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "631c5c2a-9902-5463-9b70-cf91b4bad678",
+      "attributes": {
+        "internalId": "(O)208",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/category",
+            "self": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/giftTastes",
+            "self": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/ingredientGroups",
+            "self": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/names",
+            "self": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/sourceRecipes",
+            "self": "/v2/items/631c5c2a-9902-5463-9b70-cf91b4bad678/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a951f00977a52858d1fd19ef69ad80fac34564c34e7ed1d92d8095e85b103022.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "68607e3d-d565-5156-a83a-2c5011855df2",
+      "attributes": {
+        "internalId": "(O)236",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/category",
+            "self": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/giftTastes",
+            "self": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/ingredientGroups",
+            "self": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/names",
+            "self": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/sourceRecipes",
+            "self": "/v2/items/68607e3d-d565-5156-a83a-2c5011855df2/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/c5fdf12f512db09a42c6242e83b146d0ddcdbe0e8d8b9e0accff3045e10c9e8a.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "687fcc9e-b0f2-52d0-8e63-e834ad8f884e",
+      "attributes": {
+        "internalId": "(O)772",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/category",
+            "self": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/giftTastes",
+            "self": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/ingredientGroups",
+            "self": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/names",
+            "self": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/sourceRecipes",
+            "self": "/v2/items/687fcc9e-b0f2-52d0-8e63-e834ad8f884e/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/fbbad81be395ed90c1fece28aa49229d7a8f8174b20e5425604f01817eed115e.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "69590a77-0f46-5575-8963-eaa615918a4a",
+      "attributes": {
+        "internalId": "(O)906",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/category",
+            "self": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/giftTastes",
+            "self": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/ingredientGroups",
+            "self": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/names",
+            "self": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/sourceRecipes",
+            "self": "/v2/items/69590a77-0f46-5575-8963-eaa615918a4a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6f8ed1515a68d114ed2eafe3fec18fb32bbdb72d94e3d4a6d5592e05ea4db1f5.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "6a258215-9c35-5d44-8527-37291df9d30a",
+      "attributes": {
+        "internalId": "(O)219",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/category",
+            "self": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/giftTastes",
+            "self": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/ingredientGroups",
+            "self": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/names",
+            "self": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/sourceRecipes",
+            "self": "/v2/items/6a258215-9c35-5d44-8527-37291df9d30a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/ae2d216c22410adcc25d13930841a389b28a62fdef1ea0ba57b08e4f864852fc.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "6f0f1987-0161-5227-904c-db9e815b4012",
+      "attributes": {
+        "internalId": "(O)610",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/category",
+            "self": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/giftTastes",
+            "self": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/ingredientGroups",
+            "self": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/names",
+            "self": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/sourceRecipes",
+            "self": "/v2/items/6f0f1987-0161-5227-904c-db9e815b4012/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a7772a0c1a0ad04695fa09d9eb492c8fe9bd67fd7ff345ac938b7c9e0b95d1e9.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "6f486b8a-67b0-52fe-9736-2af47a3886ae",
+      "attributes": {
+        "internalId": "(O)773",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/category",
+            "self": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/giftTastes",
+            "self": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/ingredientGroups",
+            "self": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/names",
+            "self": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/sourceRecipes",
+            "self": "/v2/items/6f486b8a-67b0-52fe-9736-2af47a3886ae/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/d37b0f6e517ef4f66d8367d73796f0a545d64ddded7bc4819afaa446276cee3e.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "6f67a662-f046-5111-82b5-65620b548058",
+      "attributes": {
+        "internalId": "(O)905",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/category",
+            "self": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/giftTastes",
+            "self": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/ingredientGroups",
+            "self": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/names",
+            "self": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/sourceRecipes",
+            "self": "/v2/items/6f67a662-f046-5111-82b5-65620b548058/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a45f741359ad2cbc454e17b76df765b4126c7ccb47d3bde29d738d76f1f6b106.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "75636994-7dcd-51f8-93af-c2127654499d",
+      "attributes": {
+        "internalId": "(O)210",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/category",
+            "self": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/giftTastes",
+            "self": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/ingredientGroups",
+            "self": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/names",
+            "self": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/sourceRecipes",
+            "self": "/v2/items/75636994-7dcd-51f8-93af-c2127654499d/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/c176284372f032d264e14e778b55472cb6a90c6ba73de3f7dc9488fc789cb8f4.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "7e8a476f-6db8-5e93-a5d6-55c0b31c5f53",
+      "attributes": {
+        "internalId": "(O)456",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/category",
+            "self": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/giftTastes",
+            "self": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/ingredientGroups",
+            "self": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/names",
+            "self": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/sourceRecipes",
+            "self": "/v2/items/7e8a476f-6db8-5e93-a5d6-55c0b31c5f53/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/7/78c015e6ba67539455d490e2ba3fd32a7fa41124f3b9982494cf2c4abb9128be.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "8076152c-7ad7-5cd4-8b7b-381d6d209cb5",
+      "attributes": {
+        "internalId": "(O)200",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/category",
+            "self": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/giftTastes",
+            "self": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/ingredientGroups",
+            "self": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/names",
+            "self": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/sourceRecipes",
+            "self": "/v2/items/8076152c-7ad7-5cd4-8b7b-381d6d209cb5/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/8766ecbd2529b84418b1d82728c79f92e509a6dfcb8c1c224205bc24f645656b.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "8c9132b3-863b-51d6-b723-df646c8845d7",
+      "attributes": {
+        "internalId": "(O)209",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/category",
+            "self": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/giftTastes",
+            "self": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/ingredientGroups",
+            "self": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/names",
+            "self": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/sourceRecipes",
+            "self": "/v2/items/8c9132b3-863b-51d6-b723-df646c8845d7/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/3/361729d1c31273386e60eb4f1b960da6926a6dca478a04bf739dc70bb450822a.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "8d9f033a-9653-5c06-a2be-28ac918f68e5",
+      "attributes": {
+        "internalId": "(O)239",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/category",
+            "self": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/giftTastes",
+            "self": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/ingredientGroups",
+            "self": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/names",
+            "self": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/sourceRecipes",
+            "self": "/v2/items/8d9f033a-9653-5c06-a2be-28ac918f68e5/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/f482c0159947d99b2a6ab177c1d9e24758f5db8615ee37cc6810c2dcf2697019.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "8df1c775-8965-5fa1-8a12-b50ba9e50d6f",
+      "attributes": {
+        "internalId": "(O)225",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/category",
+            "self": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/giftTastes",
+            "self": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/ingredientGroups",
+            "self": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/names",
+            "self": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/sourceRecipes",
+            "self": "/v2/items/8df1c775-8965-5fa1-8a12-b50ba9e50d6f/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/af1b03837939bae33ab660ed6e524d032ade10281d36bcd5d80b25bdc3fd592f.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "8fce4887-e33f-5283-b4a9-f198e4f7eae4",
+      "attributes": {
+        "internalId": "(O)242",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/category",
+            "self": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/giftTastes",
+            "self": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/ingredientGroups",
+            "self": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/names",
+            "self": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/sourceRecipes",
+            "self": "/v2/items/8fce4887-e33f-5283-b4a9-f198e4f7eae4/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/f606c42efe4533ff2a626c6a63a8a754a68e648e657827ab233034912cf93ae6.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "9140385f-9da3-5105-ad4a-9327dea8682e",
+      "attributes": {
+        "internalId": "(O)732",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/category",
+            "self": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/giftTastes",
+            "self": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/ingredientGroups",
+            "self": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/names",
+            "self": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/sourceRecipes",
+            "self": "/v2/items/9140385f-9da3-5105-ad4a-9327dea8682e/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/7/7b8e93bc9c48756b9129cbef05ecc93d67fdbf53f3c3f6a2a560ec44b1a0b575.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "955ea7e6-608f-577c-b02d-ba9fd8888b6f",
+      "attributes": {
+        "internalId": "(O)234",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/category",
+            "self": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/giftTastes",
+            "self": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/ingredientGroups",
+            "self": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/names",
+            "self": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/sourceRecipes",
+            "self": "/v2/items/955ea7e6-608f-577c-b02d-ba9fd8888b6f/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/0/0b5834c731b838689c0805cba0b6926c6af2b700fa29be75255faa29c081cc4c.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "970b6ac8-a9a3-5024-b14b-1743b8c94eb6",
+      "attributes": {
+        "internalId": "(O)207",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/category",
+            "self": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/giftTastes",
+            "self": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/ingredientGroups",
+            "self": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/names",
+            "self": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/sourceRecipes",
+            "self": "/v2/items/970b6ac8-a9a3-5024-b14b-1743b8c94eb6/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/1/1fc1efbda65f7fbc03891d8706a08391ff44c1e0ce5d2a3c5f0eead7f249635a.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "9c60910e-ee7a-5e9c-8110-a0ad7cdb193e",
+      "attributes": {
+        "internalId": "(O)202",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/category",
+            "self": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/giftTastes",
+            "self": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/ingredientGroups",
+            "self": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/names",
+            "self": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/sourceRecipes",
+            "self": "/v2/items/9c60910e-ee7a-5e9c-8110-a0ad7cdb193e/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/916b79d6c356bcfdcdf9f4f16323e0a3eb9e5f166f9423309cce0530913f2671.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "9cf0538a-13f3-5301-bac4-3005f3e0850d",
+      "attributes": {
+        "internalId": "(O)224",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/category",
+            "self": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/giftTastes",
+            "self": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/ingredientGroups",
+            "self": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/names",
+            "self": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/sourceRecipes",
+            "self": "/v2/items/9cf0538a-13f3-5301-bac4-3005f3e0850d/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/5/51e41bd571a1d409a22e51ff4611067538dd0a154fa7bd2dd20a6a43f41b3f63.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "a8d741e1-79d9-53cc-9d79-9c19f0260b9e",
+      "attributes": {
+        "internalId": "(O)230",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/category",
+            "self": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/giftTastes",
+            "self": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/ingredientGroups",
+            "self": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/names",
+            "self": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/sourceRecipes",
+            "self": "/v2/items/a8d741e1-79d9-53cc-9d79-9c19f0260b9e/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/f5597b00d58dfb4258e47241b81c89f979a67ce943409155568eb5bf0cc25b1a.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "aa717add-80ad-5480-94fc-d100f73e93ae",
+      "attributes": {
+        "internalId": "(O)216",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/category",
+            "self": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/giftTastes",
+            "self": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/ingredientGroups",
+            "self": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/names",
+            "self": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/sourceRecipes",
+            "self": "/v2/items/aa717add-80ad-5480-94fc-d100f73e93ae/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/b/bfb6832ae9dff0213784a32374acf7d564864b605454a2a6f4f2e708955dcc78.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "abf7bc3d-e08a-5fbd-945f-eb9376870fee",
+      "attributes": {
+        "internalId": "(O)607",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/category",
+            "self": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/giftTastes",
+            "self": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/ingredientGroups",
+            "self": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/names",
+            "self": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/sourceRecipes",
+            "self": "/v2/items/abf7bc3d-e08a-5fbd-945f-eb9376870fee/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/7/7f73b7ac6588e7d1277d9efb61ed03b83e707eb53368ef6346ab2f0d888c8df6.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "ad9d7502-8ca3-54f6-8e07-168f7f010935",
+      "attributes": {
+        "internalId": "(O)265",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/category",
+            "self": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/giftTastes",
+            "self": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/ingredientGroups",
+            "self": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/names",
+            "self": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/sourceRecipes",
+            "self": "/v2/items/ad9d7502-8ca3-54f6-8e07-168f7f010935/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/d987f19653b7c0aa1c7c3d6e4a9f37513aa3c9889a0be26573c89df96bff12d5.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "b062d14d-5765-538d-b3ed-8f1eb5e9da80",
+      "attributes": {
+        "internalId": "(O)241",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/category",
+            "self": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/giftTastes",
+            "self": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/ingredientGroups",
+            "self": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/names",
+            "self": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/sourceRecipes",
+            "self": "/v2/items/b062d14d-5765-538d-b3ed-8f1eb5e9da80/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/8a76dbeca991ba366186c82db7b710bc63238a16dab15aa0a3155a9e36c631e6.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "b144d3d1-cf4c-5e17-b2d5-4777fa9c6215",
+      "attributes": {
+        "internalId": "(O)220",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/category",
+            "self": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/giftTastes",
+            "self": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/ingredientGroups",
+            "self": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/names",
+            "self": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/sourceRecipes",
+            "self": "/v2/items/b144d3d1-cf4c-5e17-b2d5-4777fa9c6215/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/4/4df794f2afb9900a3a3fc0bd83a5592f41ae1dc06f5b2b6d425633f4b8384417.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "b92d1226-f38c-5080-a781-c1a44ba149d6",
+      "attributes": {
+        "internalId": "(O)196",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/category",
+            "self": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/giftTastes",
+            "self": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/ingredientGroups",
+            "self": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/names",
+            "self": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/sourceRecipes",
+            "self": "/v2/items/b92d1226-f38c-5080-a781-c1a44ba149d6/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/4/47b5698a41190b1f2c95438bbee851b2d3821e265112dd890156ddc91f857a14.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "b9e8520e-3862-5d70-af79-9c8a3a141403",
+      "attributes": {
+        "internalId": "(O)253",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/category",
+            "self": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/giftTastes",
+            "self": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/ingredientGroups",
+            "self": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/names",
+            "self": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/sourceRecipes",
+            "self": "/v2/items/b9e8520e-3862-5d70-af79-9c8a3a141403/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/5/577d8c538930875a1fd56ff7cbe2900a7ad6f1faef967e1a66a0806c9bde4aff.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "be1eb2df-1046-57b8-8d6a-06ce3b63f049",
+      "attributes": {
+        "internalId": "(O)733",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/category",
+            "self": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/giftTastes",
+            "self": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/ingredientGroups",
+            "self": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/names",
+            "self": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/sourceRecipes",
+            "self": "/v2/items/be1eb2df-1046-57b8-8d6a-06ce3b63f049/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/0/0380009cc2cca395ee6ab9042956d1c1818fc324aa61158484938eae56e12a91.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "be2b1cdc-5761-595d-b381-f28381b63d93",
+      "attributes": {
+        "internalId": "(O)214",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/category",
+            "self": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/giftTastes",
+            "self": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/ingredientGroups",
+            "self": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/names",
+            "self": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/sourceRecipes",
+            "self": "/v2/items/be2b1cdc-5761-595d-b381-f28381b63d93/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/7/72cf46053a969882b02b85dda94c95e0eff4841f27f108320ce0da43b07fcae2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "bf993ba0-c5ea-5f43-8db8-4668efcf7576",
+      "attributes": {
+        "internalId": "(O)201",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/category",
+            "self": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/giftTastes",
+            "self": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/ingredientGroups",
+            "self": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/names",
+            "self": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/sourceRecipes",
+            "self": "/v2/items/bf993ba0-c5ea-5f43-8db8-4668efcf7576/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/8dd4bf897ebcb7864dfe3ab64e98c8370c9aff96fb2f222cf2e9933d8fc95337.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "c0c8084f-dbf1-5e22-83fd-1c9820ac8e41",
+      "attributes": {
+        "internalId": "(O)238",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/category",
+            "self": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/giftTastes",
+            "self": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/ingredientGroups",
+            "self": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/names",
+            "self": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/sourceRecipes",
+            "self": "/v2/items/c0c8084f-dbf1-5e22-83fd-1c9820ac8e41/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/87f7d482255179b12e10541db9e048c58030d7edad9dca2dccf490a6dd887641.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "c151ee13-ac33-5ed3-8ee0-41dc8d27aa83",
+      "attributes": {
+        "internalId": "(O)218",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/category",
+            "self": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/giftTastes",
+            "self": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/ingredientGroups",
+            "self": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/names",
+            "self": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/sourceRecipes",
+            "self": "/v2/items/c151ee13-ac33-5ed3-8ee0-41dc8d27aa83/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/0/0b46fd8f9605fa4c097ffb73996d56a0f5512ac7190f1393189ec1cdf2bb4ba6.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "c1589ab1-19ad-554f-bc53-f501c58df0f6",
+      "attributes": {
+        "internalId": "(O)237",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/category",
+            "self": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/giftTastes",
+            "self": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/ingredientGroups",
+            "self": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/names",
+            "self": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/sourceRecipes",
+            "self": "/v2/items/c1589ab1-19ad-554f-bc53-f501c58df0f6/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/9e94f7a5a638663263c09335877877f226bb85417422a818dbdb268a8377f71d.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "c63fd591-2a3e-5439-9936-1250a55d7723",
+      "attributes": {
+        "internalId": "(O)729",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/category",
+            "self": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/giftTastes",
+            "self": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/ingredientGroups",
+            "self": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/names",
+            "self": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/sourceRecipes",
+            "self": "/v2/items/c63fd591-2a3e-5439-9936-1250a55d7723/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a0f89fe73a47471f9fe7e01a5a674b6f0e9e8de4c4e52852d9fa96e4ef03eeee.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b",
+      "attributes": {
+        "internalId": "(O)203",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/category",
+            "self": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/giftTastes",
+            "self": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/ingredientGroups",
+            "self": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/names",
+            "self": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/sourceRecipes",
+            "self": "/v2/items/c98f5ed6-0dd0-5de0-b36f-ad6d165a3f1b/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/ad098d62b34800deff13777f080601962ec11a15d204aaf3bf55520a1ba7f781.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "ca85c589-e8ba-5739-b28f-c1a2880b1f9b",
+      "attributes": {
+        "internalId": "(O)221",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/category",
+            "self": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/giftTastes",
+            "self": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/ingredientGroups",
+            "self": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/names",
+            "self": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/sourceRecipes",
+            "self": "/v2/items/ca85c589-e8ba-5739-b28f-c1a2880b1f9b/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/95a505a4cce908de73f83a2fc96ea62656f648864bb0fa33687c3ce8006cd502.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "d192acde-e8e4-5a11-9655-729ea09b3eac",
+      "attributes": {
+        "internalId": "(O)618",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/category",
+            "self": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/giftTastes",
+            "self": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/ingredientGroups",
+            "self": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/names",
+            "self": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/sourceRecipes",
+            "self": "/v2/items/d192acde-e8e4-5a11-9655-729ea09b3eac/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/3/31b96698a64f6e9abff3e1aa56307cc41f0299880edc502c3cf6e52648445b6b.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "d2d379e5-9c13-55ad-b1d2-7ae3279e680f",
+      "attributes": {
+        "internalId": "(O)611",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/category",
+            "self": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/giftTastes",
+            "self": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/ingredientGroups",
+            "self": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/names",
+            "self": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/sourceRecipes",
+            "self": "/v2/items/d2d379e5-9c13-55ad-b1d2-7ae3279e680f/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/6bd477badd6f03928ba59302af29659682c6ba2793730d0c3ce32ff0c6761994.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a",
+      "attributes": {
+        "internalId": "(O)612",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/category",
+            "self": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/giftTastes",
+            "self": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/ingredientGroups",
+            "self": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/names",
+            "self": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/sourceRecipes",
+            "self": "/v2/items/d5b3fb2b-0b61-508c-a8c0-3d2eb7c1597a/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/5/54b213cf4273310030d9017695b1a2f01dca2afba7a94b6cbe58b1807b365581.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "d8d8bc40-f8ea-5267-bb23-342723d7cdf9",
+      "attributes": {
+        "internalId": "(O)233",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/category",
+            "self": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/giftTastes",
+            "self": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/ingredientGroups",
+            "self": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/names",
+            "self": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/sourceRecipes",
+            "self": "/v2/items/d8d8bc40-f8ea-5267-bb23-342723d7cdf9/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/d/db00df4a6e94898a7279132e5c751239544230b78a7c4db0b1e430f469cced9e.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2",
+      "attributes": {
+        "internalId": "(O)731",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/category",
+            "self": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/giftTastes",
+            "self": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/ingredientGroups",
+            "self": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/names",
+            "self": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/sourceRecipes",
+            "self": "/v2/items/dd8ef1b0-3116-5d11-ba41-95b71d1fc9e2/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/ad5743742b489eede559b559f6ddfbc895eb000db7b81324b5d47ff90fd327e2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "e27f541c-8f64-515c-b681-4601f987c322",
+      "attributes": {
+        "internalId": "(O)197",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/category",
+            "self": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/giftTastes",
+            "self": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/ingredientGroups",
+            "self": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/names",
+            "self": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/sourceRecipes",
+            "self": "/v2/items/e27f541c-8f64-515c-b681-4601f987c322/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/1/145f31c46c8623cdf0570960cb5595ef4a30693ab86ee715a1523c06c2d36947.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "e2d8b6cb-b14c-562e-ad25-58220ef9b632",
+      "attributes": {
+        "internalId": "(O)728",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/category",
+            "self": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/giftTastes",
+            "self": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/ingredientGroups",
+            "self": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/names",
+            "self": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/sourceRecipes",
+            "self": "/v2/items/e2d8b6cb-b14c-562e-ad25-58220ef9b632/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/f53666e38070eaa271f5040f4c7fe375f531a6bd54494c4086e7a4b65bcaf5a8.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "e71c1e5a-3fd4-59d7-a7c5-59a3e365b124",
+      "attributes": {
+        "internalId": "(O)921",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/category",
+            "self": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/giftTastes",
+            "self": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/ingredientGroups",
+            "self": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/names",
+            "self": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/sourceRecipes",
+            "self": "/v2/items/e71c1e5a-3fd4-59d7-a7c5-59a3e365b124/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/a/a33621936fa4fdb8b593afb5544efc6b137f2224219072f7217adae9a6f7fe7f.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "e72c05c3-0423-5ab6-bac6-73bb174462c7",
+      "attributes": {
+        "internalId": "(O)204",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/category",
+            "self": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/giftTastes",
+            "self": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/ingredientGroups",
+            "self": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/names",
+            "self": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/sourceRecipes",
+            "self": "/v2/items/e72c05c3-0423-5ab6-bac6-73bb174462c7/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/f/fc781abe123c44b3c640b6ac5af9b1ab1dbd5a1f412593ff52b90e12e8bc1e04.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "f279b46b-ead1-5859-88a5-040f5c50277d",
+      "attributes": {
+        "internalId": "(O)213",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/category",
+            "self": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/giftTastes",
+            "self": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/ingredientGroups",
+            "self": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/names",
+            "self": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/sourceRecipes",
+            "self": "/v2/items/f279b46b-ead1-5859-88a5-040f5c50277d/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/8/877ae7e6fbb77ff746861cfea0f896e5336d42dea388544aae0e31a52cd14fce.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "f5bc0153-7489-5faf-ab9c-c5a30cd77fba",
+      "attributes": {
+        "internalId": "(O)215",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/category",
+            "self": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/giftTastes",
+            "self": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/ingredientGroups",
+            "self": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/names",
+            "self": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/sourceRecipes",
+            "self": "/v2/items/f5bc0153-7489-5faf-ab9c-c5a30cd77fba/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/cbf6c6f90d32d058d2099876f0e6a37c01fc60abdc04412303e87fb9ba63ecea.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "f633991e-96bc-5b17-9a71-2d8c11ae2b53",
+      "attributes": {
+        "internalId": "(O)231",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/category",
+            "self": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/giftTastes",
+            "self": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/ingredientGroups",
+            "self": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/names",
+            "self": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/sourceRecipes",
+            "self": "/v2/items/f633991e-96bc-5b17-9a71-2d8c11ae2b53/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/9/969f4d1edaf53705804a694366bfbc15a293ae8842e0462022b80b99007437b2.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "f6ed2501-4df9-5fd5-8914-4bec84beb620",
+      "attributes": {
+        "internalId": "(O)228",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/category",
+            "self": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/giftTastes",
+            "self": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/ingredientGroups",
+            "self": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/names",
+            "self": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/sourceRecipes",
+            "self": "/v2/items/f6ed2501-4df9-5fd5-8914-4bec84beb620/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/c/ce5b708d2ae1c617ffe8bfcc240e2fb6927f1b942d9b7e67cc8638863e6e061b.png"
+      }
+    },
+    {
+      "type": "items",
+      "id": "fc45258e-445d-5c2f-92ec-f8df1d8571ea",
+      "attributes": {
+        "internalId": "(O)903",
+        "type": "cooking",
+        "flags": [
+          "giftable"
+        ]
+      },
+      "relationships": {
+        "category": {
+          "links": {
+            "related": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/category",
+            "self": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/relationships/category"
+          }
+        },
+        "giftTastes": {
+          "links": {
+            "related": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/giftTastes",
+            "self": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/relationships/giftTastes"
+          }
+        },
+        "ingredientGroups": {
+          "links": {
+            "related": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/ingredientGroups",
+            "self": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/relationships/ingredientGroups"
+          }
+        },
+        "names": {
+          "links": {
+            "related": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/names",
+            "self": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/relationships/names"
+          }
+        },
+        "sourceRecipes": {
+          "links": {
+            "related": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/sourceRecipes",
+            "self": "/v2/items/fc45258e-445d-5c2f-92ec-f8df1d8571ea/relationships/sourceRecipes"
+          }
+        }
+      },
+      "links": {
+        "texture": "/v2/textures/items/6/670e36d7c1f9ad500773d21cea25346ba825def88d3e8949d7252a6847709716.png"
+      }
+    }
+  ],
+  "meta": {
+    "author": "nitwhiz",
+    "license": "wtfpl",
+    "license-url": "http://www.wtfpl.net/about/"
+  }
+}
