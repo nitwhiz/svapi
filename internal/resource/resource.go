@@ -2,7 +2,7 @@ package resource
 
 import (
 	"errors"
-	"github.com/manyminds/api2go"
+	"github.com/nitwhiz/api2go/v2"
 	"github.com/nitwhiz/svapi/internal/storage"
 	"github.com/nitwhiz/svapi/pkg/flags"
 	"github.com/nitwhiz/svapi/pkg/responder"

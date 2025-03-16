@@ -3,8 +3,8 @@ package server
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/manyminds/api2go"
-	"github.com/manyminds/api2go/routing"
+	"github.com/nitwhiz/api2go/v2"
+	"github.com/nitwhiz/api2go/v2/routing"
 	"github.com/nitwhiz/svapi/internal/data"
 	"github.com/nitwhiz/svapi/internal/loader"
 	"github.com/nitwhiz/svapi/internal/resource"

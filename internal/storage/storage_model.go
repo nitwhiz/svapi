@@ -2,7 +2,7 @@ package storage
 
 import (
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 type Model interface {

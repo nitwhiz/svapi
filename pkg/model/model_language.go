@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 const TypeLanguage = "languages"
@@ -10,9 +10,9 @@ const TypeLanguage = "languages"
 type Language struct {
 	ID            string          `json:"-"`
 	Code          string          `json:"code"`
-	CategoryNames []*CategoryName `json:"-"`
-	ItemNames     []*ItemName     `json:"-"`
-	NpcNames      []*NpcName      `json:"-"`
+	CategoryNames []*CategoryName `json:"-" include:"categoryNames"`
+	ItemNames     []*ItemName     `json:"-" include:"itemNames"`
+	NpcNames      []*NpcName      `json:"-" include:"npcNames"`
 }
 
 func (l Language) SearchIndexContents() []string {
@@ -42,24 +42,25 @@ func (l Language) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeCategoryName,
 			Name:         "categoryNames",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItemName,
 			Name:         "itemNames",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeNpcName,
 			Name:         "npcNames",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (l Language) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(l)
+}
+
+func (l Language) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, l)
 }

@@ -1,7 +1,7 @@
 services:
 
   api:
-    image: golang:1.23.2-alpine3.19
+    image: golang:1.24.1-alpine3.21
     restart: no
     volumes:
       - "./:/app"

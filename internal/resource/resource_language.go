@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/manyminds/api2go"
+	"github.com/nitwhiz/api2go/v2"
 	"github.com/nitwhiz/svapi/pkg/model"
 )
 

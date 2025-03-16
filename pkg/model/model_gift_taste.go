@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 const TypeGiftTaste = "giftTastes"
@@ -15,8 +15,8 @@ const TasteNeutral = "neutral"
 
 type GiftTaste struct {
 	ID    string `json:"-"`
-	Npc   *Npc   `json:"-"`
-	Item  *Item  `json:"-"`
+	Npc   *Npc   `json:"-" include:"npc"`
+	Item  *Item  `json:"-" include:"item"`
 	Taste string `json:"taste"`
 }
 
@@ -41,18 +41,20 @@ func (g GiftTaste) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItem,
 			Name:         "item",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeNpc,
 			Name:         "npc",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (g GiftTaste) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(g)
+}
+
+func (g GiftTaste) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, g)
 }

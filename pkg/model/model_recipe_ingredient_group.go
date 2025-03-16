@@ -2,15 +2,15 @@ package model
 
 import (
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 const TypeRecipeIngredientGroup = "recipeIngredientGroups"
 
 type RecipeIngredientGroup struct {
 	ID          string              `json:"-"`
-	Items       []*Item             `json:"-"`
-	Ingredients []*RecipeIngredient `json:"-"`
+	Items       []*Item             `json:"-" include:"items"`
+	Ingredients []*RecipeIngredient `json:"-" include:"ingredients"`
 }
 
 func (i RecipeIngredientGroup) TableName() string {
@@ -34,18 +34,20 @@ func (i RecipeIngredientGroup) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItem,
 			Name:         "items",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItem,
 			Name:         "ingredients",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (i RecipeIngredientGroup) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(i)
+}
+
+func (i RecipeIngredientGroup) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, i)
 }

@@ -3,15 +3,15 @@ package model
 import (
 	"fmt"
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 const TypeRecipeIngredient = "recipeIngredients"
 
 type RecipeIngredient struct {
 	ID              string                 `json:"-"`
-	Recipe          *Recipe                `json:"-"`
-	IngredientGroup *RecipeIngredientGroup `json:"-"`
+	Recipe          *Recipe                `json:"-" include:"recipe"`
+	IngredientGroup *RecipeIngredientGroup `json:"-" include:"ingredientGroup"`
 	Quantity        int                    `json:"quantity"`
 }
 
@@ -36,18 +36,20 @@ func (i RecipeIngredient) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeRecipe,
 			Name:         "recipe",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "ingredientGroup",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (i RecipeIngredient) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(i)
+}
+
+func (i RecipeIngredient) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, i)
 }

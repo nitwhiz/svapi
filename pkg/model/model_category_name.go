@@ -2,15 +2,15 @@ package model
 
 import (
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 )
 
 const TypeCategoryName = "categoryNames"
 
 type CategoryName struct {
 	ID       string    `json:"-"`
-	Category *Category `json:"-"`
-	Language *Language `json:"-"`
+	Category *Category `json:"-" include:"category"`
+	Language *Language `json:"-" include:"language"`
 	Name     string    `json:"name"`
 }
 
@@ -35,18 +35,20 @@ func (n CategoryName) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeCategory,
 			Name:         "category",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeLanguage,
 			Name:         "language",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 	}
 }
 
 func (n CategoryName) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(n)
+}
+
+func (n CategoryName) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, n)
 }

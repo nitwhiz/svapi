@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 	"github.com/nitwhiz/svapi/pkg/flags"
 )
 
@@ -11,10 +11,10 @@ const TypeRecipe = "recipes"
 
 type Recipe struct {
 	ID          string              `json:"-"`
-	Ingredients []*RecipeIngredient `json:"-"`
+	Ingredients []*RecipeIngredient `json:"-" include:"ingredients"`
 	Name        string              `json:"name"`
 	Flags       []*flags.Flag       `json:"flags"`
-	OutputItems []*Item             `json:"-"`
+	OutputItems []*Item             `json:"-" include:"outputItems"`
 	OutputYield int                 `json:"outputYield"`
 }
 
@@ -46,18 +46,20 @@ func (r Recipe) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeRecipeIngredient,
 			Name:         "ingredients",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeItem,
 			Name:         "outputItems",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (r Recipe) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(r)
+}
+
+func (r Recipe) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, r)
 }

@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 	"github.com/nitwhiz/svapi/internal/data"
 )
 
@@ -15,8 +15,8 @@ type Npc struct {
 	TextureName    string       `json:"-"`
 	BirthdaySeason string       `json:"birthdaySeason"`
 	BirthdayDay    int          `json:"birthdayDay"`
-	Names          []*NpcName   `json:"-"`
-	GiftTastes     []*GiftTaste `json:"-"`
+	Names          []*NpcName   `json:"-" include:"names"`
+	GiftTastes     []*GiftTaste `json:"-" include:"giftTastes"`
 }
 
 func (n Npc) SearchIndexContents() []string {
@@ -46,20 +46,18 @@ func (n Npc) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeNpcName,
 			Name:         "names",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeGiftTaste,
 			Name:         "giftTastes",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (n Npc) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(n)
 }
 
 func (n Npc) GetCustomLinks(string) jsonapi.Links {
@@ -68,4 +66,8 @@ func (n Npc) GetCustomLinks(string) jsonapi.Links {
 			Href: fmt.Sprintf("%s/textures/portraits/%c/%s.png", data.Version, n.TextureName[0], n.TextureName),
 		},
 	}
+}
+
+func (n Npc) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, n)
 }

@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 	"github.com/hashicorp/go-memdb"
-	"github.com/manyminds/api2go/jsonapi"
+	"github.com/nitwhiz/api2go/v2/jsonapi"
 	"github.com/nitwhiz/svapi/internal/data"
 	"github.com/nitwhiz/svapi/pkg/flags"
 )
@@ -14,13 +14,13 @@ type Item struct {
 	ID               string                   `json:"-"`
 	InternalID       string                   `json:"internalId"`
 	TextureName      string                   `json:"-"`
-	Category         *Category                `json:"-"`
+	Category         *Category                `json:"-" include:"category"`
 	Type             string                   `json:"type"`
 	Flags            []*flags.Flag            `json:"flags"`
-	Names            []*ItemName              `json:"-"`
-	GiftTastes       []*GiftTaste             `json:"-"`
-	IngredientGroups []*RecipeIngredientGroup `json:"-"`
-	SourceRecipes    []*Recipe                `json:"-"`
+	Names            []*ItemName              `json:"-" include:"names"`
+	GiftTastes       []*GiftTaste             `json:"-" include:"giftTastes"`
+	IngredientGroups []*RecipeIngredientGroup `json:"-" include:"ingredientGroups"`
+	SourceRecipes    []*Recipe                `json:"-" include:"sourceRecipes"`
 }
 
 func (i Item) SearchIndexContents() []string {
@@ -64,38 +64,33 @@ func (i Item) GetReferences() []jsonapi.Reference {
 		{
 			Type:         TypeItemName,
 			Name:         "names",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeCategory,
 			Name:         "category",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToOneRelationship,
 		},
 		{
 			Type:         TypeGiftTaste,
 			Name:         "giftTastes",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "ingredientGroups",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 		{
 			Type:         TypeRecipeIngredientGroup,
 			Name:         "sourceRecipes",
-			IsNotLoaded:  true,
 			Relationship: jsonapi.ToManyRelationship,
 		},
 	}
 }
 
 func (i Item) GetReferencedIDs() []jsonapi.ReferenceID {
-	return nil
+	return BuildReferencedIDs(i)
 }
 
 func (i Item) GetCustomLinks(string) jsonapi.Links {
@@ -104,4 +99,8 @@ func (i Item) GetCustomLinks(string) jsonapi.Links {
 			Href: fmt.Sprintf("/%s/textures/items/%c/%s.png", data.Version, i.TextureName[0], i.TextureName),
 		},
 	}
+}
+
+func (i Item) GetReferencedStructs(include []string) []jsonapi.MarshalIdentifier {
+	return BuildIncluded(include, i)
 }
