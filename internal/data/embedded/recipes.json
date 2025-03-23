@@ -1,5 +1,5 @@
 {
-  "version": "2024-10-13 12:29:07Z",
+  "version": "2025-03-23 14:12:56Z",
   "recipes": [
     {
       "name": "Fried Egg",
@@ -1905,7 +1905,7 @@
       "name": "Chest",
       "output": {
         "itemIds": [
-          "(O)130"
+          "(BC)130"
         ],
         "amount": 1
       },
@@ -1941,7 +1941,7 @@
       "name": "Stone Chest",
       "output": {
         "itemIds": [
-          "(O)232"
+          "(BC)232"
         ],
         "amount": 1
       },
@@ -1993,7 +1993,7 @@
       "name": "Scarecrow",
       "output": {
         "itemIds": [
-          "(O)8"
+          "(BC)8"
         ],
         "amount": 1
       },
@@ -2017,7 +2017,7 @@
       "name": "Deluxe Scarecrow",
       "output": {
         "itemIds": [
-          "(O)167"
+          "(BC)167"
         ],
         "amount": 1
       },
@@ -2041,7 +2041,7 @@
       "name": "Bee House",
       "output": {
         "itemIds": [
-          "(O)10"
+          "(BC)10"
         ],
         "amount": 1
       },
@@ -2069,7 +2069,7 @@
       "name": "Keg",
       "output": {
         "itemIds": [
-          "(O)12"
+          "(BC)12"
         ],
         "amount": 1
       },
@@ -2097,7 +2097,7 @@
       "name": "Cask",
       "output": {
         "itemIds": [
-          "(O)163"
+          "(BC)163"
         ],
         "amount": 1
       },
@@ -2229,7 +2229,7 @@
       "name": "Garden Pot",
       "output": {
         "itemIds": [
-          "(O)62"
+          "(BC)62"
         ],
         "amount": 1
       },
@@ -2269,7 +2269,7 @@
       "name": "Stone Sign",
       "output": {
         "itemIds": [
-          "(O)38"
+          "(BC)38"
         ],
         "amount": 1
       },
@@ -2321,7 +2321,7 @@
       "name": "Cheese Press",
       "output": {
         "itemIds": [
-          "(O)16"
+          "(BC)16"
         ],
         "amount": 1
       },
@@ -2349,7 +2349,7 @@
       "name": "Mayonnaise Machine",
       "output": {
         "itemIds": [
-          "(O)24"
+          "(BC)24"
         ],
         "amount": 1
       },
@@ -2377,7 +2377,7 @@
       "name": "Seed Maker",
       "output": {
         "itemIds": [
-          "(O)25"
+          "(BC)25"
         ],
         "amount": 1
       },
@@ -2449,7 +2449,7 @@
       "name": "Recycling Machine",
       "output": {
         "itemIds": [
-          "(O)20"
+          "(BC)20"
         ],
         "amount": 1
       },
@@ -2473,7 +2473,7 @@
       "name": "Worm Bin",
       "output": {
         "itemIds": [
-          "(O)154"
+          "(BC)154"
         ],
         "amount": 1
       },
@@ -2597,7 +2597,7 @@
       "name": "Charcoal Kiln",
       "output": {
         "itemIds": [
-          "(O)114"
+          "(BC)114"
         ],
         "amount": 1
       },
@@ -2617,7 +2617,7 @@
       "name": "Tapper",
       "output": {
         "itemIds": [
-          "(O)105"
+          "(BC)105"
         ],
         "amount": 1
       },
@@ -2681,7 +2681,7 @@
       "name": "Slime Incubator",
       "output": {
         "itemIds": [
-          "(O)156"
+          "(BC)156"
         ],
         "amount": 1
       },
@@ -2701,7 +2701,7 @@
       "name": "Slime Egg-Press",
       "output": {
         "itemIds": [
-          "(O)158"
+          "(BC)158"
         ],
         "amount": 1
       },
@@ -2753,7 +2753,7 @@
       "name": "Mini-Jukebox",
       "output": {
         "itemIds": [
-          "(O)209"
+          "(BC)209"
         ],
         "amount": 1
       },
@@ -2841,7 +2841,7 @@
       "name": "Staircase",
       "output": {
         "itemIds": [
-          "(O)71"
+          "(BC)71"
         ],
         "amount": 1
       },
@@ -4361,7 +4361,7 @@
       "name": "Tub o' Flowers",
       "output": {
         "itemIds": [
-          "(O)108"
+          "(BC)108"
         ],
         "amount": 1
       },
@@ -4393,7 +4393,7 @@
       "name": "Wooden Brazier",
       "output": {
         "itemIds": [
-          "(O)143"
+          "(BC)143"
         ],
         "amount": 1
       },
@@ -4437,7 +4437,7 @@
       "name": "Stone Brazier",
       "output": {
         "itemIds": [
-          "(O)144"
+          "(BC)144"
         ],
         "amount": 1
       },
@@ -4461,7 +4461,7 @@
       "name": "Gold Brazier",
       "output": {
         "itemIds": [
-          "(O)145"
+          "(BC)145"
         ],
         "amount": 1
       },
@@ -4485,7 +4485,7 @@
       "name": "Campfire",
       "output": {
         "itemIds": [
-          "(O)146"
+          "(BC)146"
         ],
         "amount": 1
       },
@@ -4509,7 +4509,7 @@
       "name": "Stump Brazier",
       "output": {
         "itemIds": [
-          "(O)147"
+          "(BC)147"
         ],
         "amount": 1
       },
@@ -4529,7 +4529,7 @@
       "name": "Carved Brazier",
       "output": {
         "itemIds": [
-          "(O)148"
+          "(BC)148"
         ],
         "amount": 1
       },
@@ -4549,7 +4549,7 @@
       "name": "Skull Brazier",
       "output": {
         "itemIds": [
-          "(O)149"
+          "(BC)149"
         ],
         "amount": 1
       },
@@ -4565,7 +4565,7 @@
       "name": "Barrel Brazier",
       "output": {
         "itemIds": [
-          "(O)150"
+          "(BC)150"
         ],
         "amount": 1
       },
@@ -4589,7 +4589,7 @@
       "name": "Marble Brazier",
       "output": {
         "itemIds": [
-          "(O)151"
+          "(BC)151"
         ],
         "amount": 1
       },
@@ -4613,7 +4613,7 @@
       "name": "Wood Lamp-post",
       "output": {
         "itemIds": [
-          "(O)152"
+          "(BC)152"
         ],
         "amount": 1
       },
@@ -4633,7 +4633,7 @@
       "name": "Iron Lamp-post",
       "output": {
         "itemIds": [
-          "(O)153"
+          "(BC)153"
         ],
         "amount": 1
       },
@@ -4733,7 +4733,7 @@
       "name": "Mini-Obelisk",
       "output": {
         "itemIds": [
-          "(O)238"
+          "(BC)238"
         ],
         "amount": 1
       },
@@ -4757,7 +4757,7 @@
       "name": "Farm Computer",
       "output": {
         "itemIds": [
-          "(O)239"
+          "(BC)239"
         ],
         "amount": 1
       },
@@ -4781,7 +4781,7 @@
       "name": "Ostrich Incubator",
       "output": {
         "itemIds": [
-          "(O)254"
+          "(BC)254"
         ],
         "amount": 1
       },
@@ -4805,7 +4805,7 @@
       "name": "Geode Crusher",
       "output": {
         "itemIds": [
-          "(O)182"
+          "(BC)182"
         ],
         "amount": 1
       },
@@ -4829,7 +4829,7 @@
       "name": "Solar Panel",
       "output": {
         "itemIds": [
-          "(O)231"
+          "(BC)231"
         ],
         "amount": 1
       },
@@ -4853,7 +4853,7 @@
       "name": "Bone Mill",
       "output": {
         "itemIds": [
-          "(O)90"
+          "(BC)90"
         ],
         "amount": 1
       },
@@ -4921,7 +4921,7 @@
       "name": "Heavy Tapper",
       "output": {
         "itemIds": [
-          "(O)264"
+          "(BC)264"
         ],
         "amount": 1
       },
@@ -4941,7 +4941,7 @@
       "name": "Hopper",
       "output": {
         "itemIds": [
-          "(O)275"
+          "(BC)275"
         ],
         "amount": 1
       },

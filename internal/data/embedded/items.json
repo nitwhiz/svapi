@@ -1,5 +1,5 @@
 {
-  "version": "2024-10-13 12:29:06Z",
+  "version": "2025-03-23 14:12:55Z",
   "objects": [
     {
       "category": -999,
@@ -25,14 +25,14 @@
       "category": -999,
       "displayNames": {
         "en": "Diamond Stone",
-        "ja": "Diamond Stone",
+        "ja": "Dダイヤモンド鉱脈",
         "ru": "Алмазный камень",
-        "pt": "Diamond Stone",
-        "es": "Diamond Stone",
+        "pt": "Pedra de Diamante",
+        "es": "Piedra de diamantes",
         "de": "Diamond Stone",
-        "fr": "Diamond Stone",
-        "it": "Diamond Stone",
-        "tr": "Diamond Stone",
+        "fr": "Pierre de diamant",
+        "it": "Pietra con diamanti",
+        "tr": "Elmas Taşı",
         "hu": "Gyémántkő"
       },
       "id": "(O)2",
@@ -45,14 +45,14 @@
       "category": -999,
       "displayNames": {
         "en": "Ruby Stone",
-        "ja": "Ruby Stone",
+        "ja": "ルビー鉱脈",
         "ru": "Рубиновый камень",
-        "pt": "Ruby Stone",
-        "es": "Ruby Stone",
+        "pt": "Pedra de Rubi",
+        "es": "Piedra de rubíes",
         "de": "Ruby Stone",
-        "fr": "Ruby Stone",
-        "it": "Ruby Stone",
-        "tr": "Ruby Stone",
+        "fr": "Pierre de rubis",
+        "it": "Pietra con rubini",
+        "tr": "Yakut Taşı",
         "hu": "Rubinkő"
       },
       "id": "(O)4",
@@ -65,14 +65,14 @@
       "category": -999,
       "displayNames": {
         "en": "Jade Stone",
-        "ja": "Jade Stone",
+        "ja": "ヒスイ鉱脈",
         "ru": "Нефритовый камень",
-        "pt": "Jade Stone",
-        "es": "Jade Stone",
+        "pt": "Pedra de Jade",
+        "es": "Piedra de jade",
         "de": "Jade Stone",
-        "fr": "Jade Stone",
-        "it": "Jade Stone",
-        "tr": "Jade Stone",
+        "fr": "Pierre de jade",
+        "it": "Pietra con giada",
+        "tr": "Yeşim Taşı",
         "hu": "Jádekő-kő"
       },
       "id": "(O)6",
@@ -85,14 +85,14 @@
       "category": -999,
       "displayNames": {
         "en": "Amethyst Stone",
-        "ja": "Amethyst Stone",
+        "ja": "アメシスト鉱脈",
         "ru": "Аметистовый камень",
-        "pt": "Amethyst Stone",
-        "es": "Amethyst Stone",
+        "pt": "Pedra de Ametista",
+        "es": "Piedra amatista",
         "de": "Amethyst Stone",
-        "fr": "Amethyst Stone",
-        "it": "Amethyst Stone",
-        "tr": "Amethyst Stone",
+        "fr": "Pierre d’améthyste",
+        "it": "Pietra con ametiste",
+        "tr": "Ametist Taşı",
         "hu": "Ametiszt kő"
       },
       "id": "(O)8",
@@ -105,14 +105,14 @@
       "category": -999,
       "displayNames": {
         "en": "Topaz Stone",
-        "ja": "Topaz Stone",
+        "ja": "トパーズ鉱脈",
         "ru": "Топазный камень",
-        "pt": "Topaz Stone",
-        "es": "Topaz Stone",
+        "pt": "Pedra de Topázio",
+        "es": "Piedra de topacio",
         "de": "Topaz Stone",
-        "fr": "Topaz Stone",
-        "it": "Topaz Stone",
-        "tr": "Topaz Stone",
+        "fr": "Pierre de topaze",
+        "it": "Pietra con topazi",
+        "tr": "Topaz Taşı",
         "hu": "Topázkő"
       },
       "id": "(O)10",
@@ -125,14 +125,14 @@
       "category": -999,
       "displayNames": {
         "en": "Emerald Stone",
-        "ja": "Emerald Stone",
+        "ja": "エメラルド鉱脈",
         "ru": "Изумрудный камень",
-        "pt": "Emerald Stone",
-        "es": "Emerald Stone",
+        "pt": "Pedra de Esmeralda",
+        "es": "Piedra de esmeraldas",
         "de": "Emerald Stone",
-        "fr": "Emerald Stone",
-        "it": "Emerald Stone",
-        "tr": "Emerald Stone",
+        "fr": "Pierre d’émeraude",
+        "it": "Pietra con smeraldi",
+        "tr": "Zümrüt Taşı",
         "hu": "Smaragdkő"
       },
       "id": "(O)12",
@@ -145,14 +145,14 @@
       "category": -999,
       "displayNames": {
         "en": "Aquamarine Stone",
-        "ja": "Aquamarine Stone",
+        "ja": "アクアマリン鉱脈",
         "ru": "Аквамариновый камень",
-        "pt": "Aquamarine Stone",
-        "es": "Aquamarine Stone",
+        "pt": "Pedra de Água-marinha",
+        "es": "Piedra aguamarina",
         "de": "Aquamarine Stone",
-        "fr": "Aquamarine Stone",
-        "it": "Aquamarine Stone",
-        "tr": "Aquamarine Stone",
+        "fr": "Pierre aigue-marine",
+        "it": "Pietra con acquamarine",
+        "tr": "Gök Zümrütü Taş",
         "hu": "Akvamarin kő"
       },
       "id": "(O)14",
@@ -290,7 +290,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -310,7 +310,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -330,7 +330,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -350,7 +350,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -370,7 +370,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -390,7 +390,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -405,14 +405,14 @@
       "category": -999,
       "displayNames": {
         "en": "Gem Stone",
-        "ja": "Gem Stone",
+        "ja": "宝石鉱脈",
         "ru": "Самоцветный камень",
-        "pt": "Gem Stone",
-        "es": "Gem Stone",
+        "pt": "Pedra de Gema",
+        "es": "Piedra preciosa",
         "de": "Gem Stone",
-        "fr": "Gem Stone",
-        "it": "Gem Stone",
-        "tr": "Gem Stone",
+        "fr": "Gemme",
+        "it": "Pietra con gemme",
+        "tr": "Mücevher Taşı",
         "hu": "Drágakő-kő"
       },
       "id": "(O)44",
@@ -425,14 +425,14 @@
       "category": -999,
       "displayNames": {
         "en": "Mystic Stone",
-        "ja": "Mystic Stone",
+        "ja": "神秘の鉱脈",
         "ru": "Загадочный камень",
-        "pt": "Mystic Stone",
-        "es": "Mystic Stone",
+        "pt": "Pedra Mística",
+        "es": "Piedra mística",
         "de": "Mystic Stone",
-        "fr": "Mystic Stone",
-        "it": "Mystic Stone",
-        "tr": "Mystic Stone",
+        "fr": "Pierre mystique",
+        "it": "Pietra mistica",
+        "tr": "Mistik Taş",
         "hu": "Rejtélyes kő"
       },
       "id": "(O)46",
@@ -445,14 +445,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)48",
@@ -465,14 +465,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)50",
@@ -485,14 +485,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)52",
@@ -505,14 +505,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)54",
@@ -525,14 +525,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)56",
@@ -545,14 +545,14 @@
       "category": -999,
       "displayNames": {
         "en": "Snowy Stone",
-        "ja": "Snowy Stone",
+        "ja": "雪鉱脈",
         "ru": "Заснеженный камень",
-        "pt": "Snowy Stone",
-        "es": "Snowy Stone",
+        "pt": "Pedra Congelada",
+        "es": "Piedra nevada",
         "de": "Snowy Stone",
-        "fr": "Snowy Stone",
-        "it": "Snowy Stone",
-        "tr": "Snowy Stone",
+        "fr": "Pierre des neiges",
+        "it": "Pietra nevosa",
+        "tr": "Karlı Taş",
         "hu": "Havas kő"
       },
       "id": "(O)58",
@@ -692,7 +692,7 @@
         "de": "Beschnittene lila Glücksshorts",
         "fr": "Short pourpre porte-bonheur",
         "it": "Braghe viola portafortuna decorate",
-        "tr": "İşlemeli Mor Şort",
+        "tr": "İşlemeli Şanslı Mor Şort",
         "hu": "Díszes szerencsés lila alsónemű"
       },
       "id": "(O)71",
@@ -745,14 +745,14 @@
       "category": -999,
       "displayNames": {
         "en": "Geode Stone",
-        "ja": "Geode Stone",
+        "ja": "ジオード鉱脈",
         "ru": "Жеодовый камень",
-        "pt": "Geode Stone",
-        "es": "Geode Stone",
+        "pt": "Pedra de Geodo",
+        "es": "Piedra de geodas",
         "de": "Geode Stone",
-        "fr": "Geode Stone",
-        "it": "Geode Stone",
-        "tr": "Geode Stone",
+        "fr": "Pierre de géode",
+        "it": "Pietra con geode",
+        "tr": "Jeot Taşı",
         "hu": "Geódakő"
       },
       "id": "(O)75",
@@ -765,14 +765,14 @@
       "category": -999,
       "displayNames": {
         "en": "Frozen Geode Stone",
-        "ja": "Frozen Geode Stone",
+        "ja": "フローズンジオード鉱脈",
         "ru": "Морозножеодный камень",
-        "pt": "Frozen Geode Stone",
-        "es": "Frozen Geode Stone",
+        "pt": "Pedra de Geodo Congelado",
+        "es": "Piedra de geodas de hielo",
         "de": "Frozen Geode Stone",
-        "fr": "Frozen Geode Stone",
-        "it": "Frozen Geode Stone",
-        "tr": "Frozen Geode Stone",
+        "fr": "Pierre de géode gelée",
+        "it": "Pietra con geode ghiacciato",
+        "tr": "Donuk Jeot Taşı",
         "hu": "Fagyos geódakő"
       },
       "id": "(O)76",
@@ -785,14 +785,14 @@
       "category": -999,
       "displayNames": {
         "en": "Magma Geode Stone",
-        "ja": "Magma Geode Stone",
+        "ja": "マグマジオード鉱脈",
         "ru": "Магма-жеодовый камень",
-        "pt": "Magma Geode Stone",
-        "es": "Magma Geode Stone",
+        "pt": "Pedra de Geodo de Magma",
+        "es": "Piedra de geodas de magma",
         "de": "Magma Geode Stone",
-        "fr": "Magma Geode Stone",
-        "it": "Magma Geode Stone",
-        "tr": "Magma Geode Stone",
+        "fr": "Pierre de géode magmatique",
+        "it": "Pietra con geode di magma",
+        "tr": "Yanık Jeot Taşı",
         "hu": "Magma geódakő"
       },
       "id": "(O)77",
@@ -873,7 +873,7 @@
         "fr": "Quartz de feu",
         "it": "Quarzo di fuoco",
         "tr": "Kızıl Kuvars",
-        "hu": "Tűz kvarc"
+        "hu": "Tűzkvarc"
       },
       "id": "(O)82",
       "textureName": "556bbc64cec61cd9ce5d4f77b10bbc80ae038699cfdd7a3f343da447212a4461",
@@ -1025,14 +1025,14 @@
       "category": -999,
       "displayNames": {
         "en": "Radioactive Stone",
-        "ja": "Radioactive Stone",
+        "ja": "放射性鉱脈",
         "ru": "Радиоактивный камень",
-        "pt": "Radioactive Stone",
-        "es": "Radioactive Stone",
+        "pt": "Pedra Radiotiva",
+        "es": "Piedra radioactiva",
         "de": "Radioactive Stone",
-        "fr": "Radioactive Stone",
-        "it": "Radioactive Stone",
-        "tr": "Radioactive Stone",
+        "fr": "Pierre radioactive",
+        "it": "Pietra radioattiva",
+        "tr": "Radyoaktif Taş",
         "hu": "Radioaktív kő"
       },
       "id": "(O)95",
@@ -1233,7 +1233,7 @@
         "fr": "Bâton à mâcher",
         "it": "Bastoncino da mordere",
         "tr": "Çiğneme Çubuğu",
-        "hu": "Rágó bot"
+        "hu": "Rágóbot"
       },
       "id": "(O)105",
       "textureName": "31c0b55c7cbb55ee6aa256e2f66e3d8787789c2dc90634e969bd7395e1a23c36",
@@ -1273,7 +1273,7 @@
         "fr": "Oeuf de dinosaure",
         "it": "Uovo di dinosauro",
         "tr": "Dinozor Yumurtası",
-        "hu": "Dinoszaurusz tojás"
+        "hu": "Dinoszaurusztojás"
       },
       "id": "(O)107",
       "textureName": "06ec7dec9d73478b3492c495b62ae3d2d54ef40e0cd85b37840ea29d9ca6774d",
@@ -1393,7 +1393,7 @@
         "fr": "Statue de poulet",
         "it": "Statua di un pollo",
         "tr": "Tavuk Heykelciği",
-        "hu": "Csirke szobor"
+        "hu": "Csirkeszobor"
       },
       "id": "(O)113",
       "textureName": "7a76926af4c95afc4d7cf54bde134b4059e79428bff0ea6eac95246247deac0f",
@@ -1493,7 +1493,7 @@
         "fr": "Bris de verre",
         "it": "Schegge di vetro",
         "tr": "Cam Parçaları",
-        "hu": "Üveg töredékek"
+        "hu": "Üvegtöredékek"
       },
       "id": "(O)118",
       "textureName": "268d83df9d328be91126f8a5e8518c8f09bd5f11d77e0c99055ff813f36c9a95",
@@ -1633,7 +1633,7 @@
         "fr": "Relique dorée",
         "it": "Reliquia d'oro",
         "tr": "Altın Yazıt",
-        "hu": "Arany ereklye"
+        "hu": "Aranyereklye"
       },
       "id": "(O)125",
       "textureName": "a2701e5ee0fa065d0f50300d0d4cbfc5a6a0c4e294891edcabdd70f3b6244a3a",
@@ -1686,7 +1686,7 @@
       "displayNames": {
         "en": "Pufferfish",
         "ja": "ハリセンボン",
-        "ru": "Рыба-еж",
+        "ru": "Иглобрюх",
         "pt": "Baiacu",
         "es": "Pez globo",
         "de": "Kugelfisch",
@@ -1966,7 +1966,7 @@
       "displayNames": {
         "en": "Sunfish",
         "ja": "ブルーギル",
-        "ru": "Санфиш",
+        "ru": "Солнечник",
         "pt": "Peixe-sol",
         "es": "Pez sol",
         "de": "Gotteslachs",
@@ -2090,7 +2090,7 @@
         "pt": "Lula",
         "es": "Calamar",
         "de": "Tintenfisch",
-        "fr": "Calmar",
+        "fr": "Calamar",
         "it": "Calamaro",
         "tr": "Mürekkepbalığı",
         "hu": "Tintahal"
@@ -2126,7 +2126,7 @@
       "displayNames": {
         "en": "Green Algae",
         "ja": "緑の藻",
-        "ru": "Зелeная водоросль",
+        "ru": "Зеленая водоросль",
         "pt": "Algas Verdes",
         "es": "Alga verde",
         "de": "Grünalge",
@@ -2226,7 +2226,7 @@
       "displayNames": {
         "en": "Stonefish",
         "ja": "ダルマオコゼ",
-        "ru": "Камень-рыба",
+        "ru": "Рыба-камень",
         "pt": "Peixe-pedra",
         "es": "Pez piedra",
         "de": "Steinfisch",
@@ -2246,7 +2246,7 @@
       "displayNames": {
         "en": "Crimsonfish",
         "ja": "クリムゾンフィッシュ",
-        "ru": "Кримзонфиш",
+        "ru": "Багрянник",
         "pt": "Peixe-carmim",
         "es": "Pez carmesí",
         "de": "Purpurfisch",
@@ -3053,7 +3053,7 @@
         "fr": "Carpe surprise",
         "it": "Carpa a sorpresa",
         "tr": "Sazan Kızartma",
-        "hu": "Ponty meglepetés"
+        "hu": "Pontymeglepetés"
       },
       "id": "(O)209",
       "textureName": "361729d1c31273386e60eb4f1b960da6926a6dca478a04bf739dc70bb450822a",
@@ -3113,7 +3113,7 @@
         "fr": "Dîner de saumon",
         "it": "Cena di salmone",
         "tr": "Pişmiş Somon",
-        "hu": "Lazac vacsora"
+        "hu": "Lazacvacsora"
       },
       "id": "(O)212",
       "textureName": "9e251448c3f7a46cad98a630dd75d221ca39b0dbd18e7e840867b66e9eb4da50",
@@ -3126,14 +3126,14 @@
       "displayNames": {
         "en": "Fish Taco",
         "ja": "フィッシュタコス",
-        "ru": "Рыбный тако",
+        "ru": "Рыбное тако",
         "pt": "Taco de Peixe",
         "es": "Taco de pescado",
         "de": "Fisch-Taco",
         "fr": "Tacos de poisson",
         "it": "Taco di pesce",
         "tr": "Balıklı Tako",
-        "hu": "Hal taco"
+        "hu": "Haltaco"
       },
       "id": "(O)213",
       "textureName": "877ae7e6fbb77ff746861cfea0f896e5336d42dea388544aae0e31a52cd14fce",
@@ -3146,7 +3146,7 @@
       "displayNames": {
         "en": "Crispy Bass",
         "ja": "バスのサクサク揚げ",
-        "ru": "Окунь с хруст. корочкой",
+        "ru": "Окунь с хрустящей корочкой",
         "pt": "Achigã Crocante",
         "es": "Perca crujiente",
         "de": "Knuspriger Barsch",
@@ -3293,7 +3293,7 @@
         "fr": "Tarte à la rhubarbe",
         "it": "Crostata di rabarbaro",
         "tr": "Uşkun Turtası",
-        "hu": "Rebarbara pite"
+        "hu": "Rebarbarás pite"
       },
       "id": "(O)222",
       "textureName": "ad09992e13bff775ed422409db988ec48a076f56c640f1f79fc17f37b135a283",
@@ -3310,7 +3310,7 @@
         "pt": "Biscoitos",
         "es": "Galletas",
         "de": "Kekse",
-        "fr": "Cookie",
+        "fr": "Biscuit",
         "it": "Biscotto",
         "tr": "Kurabiyeler",
         "hu": "Süti"
@@ -3393,7 +3393,7 @@
         "fr": "Sashimi",
         "it": "Sashimi",
         "tr": "Saşimi",
-        "hu": "Sashimi"
+        "hu": "Szasimi"
       },
       "id": "(O)227",
       "textureName": "a486489849359341e1be156f1cd2c3b98c166d139cd00ff31a1a57e3f8c8de1c",
@@ -3413,7 +3413,7 @@
         "fr": "Maki",
         "it": "Rotolo di maki",
         "tr": "Dilim Maki",
-        "hu": "Maki tekercs"
+        "hu": "Maki-tekercs"
       },
       "id": "(O)228",
       "textureName": "ce5b708d2ae1c617ffe8bfcc240e2fb6927f1b942d9b7e67cc8638863e6e061b",
@@ -3450,7 +3450,7 @@
         "pt": "Prato Vermelho",
         "es": "Plato rojo",
         "de": "Rote Platte",
-        "fr": "Assiette d'antioxydants",
+        "fr": "Assiette d’antioxydants",
         "it": "Piatto rosso",
         "tr": "Kızıl Tabak",
         "hu": "Vörös tál"
@@ -3473,7 +3473,7 @@
         "fr": "Aubergine au parmesan",
         "it": "Parmigiana",
         "tr": "Parmesanlı Patlıcan",
-        "hu": "Padlizsán parmezán"
+        "hu": "Padlizsános parmezán"
       },
       "id": "(O)231",
       "textureName": "969f4d1edaf53705804a694366bfbc15a293ae8842e0462022b80b99007437b2",
@@ -3493,7 +3493,7 @@
         "fr": "Riz au lait",
         "it": "Budino di riso",
         "tr": "Sütlaç",
-        "hu": "Rizspuding"
+        "hu": "Tejberizs"
       },
       "id": "(O)232",
       "textureName": "587e02ff0e17d423d231ff2fb8e1137639c0972c1fec9e02ebb09d03addbca93",
@@ -3532,7 +3532,7 @@
         "de": "Blaubeertörtchen",
         "fr": "Tarte aux myrtilles",
         "it": "Crostatina ai mirtilli",
-        "tr": "Yabanmersinli Turta",
+        "tr": "Yaban Mersinli Turta",
         "hu": "Kék áfonyás lepény"
       },
       "id": "(O)234",
@@ -3550,7 +3550,7 @@
         "pt": "Prato de Outono",
         "es": "Botín otoñal",
         "de": "Herbstfülle",
-        "fr": "Récompense d'automne",
+        "fr": "Récompense d’automne",
         "it": "Bottino d'autunno",
         "tr": "Güz Armağanı",
         "hu": "Őszi bőkezűség"
@@ -3632,7 +3632,7 @@
         "de": "Füllung",
         "fr": "Farce",
         "it": "Ripieno",
-        "tr": "İç",
+        "tr": "Doldurma",
         "hu": "Töltelék"
       },
       "id": "(O)239",
@@ -3673,7 +3673,7 @@
         "fr": "Hamburger de survie",
         "it": "Panino 'Sopravvivi'",
         "tr": "Açburger",
-        "hu": "Túlélő burger"
+        "hu": "Túlélőburger"
       },
       "id": "(O)241",
       "textureName": "8a76dbeca991ba366186c82db7b710bc63238a16dab15aa0a3155a9e36c631e6",
@@ -3972,7 +3972,7 @@
         "de": "Blaubeere",
         "fr": "Myrtille",
         "it": "Mirtillo",
-        "tr": "Yabanmersini",
+        "tr": "Yaban Mersini",
         "hu": "Kék áfonya"
       },
       "id": "(O)258",
@@ -3990,10 +3990,10 @@
         "pt": "Broto de Samambaia",
         "es": "Helecho",
         "de": "Straußfarn",
-        "fr": "Fougères de Fern",
+        "fr": "Crosse de fougère",
         "it": "Germoglio di felce",
-        "tr": "Eğreltiotu",
-        "hu": "Hegedűfej páfrány"
+        "tr": "Eğrelti Otu",
+        "hu": "Hegedűfejpáfrány"
       },
       "id": "(O)259",
       "textureName": "f376c17b2398462da7cc61262b5581e6c0e361a51c35343eed87bd3a2874109c",
@@ -4029,7 +4029,7 @@
         "ru": "Тотем-телепорт: Пустыня",
         "pt": "Totem de Teletransporte: Deserto",
         "es": "Tótem de teletransporte: Desierto",
-        "de": "Teleport Totem: Wüste",
+        "de": "Teleport-Totem: Wüste",
         "fr": "Totem de téléportation : Desert",
         "it": "Teletra-Totem: Deserto",
         "tr": "Işınlanma Totemi: Çöl",
@@ -4146,13 +4146,13 @@
       "displayNames": {
         "en": "Unmilled Rice",
         "ja": "玄米",
-        "ru": "Неизмельченный рис",
+        "ru": "Неочищенный рис",
         "pt": "Arroz não Moído",
         "es": "Arroz sin moler",
         "de": "Ungemahlener Reis",
         "fr": "Riz non moulu",
         "it": "Riso non macinato",
-        "tr": "Öğütülmemiş pirinç",
+        "tr": "Öğütülmemiş Pirinç",
         "hu": "Hántolatlan rizs"
       },
       "id": "(O)271",
@@ -4191,7 +4191,7 @@
         "es": "Brote de arroz",
         "de": "Reisspross",
         "fr": "Germes de riz",
-        "it": "Spara di riso",
+        "it": "Germoglio di riso",
         "tr": "Pirinç Filizi",
         "hu": "Rizs hajtás"
       },
@@ -4229,8 +4229,8 @@
         "ru": "Древний клад",
         "pt": "Tesouro de Artefato",
         "es": "Cofre artefacto",
-        "de": "Artefakt Fund",
-        "fr": "Trésor d'artefacts",
+        "de": "Artefaktfund",
+        "fr": "Trésor d’artefacts",
         "it": "Artefatto rinvenuto",
         "tr": "Define",
         "hu": "Ereklye lelet"
@@ -4252,7 +4252,7 @@
         "de": "Kürbis",
         "fr": "Citrouille",
         "it": "Zucca",
-        "tr": "Balkabağı",
+        "tr": "Bal Kabağı",
         "hu": "Tök"
       },
       "id": "(O)276",
@@ -4310,7 +4310,7 @@
         "pt": "Doce-Pedra Mágico",
         "es": "Caramelo mágico",
         "de": "Magischer Bonbon",
-        "fr": "Sucre d'orge magique",
+        "fr": "Sucre d’orge magique",
         "it": "Zucchero pietrificato magico",
         "tr": "Büyülü Akide Şekeri",
         "hu": "Mágikus kandiscukor"
@@ -4473,7 +4473,7 @@
         "fr": "Méga-bombe",
         "it": "Megabomba",
         "tr": "Büyük Bomba",
-        "hu": "Mega bomba"
+        "hu": "Megabomba"
       },
       "id": "(O)288",
       "textureName": "5cc6123c022cf625353de3de1346369d4205eae78d551d60c7f50e7cf168cd85",
@@ -4485,14 +4485,14 @@
       "category": -999,
       "displayNames": {
         "en": "Iron Stone",
-        "ja": "Iron Stone",
+        "ja": "鉄鉱脈",
         "ru": "Железный камень",
-        "pt": "Iron Stone",
-        "es": "Iron Stone",
+        "pt": "Pedra de Ferro",
+        "es": "Piedra de hierro",
         "de": "Iron Stone",
-        "fr": "Iron Stone",
-        "it": "Iron Stone",
-        "tr": "Iron Stone",
+        "fr": "Pierre de fer",
+        "it": "Pietra con ferro",
+        "tr": "Demir Taşı",
         "hu": "Vaskő"
       },
       "id": "(O)290",
@@ -4630,7 +4630,7 @@
         "pt": "Sementes de Amaranto",
         "es": "Semillas de amaranto",
         "de": "Amarant-Saat",
-        "fr": "Graines d'amarante",
+        "fr": "Graines d’amarante",
         "it": "Semi di amaranto",
         "tr": "Horozibiği Tohumu",
         "hu": "Amaránt magvak"
@@ -4692,7 +4692,7 @@
         "de": "Hopfen-Setzling",
         "fr": "Graine de houblon",
         "it": "Avvia-luppolo",
-        "tr": "Şerbetçiotu Yetiştirici",
+        "tr": "Şerbetçi Otu Yetiştirici",
         "hu": "Komlómagvak"
       },
       "id": "(O)302",
@@ -4732,7 +4732,7 @@
         "de": "Hopfen",
         "fr": "Houblon",
         "it": "Luppolo",
-        "tr": "Şerbetçiotu",
+        "tr": "Şerbetçi Otu",
         "hu": "Komló"
       },
       "id": "(O)304",
@@ -4806,7 +4806,7 @@
       "displayNames": {
         "en": "Void Mayonnaise",
         "ja": "ヴォイドマヨネーズ",
-        "ru": "Майонез Пустоты",
+        "ru": "Майонез пустоты",
         "pt": "Maionese Nula",
         "es": "Mayonesa sombría",
         "de": "Schattenmayonnaise",
@@ -4850,7 +4850,7 @@
         "pt": "Semente de Ácer",
         "es": "Semilla de arce",
         "de": "Ahornsamen",
-        "fr": "Graine d'érable",
+        "fr": "Graine d’érable",
         "it": "Seme di acero",
         "tr": "Akçaağaç Tohumu",
         "hu": "Juharfa magvak"
@@ -5005,14 +5005,14 @@
       "category": -999,
       "displayNames": {
         "en": "Ice Crystal",
-        "ja": "Ice Crystal",
+        "ja": "アイスクリスタル",
         "ru": "Ледяной кристалл",
-        "pt": "Ice Crystal",
-        "es": "Ice Crystal",
+        "pt": "Cristal de Gelo",
+        "es": "Cristal congelado",
         "de": "Ice Crystal",
-        "fr": "Ice Crystal",
-        "it": "Ice Crystal",
-        "tr": "Ice Crystal",
+        "fr": "Crystal de glace",
+        "it": "Cristallo di ghiaccio",
+        "tr": "Buz Kristali",
         "hu": "Jégkristály"
       },
       "id": "(O)319",
@@ -5025,14 +5025,14 @@
       "category": -999,
       "displayNames": {
         "en": "Ice Crystal",
-        "ja": "Ice Crystal",
+        "ja": "アイスクリスタル",
         "ru": "Ледяной кристалл",
-        "pt": "Ice Crystal",
-        "es": "Ice Crystal",
+        "pt": "Cristal de Gelo",
+        "es": "Cristal congelado",
         "de": "Ice Crystal",
-        "fr": "Ice Crystal",
-        "it": "Ice Crystal",
-        "tr": "Ice Crystal",
+        "fr": "Crystal de glace",
+        "it": "Cristallo di ghiaccio",
+        "tr": "Buz Kristali",
         "hu": "Jégkristály"
       },
       "id": "(O)320",
@@ -5045,14 +5045,14 @@
       "category": -999,
       "displayNames": {
         "en": "Ice Crystal",
-        "ja": "Ice Crystal",
+        "ja": "アイスクリスタル",
         "ru": "Ледяной кристалл",
-        "pt": "Ice Crystal",
-        "es": "Ice Crystal",
+        "pt": "Cristal de Gelo",
+        "es": "Cristal congelado",
         "de": "Ice Crystal",
-        "fr": "Ice Crystal",
-        "it": "Ice Crystal",
-        "tr": "Ice Crystal",
+        "fr": "Crystal de glace",
+        "it": "Cristallo di ghiaccio",
+        "tr": "Buz Kristali",
         "hu": "Jégkristály"
       },
       "id": "(O)321",
@@ -5406,7 +5406,7 @@
       "displayNames": {
         "en": "Pickles",
         "ja": "ピクルス",
-        "ru": "Консервы",
+        "ru": "Маринованные консервы",
         "pt": "Picles",
         "es": "Encurtidos",
         "de": "Eingelegtes",
@@ -5430,7 +5430,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -5452,7 +5452,7 @@
         "de": "Gelee",
         "fr": "Gelée",
         "it": "Gelatina",
-        "tr": "Marmelat",
+        "tr": "Reçel",
         "hu": "Dzsem"
       },
       "id": "(O)344",
@@ -5692,7 +5692,7 @@
         "de": "Goldener Kürbis",
         "fr": "Citrouille dorée",
         "it": "Zucca dorata",
-        "tr": "Altın Balkabağı",
+        "tr": "Altın Bal Kabağı",
         "hu": "Aranytök"
       },
       "id": "(O)373",
@@ -5770,7 +5770,7 @@
         "pt": "Minério de Ouro",
         "es": "Mena de oro",
         "de": "Golderz",
-        "fr": "Minerai d'or",
+        "fr": "Minerai d’or",
         "it": "Oro grezzo",
         "tr": "Altın Cevheri",
         "hu": "Aranyérc"
@@ -5790,7 +5790,7 @@
         "pt": "Minério de Irídio",
         "es": "Mena de iridio",
         "de": "Iridiumerz",
-        "fr": "Minerai d'iridium",
+        "fr": "Minerai d’iridium",
         "it": "Iridio grezzo",
         "tr": "İridyum Cevheri",
         "hu": "Irídiumérc"
@@ -5893,7 +5893,7 @@
         "fr": "Coquille arc-en-ciel",
         "it": "Conchiglia arcobaleno",
         "tr": "Renkli Kabuk",
-        "hu": "Szivárvány kagyló"
+        "hu": "Szivárványos kagyló"
       },
       "id": "(O)394",
       "textureName": "cba269bad1427c0020f347a837ce6608a27cf78bbb1e9040305b8428a2199812",
@@ -6033,7 +6033,7 @@
         "fr": "Sol de paille",
         "it": "Pavimento di paglia",
         "tr": "Hasır Kaplama",
-        "hu": "Szalma padló"
+        "hu": "Szalmapadló"
       },
       "id": "(O)401",
       "textureName": "08f32a78c3467aac859e0d3bdda69610dea700488abf9c708a88a4435ba46b11",
@@ -6126,7 +6126,7 @@
       "displayNames": {
         "en": "Wild Plum",
         "ja": "野生のプラム",
-        "ru": "Черная слива",
+        "ru": "Дикая слива",
         "pt": "Ameixa Selvagem",
         "es": "Ciruela salvaje",
         "de": "Wildpflaume",
@@ -6250,7 +6250,7 @@
         "pt": "Raiz de Inverno",
         "es": "Raíz invernal",
         "de": "Winterwurzel",
-        "fr": "Racine d'hiver",
+        "fr": "Racine d’hiver",
         "it": "Radice invernale",
         "tr": "Kış Kökü",
         "hu": "Téli gyökér"
@@ -6266,7 +6266,7 @@
       "displayNames": {
         "en": "Blue Slime Egg",
         "ja": "ブルースライムのタマゴ",
-        "ru": "Синее яйцо слайма",
+        "ru": "Яйцо синего слайма",
         "pt": "Ovo de Gosma Azul",
         "es": "Huevo de baba azul",
         "de": "Blaues Schleim-Ei",
@@ -6313,7 +6313,7 @@
         "fr": "Chemin de pierres naturelles",
         "it": "Sentiero di pietre",
         "tr": "Taş Yol",
-        "hu": "Lépcsős kőút"
+        "hu": "Lépőköves út"
       },
       "id": "(O)415",
       "textureName": "0dac70b923fae30ec45fd34f3cbac37461dde4f815f05e3db5454fc043275f10",
@@ -6346,14 +6346,14 @@
       "displayNames": {
         "en": "Sweet Gem Berry",
         "ja": "スイートジェムベリー",
-        "ru": "Сладкая ягодка",
+        "ru": "Сладкая самоцветинка",
         "pt": "Cereja de Joia Doce",
         "es": "Baya de gema dulce",
         "de": "Süße Edelsteinbeere",
-        "fr": "Baie gemme sucrée",
+        "fr": "Baie de gemme sucrée",
         "it": "Baccagemma dolce",
         "tr": "Tatlıtaş Meyvesi",
-        "hu": "Édes drágakő bogyó"
+        "hu": "Édes drágakőbogyó"
       },
       "id": "(O)417",
       "textureName": "89eaddf73cd39c179c87b15f5501800a86dfb1eef29f339a5b0445ed08ecd750",
@@ -6573,7 +6573,7 @@
         "fr": "Huile de truffe",
         "it": "Olio di tartufo",
         "tr": "Yermantarı Yağı",
-        "hu": "Szarvasgomba olaj"
+        "hu": "Szarvasgombaolaj"
       },
       "id": "(O)432",
       "textureName": "c45af2acc57e09fb904380641a9325be1a964a3b3016d22ee53372f8bc3973cd",
@@ -6646,7 +6646,7 @@
       "displayNames": {
         "en": "Red Slime Egg",
         "ja": "レッドスライムのタマゴ",
-        "ru": "Красное яйцо слайма",
+        "ru": "Яйцо красного слайма",
         "pt": "Ovo de Gosma Vermelha",
         "es": "Huevo de baba roja",
         "de": "Rotes Schleim-Ei",
@@ -6686,7 +6686,7 @@
       "displayNames": {
         "en": "Purple Slime Egg",
         "ja": "パープルスライムのタマゴ",
-        "ru": "Фиолетовое яйцо слайма",
+        "ru": "Яйцо фиолетового слайма",
         "pt": "Ovo de Gosma Púrpura",
         "es": "Huevo de baba lila",
         "de": "Violettes Schleim-Ei",
@@ -6812,7 +6812,7 @@
         "de": "Gealterter Fischlaich",
         "fr": "Oeufs de poisson marinés",
         "it": "Uova di pesce invecchiate",
-        "tr": "Olgun Yumurta",
+        "tr": "Olgun Balık Yumurtası",
         "hu": "Érlelt ikra"
       },
       "id": "(O)447",
@@ -6850,7 +6850,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -6912,7 +6912,7 @@
         "de": "Algensuppe",
         "fr": "Soupe aux algues",
         "it": "Zuppa di alghette",
-        "tr": "Yosun Çorbası",
+        "tr": "Su Yosunu Çorbası",
         "hu": "Algaleves"
       },
       "id": "(O)456",
@@ -7130,7 +7130,7 @@
         "pt": "Mudas de Vagem",
         "es": "Kit de judías",
         "de": "Bohnen-Setzling",
-        "fr": "Graines d'haricot",
+        "fr": "Graines d’haricot",
         "it": "Avvia-fagioli",
         "tr": "Fasulye Yetiştirici",
         "hu": "Babültetvény"
@@ -7190,7 +7190,7 @@
         "pt": "Sementes de Alho",
         "es": "Semillas de ajo",
         "de": "Knoblauch-Saat",
-        "fr": "Graines d'ail",
+        "fr": "Graines d’ail",
         "it": "Semi d'aglio",
         "tr": "Sarımsak Tohumu",
         "hu": "Fokhagyma magvak"
@@ -7292,7 +7292,7 @@
         "de": "Blaubeeren-Saat",
         "fr": "Graines de myrtille",
         "it": "Semi di mirtillo",
-        "tr": "Yabanmersini Tohumu",
+        "tr": "Yaban Mersini Tohumu",
         "hu": "Kék áfonya magvak"
       },
       "id": "(O)481",
@@ -7430,7 +7430,7 @@
         "pt": "Sementes de Berinjela",
         "es": "Semillas de berenjena",
         "de": "Auberginen-Saat",
-        "fr": "Graines d'aubergine",
+        "fr": "Graines d’aubergine",
         "it": "Semi di melanzana",
         "tr": "Patlıcan Tohumu",
         "hu": "Padlizsán magvak"
@@ -7450,7 +7450,7 @@
         "pt": "Sementes de Alcachofra",
         "es": "Semillas de alcachofa",
         "de": "Artischocken-Saat",
-        "fr": "Graines d'artichaut",
+        "fr": "Graines d’artichaut",
         "it": "Semi di carciofo",
         "tr": "Enginar Tohumu",
         "hu": "Articsóka magvak"
@@ -7472,7 +7472,7 @@
         "de": "Kürbis-Saat",
         "fr": "Graines de citrouille",
         "it": "Semi di zucca",
-        "tr": "Balkabağı Tohumu",
+        "tr": "Bal Kabağı Tohumu",
         "hu": "Tök magvak"
       },
       "id": "(O)490",
@@ -7486,7 +7486,7 @@
       "displayNames": {
         "en": "Bok Choy Seeds",
         "ja": "チンゲンサイのタネ",
-        "ru": "Семена бок-чой",
+        "ru": "Семена бок-чоя",
         "pt": "Sementes de Acelga Chinesa",
         "es": "Semillas de col china",
         "de": "Senfkohl-Saat",
@@ -7510,7 +7510,7 @@
         "pt": "Sementes de Inhame",
         "es": "Semillas de ñame",
         "de": "Süßkartoffel-Saat",
-        "fr": "Graines d'igname",
+        "fr": "Graines d’igname",
         "it": "Semi di patata dolce",
         "tr": "Tatlı Patates Tohumu",
         "hu": "Jamgyökér magvak"
@@ -7590,7 +7590,7 @@
         "pt": "Sementes de Verão",
         "es": "Semillas veraniegas",
         "de": "Sommersaat",
-        "fr": "Graines d'été",
+        "fr": "Graines d’été",
         "it": "Semi estivi",
         "tr": "Yaz Tohumları",
         "hu": "Nyári magvak"
@@ -7610,7 +7610,7 @@
         "pt": "Sementes de Outono",
         "es": "Semillas otoñales",
         "de": "Herbstsaat",
-        "fr": "Graines d'automne",
+        "fr": "Graines d’automne",
         "it": "Semi autunnali",
         "tr": "Güz Tohumları",
         "hu": "Őszi magvak"
@@ -7630,7 +7630,7 @@
         "pt": "Sementes de Inverno",
         "es": "Semillas invernales",
         "de": "Wintersaat",
-        "fr": "Graines d'hiver",
+        "fr": "Graines d’hiver",
         "it": "Semi invernali",
         "tr": "Kış Tohumları",
         "hu": "Téli magvak"
@@ -7770,7 +7770,7 @@
         "pt": "Sementes de Fada",
         "es": "Semillas de hada",
         "de": "Feen-Saat",
-        "fr": "Graines de rose Féerie",
+        "fr": "Graines de rose de fée",
         "it": "Semi fatati",
         "tr": "Perigülü Tohumu",
         "hu": "Tündér magvak"
@@ -7893,7 +7893,7 @@
         "fr": "Anneau du guerrier",
         "it": "Anello del guerriero",
         "tr": "Savaşçı Yüzüğü",
-        "hu": "Harcos gyűrű"
+        "hu": "Harci gyűrű"
       },
       "id": "(O)521",
       "textureName": "1eaecd8ad196d57558973da850c5f6067b48868d945ca8692a6893dc704bce28",
@@ -8006,11 +8006,11 @@
       "displayNames": {
         "en": "Iridium Band",
         "ja": "イリジウムバンド",
-        "ru": "Иридиевый обод",
+        "ru": "Иридиевый перстень",
         "pt": "Anel de Irídio",
         "es": "Anillo de iridio",
         "de": "Iridiumband",
-        "fr": "Anneau d'iridium",
+        "fr": "Anneau d’iridium",
         "it": "Fascia d'iridio",
         "tr": "İridyum Yüzük",
         "hu": "Irídiumszalag"
@@ -8130,7 +8130,7 @@
         "pt": "Anel de Esmeralda",
         "es": "Anillo de esmeralda",
         "de": "Smaragd-Ring",
-        "fr": "Bague d'émeraude",
+        "fr": "Bague d’émeraude",
         "it": "Anello di smeraldo",
         "tr": "Zümrüt Yüzük",
         "hu": "Smaragd gyűrű"
@@ -8273,7 +8273,7 @@
         "fr": "Barytine",
         "it": "Barite",
         "tr": "Barit",
-        "hu": "Baryt"
+        "hu": "Barit"
       },
       "id": "(O)540",
       "textureName": "d5af14ae4bd89c3a3dd7c96b3def05fc73b18aa55ee4076a60996c91faf6a433",
@@ -8290,7 +8290,7 @@
         "pt": "Aerinita",
         "es": "Aerinita",
         "de": "Aerinit",
-        "fr": "Aerinite",
+        "fr": "Aérinite",
         "it": "Aerinite",
         "tr": "Ayerinit",
         "hu": "Aerinit"
@@ -8773,7 +8773,7 @@
         "fr": "Opale de feu",
         "it": "Opale di fuoco",
         "tr": "Kızıl Opal",
-        "hu": "Tűz opál"
+        "hu": "Tűzopál"
       },
       "id": "(O)565",
       "textureName": "b9ea7271c7e7021ba205c27ac780ca69023a2ce9e69fccef481cce1a86a4b75a",
@@ -8850,7 +8850,7 @@
         "pt": "Granito",
         "es": "Granito",
         "de": "Granit",
-        "fr": "Granite",
+        "fr": "Granit",
         "it": "Granito",
         "tr": "Granit",
         "hu": "Gránit"
@@ -9033,7 +9033,7 @@
         "fr": "Fragment d’étoile",
         "it": "Schegge di stella",
         "tr": "Yıldız Parçaçığı",
-        "hu": "Csillagtöredékek"
+        "hu": "Csillagtöredék"
       },
       "id": "(O)578",
       "textureName": "5398fa6bec7f518c96efc326eafff33dd8feea5ed33f15284f0cb51873d15ad6",
@@ -9113,7 +9113,7 @@
         "fr": "Main squelettique",
         "it": "Mano scheletrica",
         "tr": "İskelet Eli",
-        "hu": "Csontváz kéz"
+        "hu": "Csontvázkéz"
       },
       "id": "(O)582",
       "textureName": "a64dc1f170a84532f17d92ed7c1286300d74375c75cb597d77ec11ba8c953b95",
@@ -9210,7 +9210,7 @@
         "pt": "Fóssil de Anfíbio",
         "es": "Fósil de anfibio",
         "de": "Amphibienfossil",
-        "fr": "Fossile d'amphibiens",
+        "fr": "Fossile d’amphibiens",
         "it": "Fossile di anfibio",
         "tr": "Amfibi Fosili",
         "hu": "Kétéltű kövület"
@@ -9270,7 +9270,7 @@
         "pt": "Ponto de artefato",
         "es": "Lugar de artefacto",
         "de": "Artefakt-Ort",
-        "fr": "Lieu d'artefacts",
+        "fr": "Lieu d’artefacts",
         "it": "Punto Artefatto",
         "tr": "Eser",
         "hu": "Ereklye folt"
@@ -9310,7 +9310,7 @@
         "pt": "Flor-Miçanga",
         "es": "Lentejuela de verano",
         "de": "Sommerschmuck",
-        "fr": "Fleur tropicale d'été",
+        "fr": "Fleur tropicale d’été",
         "it": "Lustrino d'estate",
         "tr": "Yazpulu",
         "hu": "Nyári tölgyfagubacs"
@@ -9330,7 +9330,7 @@
         "pt": "Rosa-de-fada",
         "es": "Rosa hada",
         "de": "Feenrose",
-        "fr": "Rose Féerie",
+        "fr": "Rose de fée",
         "it": "Rosa fatata",
         "tr": "Perigülü",
         "hu": "Tündérrózsa"
@@ -9673,7 +9673,7 @@
         "fr": "Arroseur en iridium",
         "it": "Irrigatore d'iridio",
         "tr": "İridyum Fıskiye",
-        "hu": "Irídium öntöző"
+        "hu": "Irídiumöntöző"
       },
       "id": "(O)645",
       "textureName": "1a53110a0d7cdb5529ad8fd799b99641c607f633e4ccdc47ee238a989b611ba5",
@@ -9692,7 +9692,7 @@
         "de": "Kohlsalat",
         "fr": "Salade de chou",
         "it": "Insalata russa",
-        "tr": "Lahana Salatası",
+        "tr": "Kırmızı Lahana Salatası",
         "hu": "Káposztasaláta"
       },
       "id": "(O)648",
@@ -9710,10 +9710,10 @@
         "pt": "Risoto de Samambaia",
         "es": "Risotto de helecho",
         "de": "Straußfarn-Risotto",
-        "fr": "Risotto aux fougères",
+        "fr": "Risotto aux crosses de fougère",
         "it": "Risotto di felci",
-        "tr": "Eğreltiotlu Pilav",
-        "hu": "Hegedűfej rizottó"
+        "tr": "Eğrelti Otlu Pilav",
+        "hu": "Hegedűfejes rizottó"
       },
       "id": "(O)649",
       "textureName": "340cb6c3895a02ea3a9c93e1ab0d88fe6c2625d8b1133348273728f9aae82a07",
@@ -9732,7 +9732,7 @@
         "de": "Mohnmuffin",
         "fr": "Muffin aux graines de pavot",
         "it": "Muffin ai semi di papavero",
-        "tr": "Haşhaşlı Börek",
+        "tr": "Haşhaşlı Kek",
         "hu": "Mákos muffin"
       },
       "id": "(O)651",
@@ -9965,12 +9965,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -9985,12 +9985,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -10126,7 +10126,7 @@
       "displayNames": {
         "en": "Green Slime Egg",
         "ja": "グリーンスライムのタマゴ",
-        "ru": "Зеленое яйцо слайма",
+        "ru": "Яйцо зеленого слайма",
         "pt": "Ovo de Gosma Verde",
         "es": "Huevo de baba verde",
         "de": "Grünes Schleim-Ei",
@@ -10190,7 +10190,7 @@
         "pt": "Carne de Inseto",
         "es": "Carne de insecto",
         "de": "Käferfleisch",
-        "fr": "Viande d'insecte",
+        "fr": "Viande d’insecte",
         "it": "Carne d'insetto",
         "tr": "Böcek Eti",
         "hu": "Bogárhús"
@@ -10229,7 +10229,7 @@
         "ru": "Спиннер",
         "pt": "Anzol Giratório",
         "es": "Girador",
-        "de": "Dreher",
+        "de": "Spinner",
         "fr": "Leurre",
         "it": "Rotante",
         "tr": "Yapay Yem",
@@ -10249,7 +10249,7 @@
         "ru": "Украшенный спиннер",
         "pt": "Isca Artificial",
         "es": "Girador disfrazado",
-        "de": "Verkleideter Dreher",
+        "de": "Verkleideter Spinner",
         "fr": "Hameçon à leurre",
         "it": "Rotante travestito",
         "tr": "Süslü Yapay Yem",
@@ -10393,7 +10393,7 @@
         "fr": "Piège flotteur",
         "it": "Galleggiante trappola",
         "tr": "Tuzaklı Mantar",
-        "hu": "Csapda úszó"
+        "hu": "Csapdaúszó"
       },
       "id": "(O)694",
       "textureName": "7d734b2f353c53eb270bddc950cb6a20239d1cdfcb4b6481f4fe73e37c9ae65c",
@@ -10626,7 +10626,7 @@
       "displayNames": {
         "en": "Halibut",
         "ja": "オヒョウ",
-        "ru": "Камбала",
+        "ru": "Палтус",
         "pt": "Halibute",
         "es": "Fletán",
         "de": "Heilbutt",
@@ -10870,7 +10870,7 @@
         "pt": "Xarope de Ácer",
         "es": "Jarabe de arce",
         "de": "Ahornsirup",
-        "fr": "Sirop d'érable",
+        "fr": "Sirop d’érable",
         "it": "Sciroppo d'acero",
         "tr": "Akçaağaç Pekmezi",
         "hu": "Juharfaszirup"
@@ -10953,7 +10953,7 @@
         "fr": "Bisque de homard",
         "it": "Zuppa d'aragosta",
         "tr": "Istakoz Çorbası",
-        "hu": "Homár krémleves"
+        "hu": "Homárkrémleves"
       },
       "id": "(O)730",
       "textureName": "6e64612beb4c0ab5b23bb209c5407efe0480dd575a7c7c6e01da42777138322f",
@@ -11010,7 +11010,7 @@
         "pt": "Pão de Ácer",
         "es": "Bollito de arce",
         "de": "Ahornriegel",
-        "fr": "Gâteau à l'érable",
+        "fr": "Gâteau d’érable",
         "it": "Barretta d'acero",
         "tr": "Özlü Gözleme",
         "hu": "Juharrúd"
@@ -11053,7 +11053,7 @@
         "fr": "Cocktail de crevettes",
         "it": "Cocktail di gamberetti",
         "tr": "Karides Kokteyli",
-        "hu": "Garnéla koktél"
+        "hu": "Garnélakoktél"
       },
       "id": "(O)733",
       "textureName": "0380009cc2cca395ee6ab9042956d1c1818fc324aa61158484938eae56e12a91",
@@ -11085,14 +11085,14 @@
       "category": 0,
       "displayNames": {
         "en": "Haley's Lost Bracelet",
-        "ja": "Haley's Lost Bracelet",
+        "ja": "ヘイリーがなくしたブレスレット",
         "ru": "Потерянный браслет Хэйли",
         "pt": "Bracelete Perdido da Haley",
-        "es": "Haley's Lost Bracelet",
+        "es": "El brazalete perdido de Haley",
         "de": "Haley's Lost Bracelet",
-        "fr": "Haley's Lost Bracelet",
-        "it": "Haley's Lost Bracelet",
-        "tr": "Haley's Lost Bracelet",
+        "fr": "Bracelet perdu de Haley",
+        "it": "Braccialetto perduto di Haley",
+        "tr": "Haley'nin Kayıp Bileziği",
         "hu": "Haley elveszett karkötője"
       },
       "id": "(O)742",
@@ -11225,14 +11225,14 @@
       "category": -999,
       "displayNames": {
         "en": "Copper Stone",
-        "ja": "Copper Stone",
+        "ja": "銅鉱脈",
         "ru": "Медный камень",
-        "pt": "Copper Stone",
-        "es": "Copper Stone",
+        "pt": "Pedra de Cobre",
+        "es": "Piedra de cobre",
         "de": "Copper Stone",
-        "fr": "Copper Stone",
-        "it": "Copper Stone",
-        "tr": "Copper Stone",
+        "fr": "Minerai de cuivre",
+        "it": "Pietra con rame",
+        "tr": "Bakır Taşı",
         "hu": "Rézkő"
       },
       "id": "(O)751",
@@ -11250,7 +11250,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -11270,7 +11270,7 @@
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -11285,14 +11285,14 @@
       "category": -999,
       "displayNames": {
         "en": "Gold Stone",
-        "ja": "Gold Stone",
+        "ja": "金鉱脈",
         "ru": "Золотой камень",
-        "pt": "Gold Stone",
-        "es": "Gold Stone",
+        "pt": "Pedra de Ouro",
+        "es": "Piedra de oro",
         "de": "Gold Stone",
-        "fr": "Gold Stone",
-        "it": "Gold Stone",
-        "tr": "Gold Stone",
+        "fr": "Pierre d’or",
+        "it": "Pietra con oro",
+        "tr": "Altın Taşı",
         "hu": "Aranykő"
       },
       "id": "(O)764",
@@ -11305,14 +11305,14 @@
       "category": -999,
       "displayNames": {
         "en": "Iridium Stone",
-        "ja": "Iridium Stone",
+        "ja": "イリジウム鉱脈",
         "ru": "Иридиевый камень",
-        "pt": "Iridium Stone",
-        "es": "Iridium Stone",
+        "pt": "Pedra de Irídio",
+        "es": "Piedra de iridio",
         "de": "Iridium Stone",
-        "fr": "Iridium Stone",
-        "it": "Iridium Stone",
-        "tr": "Iridium Stone",
+        "fr": "Pierre d’iridium",
+        "it": "Pietra con iridio",
+        "tr": "İridyum Taşı",
         "hu": "Irídiumkő"
       },
       "id": "(O)765",
@@ -11446,11 +11446,11 @@
       "displayNames": {
         "en": "Oil of Garlic",
         "ja": "ガーリックオイル",
-        "ru": "Масло Чеснока",
+        "ru": "Чесночное масло",
         "pt": "Óleo de Alho",
         "es": "Aceite de ajo",
         "de": "Knoblauchöl",
-        "fr": "Huile d'ail",
+        "fr": "Huile d’ail",
         "it": "Olio d'aglio",
         "tr": "Sarımsak Yağı",
         "hu": "Fokhagymaolaj"
@@ -11790,7 +11790,7 @@
         "pt": "Lula da Meia-noite",
         "es": "Calamar de medianoche",
         "de": "Mitternächtlicher Tintenfisch",
-        "fr": "Calmar de minuit",
+        "fr": "Calamar de minuit",
         "it": "Calamaro di mezzanotte",
         "tr": "Gecekalamarı",
         "hu": "Éjféli tintahal"
@@ -11826,11 +11826,11 @@
       "displayNames": {
         "en": "Blobfish",
         "ja": "ぶくぶく魚",
-        "ru": "Рыба-пузырь",
+        "ru": "Рыба-капля",
         "pt": "Peixe-bolha",
         "es": "Pez gota",
         "de": "Blobfisch",
-        "fr": "Blobfish",
+        "fr": "Poisson-blob",
         "it": "Pesce blob",
         "tr": "Lekebalığı",
         "hu": "Pacahal"
@@ -11890,7 +11890,7 @@
         "pt": "Leite de Irídio",
         "es": "Leche de iridio",
         "de": "Iridiummilch",
-        "fr": "Lait d'iridium",
+        "fr": "Lait d’iridium",
         "it": "Latte d'iridio",
         "tr": "İridyumlu Süt",
         "hu": "Irídiumtej"
@@ -11913,7 +11913,7 @@
         "fr": "Engrais pour arbres",
         "it": "Fertilizzante per alberi",
         "tr": "Ağaç Gübresi",
-        "hu": "Fa trágya"
+        "hu": "Fatrágya"
       },
       "id": "(O)805",
       "textureName": "c18c304eb53dbbbf9f1b84b63649e92455a05844c8fb81d492d2ff496ac3f47d",
@@ -11930,7 +11930,7 @@
         "pt": "Maionese de Dinossauro",
         "es": "Mayonesa dinosaurio",
         "de": "Dinosaurier Mayonnaise",
-        "fr": "Mayonnaise dinosaure",
+        "fr": "Mayonnaise de dinosaure",
         "it": "Maionese di dinosauro",
         "tr": "Dinozor Mayonezi",
         "hu": "Dinoszaurusz majonéz"
@@ -11969,7 +11969,7 @@
         "ru": "Билет в кино",
         "pt": "Ingresso de Filme",
         "es": "Entrada para una película",
-        "de": "Kino Ticket",
+        "de": "Kinoticket",
         "fr": "Ticket de cinéma",
         "it": "Biglietto del cinema",
         "tr": "Sinema Bileti",
@@ -12025,7 +12025,7 @@
       "category": -23,
       "displayNames": {
         "en": "Roe",
-        "ja": "明太子",
+        "ja": "魚卵",
         "ru": "Икра",
         "pt": "Ovas",
         "es": "Huevas",
@@ -12052,7 +12052,7 @@
         "de": "Kaviar",
         "fr": "Caviar",
         "it": "Caviale",
-        "tr": "Hayvar",
+        "tr": "Havyar",
         "hu": "Kaviár"
       },
       "id": "(O)445",
@@ -12073,7 +12073,7 @@
         "fr": "Encre de Calamar",
         "it": "Nero di seppia",
         "tr": "Mürekkepbalığı Mürekkebi",
-        "hu": "Tintahal tinta"
+        "hu": "Tintahaltinta"
       },
       "id": "(O)814",
       "textureName": "44dd79261edeb79acd0046b7a0466a0118a349eba15ce9301b5909da1fbe93f0",
@@ -12089,7 +12089,7 @@
         "ru": "Чайные листья",
         "pt": "Folhas de Chá",
         "es": "Hojas de té",
-        "de": "Tee Blätter",
+        "de": "Teeblätter",
         "fr": "Feuilles de thé",
         "it": "Foglie di tè",
         "tr": "Çay Yaprakları",
@@ -12106,7 +12106,7 @@
       "displayNames": {
         "en": "Flounder",
         "ja": "平らな魚",
-        "ru": "Мелкая камбала",
+        "ru": "Камбала",
         "pt": "Linguado",
         "es": "Platija",
         "de": "Flunder",
@@ -12133,7 +12133,7 @@
         "fr": "Pudding de mousse de mer",
         "it": "Budino di schiuma di mare",
         "tr": "Deniz Köpüğü Tatlısı",
-        "hu": "Tengeri hab puding"
+        "hu": "Tengerihab-puding"
       },
       "id": "(O)265",
       "textureName": "d987f19653b7c0aa1c7c3d6e4a9f37513aa3c9889a0be26573c89df96bff12d5",
@@ -12170,7 +12170,7 @@
         "pt": "Semente de Mogno",
         "es": "Semilla de caoba",
         "de": "Mahagoni-Samen",
-        "fr": "Graine d'acajou",
+        "fr": "Graine d’acajou",
         "it": "Seme di mogano",
         "tr": "Maun Tohumu",
         "hu": "Mahagóni magvak"
@@ -12190,9 +12190,9 @@
         "pt": "Ovo de Avestruz",
         "es": "Huevo de avestruz",
         "de": "Straußenei",
-        "fr": "Oeuf d'autruche",
+        "fr": "Oeuf d’autruche",
         "it": "Uovo di struzzo",
-        "tr": "Devekuşu Yumurtası",
+        "tr": "Deve Kuşu Yumurtası",
         "hu": "Strucctojás"
       },
       "id": "(O)289",
@@ -12205,14 +12205,14 @@
       "category": -999,
       "displayNames": {
         "en": "Mussel Stone",
-        "ja": "Mussel Stone",
+        "ja": "ムールガイ鉱脈",
         "ru": "Ракушковый камень",
-        "pt": "Mussel Stone",
-        "es": "Mussel Stone",
+        "pt": "Pedra de Mexilhão",
+        "es": "Piedra con mejillones",
         "de": "Mussel Stone",
-        "fr": "Mussel Stone",
-        "it": "Mussel Stone",
-        "tr": "Mussel Stone",
+        "fr": "Pierre à moule",
+        "it": "Pietra con cozze",
+        "tr": "Midye Taşı",
         "hu": "Kagylós kő"
       },
       "id": "(O)25",
@@ -12305,14 +12305,14 @@
       "category": -999,
       "displayNames": {
         "en": "Fossil Stone",
-        "ja": "Fossil Stone",
+        "ja": "化石鉱脈",
         "ru": "Камень с раскопок",
-        "pt": "Fossil Stone",
-        "es": "Fossil Stone",
+        "pt": "Pedra de Fóssil",
+        "es": "Piedra fosilizada",
         "de": "Fossil Stone",
-        "fr": "Fossil Stone",
-        "it": "Fossil Stone",
-        "tr": "Fossil Stone",
+        "fr": "Pierre à fossile",
+        "it": "Pietra con fossili",
+        "tr": "Fosil Taşı",
         "hu": "Fosszíliás kő"
       },
       "id": "(O)816",
@@ -12325,14 +12325,14 @@
       "category": -999,
       "displayNames": {
         "en": "Fossil Stone",
-        "ja": "Fossil Stone",
+        "ja": "化石鉱脈",
         "ru": "Камень с раскопок",
-        "pt": "Fossil Stone",
-        "es": "Fossil Stone",
+        "pt": "Pedra de Fóssil",
+        "es": "Piedra fosilizada",
         "de": "Fossil Stone",
-        "fr": "Fossil Stone",
-        "it": "Fossil Stone",
-        "tr": "Fossil Stone",
+        "fr": "Pierre à fossile",
+        "it": "Pietra con fossili",
+        "tr": "Fosil Taşı",
         "hu": "Fosszíliás kő"
       },
       "id": "(O)817",
@@ -12345,14 +12345,14 @@
       "category": -999,
       "displayNames": {
         "en": "Clay Stone",
-        "ja": "Clay Stone",
+        "ja": "粘土鉱脈",
         "ru": "Глиняный камень",
-        "pt": "Clay Stone",
-        "es": "Clay Stone",
+        "pt": "Pedra de Argila",
+        "es": "Piedra de arcilla",
         "de": "Clay Stone",
-        "fr": "Clay Stone",
-        "it": "Clay Stone",
-        "tr": "Clay Stone",
+        "fr": "Pierre d’argile",
+        "it": "Pietra con argilla",
+        "tr": "Kil Taşı",
         "hu": "Agyag kő"
       },
       "id": "(O)818",
@@ -12365,14 +12365,14 @@
       "category": -999,
       "displayNames": {
         "en": "Omni Geode Stone",
-        "ja": "Omni Geode Stone",
+        "ja": "オムニジオード鉱脈",
         "ru": "Омнижеодовый камень",
-        "pt": "Omni Geode Stone",
-        "es": "Omni Geode Stone",
+        "pt": "Pedra de Omnigeodo",
+        "es": "Piedra de omnigeodas",
         "de": "Omni Geode Stone",
-        "fr": "Omni Geode Stone",
-        "it": "Omni Geode Stone",
-        "tr": "Omni Geode Stone",
+        "fr": "Pierre de géode-omni",
+        "it": "Pietra con omni-geode",
+        "tr": "Bütünjeot Taşı",
         "hu": "Omni-geódakő"
       },
       "id": "(O)819",
@@ -12586,7 +12586,7 @@
       "displayNames": {
         "en": "Taro Root",
         "ja": "タロイモの根",
-        "ru": "Корень Таро",
+        "ru": "Корень таро",
         "pt": "Inhame-coco",
         "es": "Raíz de taro",
         "de": "Taro-Wurzel",
@@ -12606,7 +12606,7 @@
       "displayNames": {
         "en": "Taro Tuber",
         "ja": "タロイモのタネいも",
-        "ru": "Клубень Таро",
+        "ru": "Клубень таро",
         "pt": "Tubérculo de Inhame-coco",
         "es": "Fruto de taro",
         "de": "Taro-Knollen",
@@ -12650,7 +12650,7 @@
         "pt": "Sementes de Abacaxi",
         "es": "Semillas de piña",
         "de": "Ananassamen",
-        "fr": "Graines d'ananas",
+        "fr": "Graines d’ananas",
         "it": "Semi di ananas",
         "tr": "Ananas Tohumu",
         "hu": "Ananász magvak"
@@ -12726,7 +12726,7 @@
       "displayNames": {
         "en": "Lionfish",
         "ja": "ミノカサゴ",
-        "ru": "Морской ёрш",
+        "ru": "Крылатка",
         "pt": "Peixe-leão",
         "es": "Pez león",
         "de": "Rotfeuerfisch",
@@ -12766,7 +12766,7 @@
       "displayNames": {
         "en": "Thorns Ring",
         "ja": "トゲの指輪",
-        "ru": "Кольцо Шипов",
+        "ru": "Кольцо шипов",
         "pt": "Anel de Espinhos",
         "es": "Anillo de espinas",
         "de": "Dornenring ",
@@ -12845,14 +12845,14 @@
       "category": -999,
       "displayNames": {
         "en": "Cinder Shard Stone",
-        "ja": "Cinder Shard Stone",
+        "ja": "噴石のかけら鉱脈",
         "ru": "Камень с тлеющими осколками",
-        "pt": "Cinder Shard Stone",
-        "es": "Cinder Shard Stone",
+        "pt": "Pedra de Fragmento de Brasa",
+        "es": "Piedra de fragmentos de ceniza",
         "de": "Cinder Shard Stone",
-        "fr": "Cinder Shard Stone",
-        "it": "Cinder Shard Stone",
-        "tr": "Cinder Shard Stone",
+        "fr": "Éclat de cendre",
+        "it": "Pietra con schegge di brace",
+        "tr": "Köz Parçacığı Taşı",
         "hu": "Parázstöredék kő"
       },
       "id": "(O)843",
@@ -12865,14 +12865,14 @@
       "category": -999,
       "displayNames": {
         "en": "Cinder Shard Stone",
-        "ja": "Cinder Shard Stone",
+        "ja": "噴石のかけら鉱脈",
         "ru": "Камень с тлеющими осколками",
-        "pt": "Cinder Shard Stone",
-        "es": "Cinder Shard Stone",
+        "pt": "Pedra de Fragmento de Brasa",
+        "es": "Piedra de fragmentos de ceniza",
         "de": "Cinder Shard Stone",
-        "fr": "Cinder Shard Stone",
-        "it": "Cinder Shard Stone",
-        "tr": "Cinder Shard Stone",
+        "fr": "Éclat de cendre",
+        "it": "Pietra con schegge di brace",
+        "tr": "Köz Parçacığı Taşı",
         "hu": "Parázstöredék kő"
       },
       "id": "(O)844",
@@ -12885,12 +12885,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -12905,12 +12905,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -12925,12 +12925,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -12965,14 +12965,14 @@
       "category": -999,
       "displayNames": {
         "en": "Copper Stone",
-        "ja": "Copper Stone",
+        "ja": "銅鉱脈",
         "ru": "Медный камень",
-        "pt": "Copper Stone",
-        "es": "Copper Stone",
+        "pt": "Pedra de Cobre",
+        "es": "Piedra de cobre",
         "de": "Copper Stone",
-        "fr": "Copper Stone",
-        "it": "Copper Stone",
-        "tr": "Copper Stone",
+        "fr": "Minerai de cuivre",
+        "it": "Pietra con rame",
+        "tr": "Bakır Taşı",
         "hu": "Rézkő"
       },
       "id": "(O)849",
@@ -12985,14 +12985,14 @@
       "category": -999,
       "displayNames": {
         "en": "Iron Stone",
-        "ja": "Iron Stone",
+        "ja": "鉄鉱脈",
         "ru": "Железный камень",
-        "pt": "Iron Stone",
-        "es": "Iron Stone",
+        "pt": "Pedra de Ferro",
+        "es": "Piedra de hierro",
         "de": "Iron Stone",
-        "fr": "Iron Stone",
-        "it": "Iron Stone",
-        "tr": "Iron Stone",
+        "fr": "Pierre de fer",
+        "it": "Pietra con ferro",
+        "tr": "Demir Taşı",
         "hu": "Vaskő"
       },
       "id": "(O)850",
@@ -13009,10 +13009,10 @@
         "ru": "Магмовый гриб",
         "pt": "Cogumelo de Magma",
         "es": "Seta magmática",
-        "de": "Magma Hut",
+        "de": "Magmahut",
         "fr": "Champi-magmatique",
         "it": "Porcino magmatico",
-        "tr": "Mağma Mantarı",
+        "tr": "Magma Mantarı",
         "hu": "Magma kalap"
       },
       "id": "(O)851",
@@ -13049,7 +13049,7 @@
         "ru": "Диковинная приманка",
         "pt": "Isca de Curiosidade",
         "es": "Cebo de curiosidad",
-        "de": "Neugierde Köder",
+        "de": "Neugierköder",
         "fr": "Leurre curieux",
         "it": "Esca della curiosità",
         "tr": "Cezbedici Yem",
@@ -13066,7 +13066,7 @@
       "displayNames": {
         "en": "Tiger Slime Egg",
         "ja": "タイガースライムのタマゴ",
-        "ru": "Яйцо Тигрового слайма",
+        "ru": "Яйцо тигрового слайма",
         "pt": "Ovo de Gosma Tigre",
         "es": "Huevo de baba tigre",
         "de": "Tigerschleim-Ei",
@@ -13086,11 +13086,11 @@
       "displayNames": {
         "en": "Qi Gem",
         "ja": "Qiジェム",
-        "ru": "Драгоценный камень Ки",
+        "ru": "Самоцвет Ки",
         "pt": "Gema Qi",
         "es": "Gema Qi",
-        "de": "Qi Edelstein",
-        "fr": "Gemme Qi",
+        "de": "Qi-Edelstein",
+        "fr": "Gemmes de Qi",
         "it": "Gemma Qi",
         "tr": "Qi Taşı",
         "hu": "Qi drágakő"
@@ -13106,14 +13106,14 @@
       "displayNames": {
         "en": "Lucky Ring",
         "ja": "幸運の指輪",
-        "ru": "Кольцо Удачи",
+        "ru": "Кольцо удачи",
         "pt": "Anel da Sorte",
         "es": "Anillo de la suerte",
         "de": "Glücksring",
         "fr": "Bague porte-bonheur",
         "it": "Anello portafortuna",
         "tr": "Şans Yüzüğü",
-        "hu": "Szerencsés gyűrű"
+        "hu": "Szerencsegyűrű"
       },
       "id": "(O)859",
       "textureName": "03bc69ac70cc3df9d7dc3bca75973af78bd29ebe60064dccde9e6cf7a9155445",
@@ -13126,10 +13126,10 @@
       "displayNames": {
         "en": "Hot Java Ring",
         "ja": "暑いジャワの指輪",
-        "ru": "Кольцо Горячего кофе",
+        "ru": "Кольцо горячего кофе",
         "pt": "Anel Quente de Java",
         "es": "Anillo caliente de Java",
-        "de": "Heißer Java Ring",
+        "de": "Heißer Java-Ring",
         "fr": "Anneau de café chaud",
         "it": "Anello Moka-rovente",
         "tr": "Sıcak Cava Yüzüğü",
@@ -13170,7 +13170,7 @@
         "pt": "Anel Roubador de Alma",
         "es": "Anillo chupaalmas",
         "de": "Seelendiebring",
-        "fr": "Anneau mangeur d'âmes",
+        "fr": "Anneau mangeur d’âmes",
         "it": "Anello succhia-anima",
         "tr": "Ruhemici Yüzük",
         "hu": "Lélekcsapoló gyűrű"
@@ -13186,7 +13186,7 @@
       "displayNames": {
         "en": "Phoenix Ring",
         "ja": "フェニックスリング",
-        "ru": "Кольцо Феникса",
+        "ru": "Кольцо феникса",
         "pt": "Anel da Fênix",
         "es": "Anillo fénix",
         "de": "Phönixring",
@@ -13249,7 +13249,7 @@
         "ru": "Роза Долины Стардью",
         "pt": "Rosa do Vale do Orvalho",
         "es": "Rosa de Stardew Valley",
-        "de": "Stardew Valley Rose",
+        "de": "Sternentautaler Rose",
         "fr": "Rose de Stardew Valley",
         "it": "Rosa di Stardew Valley",
         "tr": "Yıldızçiyi Vadisi Gülü",
@@ -13390,7 +13390,7 @@
         "pt": "Filé de Inseto",
         "es": "Filete de insecto",
         "de": "Käfersteak",
-        "fr": "Steak d'insecte",
+        "fr": "Steak d’insecte",
         "it": "Bistecca d'insetto",
         "tr": "Böcek Bifteği",
         "hu": "Bogársteak"
@@ -13510,7 +13510,7 @@
         "pt": "Fragmento de Osso",
         "es": "Fragmento de hueso",
         "de": "Knochenfragment",
-        "fr": "Fragments d'os",
+        "fr": "Fragments d’os",
         "it": "Frammento d'osso",
         "tr": "Kemik Parçası",
         "hu": "Csonttöredék"
@@ -13608,7 +13608,7 @@
         "ja": "ワープトーテム：アイランド",
         "ru": "Тотем-телепорт: Остров",
         "pt": "Totem de Teletransporte: Ilha",
-        "es": "Totem de teletransporte: Isla",
+        "es": "Tótem de teletransporte: Isla",
         "de": "Warp-Totem: Insel",
         "fr": "Totem de téléportation: Île",
         "it": "Teletra-Totem: Isola",
@@ -13626,11 +13626,11 @@
       "displayNames": {
         "en": "Immunity Band",
         "ja": "イミュニティバンド",
-        "ru": "Кольцо Стойкости",
+        "ru": "Перстень преодоления",
         "pt": "Anel de Imunidade",
         "es": "Banda de inmunidad",
         "de": "Immunitätsband",
-        "fr": "Anneau d'immunité",
+        "fr": "Anneau d’immunité",
         "it": "Fascia dell'immunità",
         "tr": "Dokunulmazlık Yüzüğü",
         "hu": "Immunitás szalag"
@@ -13669,8 +13669,8 @@
         "ru": "Фрукт Ки",
         "pt": "Fruta Qi",
         "es": "Fruto Qi",
-        "de": "Qi Frucht",
-        "fr": "Fruit Qi",
+        "de": "Qi-Frucht",
+        "fr": "Fruit de Qi",
         "it": "Frutto Qi",
         "tr": "Qi Meyvesi",
         "hu": "Qi gyümölcs"
@@ -13686,11 +13686,11 @@
       "displayNames": {
         "en": "Qi Bean",
         "ja": "Qiビーン",
-        "ru": "Семя Ки",
+        "ru": "Боб Ки",
         "pt": "Grão Qi",
         "es": "Judía Qi",
         "de": "Qi-Bohne",
-        "fr": "Haricot Qi",
+        "fr": "Haricot de Qi",
         "it": "Fagiolo Qi",
         "tr": "Qi Tohumu",
         "hu": "Qi bab"
@@ -13710,7 +13710,7 @@
         "pt": "Semente de Árvore de Cogumelo",
         "es": "Semilla de árbol seta",
         "de": "Pilzbaumsamen",
-        "fr": "Graine d'arbre à champignon",
+        "fr": "Graine d’arbre à champignon",
         "it": "Seme di albero fungino",
         "tr": "Mantar Ağacı Tohumu",
         "hu": "Gombafa magvak"
@@ -13728,7 +13728,7 @@
         "ja": "ワープトーテム：Qiアリーナ",
         "ru": "Тотем-телепорт: Арена Ки",
         "pt": "Totem de Teletransporte: Arena do Qi",
-        "es": "Totem de teletransporte: Arena de Qi",
+        "es": "Tótem de teletransporte: Arena de Qi",
         "de": "Warp Totem: Qis Arena",
         "fr": "Totem de téléportation: Arène de Qi",
         "it": "Teletra-Totem: Arena di Qi",
@@ -13750,7 +13750,7 @@
         "pt": "Fogos de Artifício (Vermelho)",
         "es": "Fuegos artificiales (rojo)",
         "de": "Feuerwerk (Rot)",
-        "fr": "Feux d'artifice (Rouge)",
+        "fr": "Feux d’artifice (Rouge)",
         "it": "Fuochi d'artificio (Rossi)",
         "tr": "Kırmızı Havaifişek",
         "hu": "Tűzijáték (Vörös)"
@@ -13770,7 +13770,7 @@
         "pt": "Fogos de Artifício (Roxo)",
         "es": "Fuegos artificiales (morado)",
         "de": "Feuerwerk (Violett)",
-        "fr": "Feux d'artifice (Violet)",
+        "fr": "Feux d’artifice (Violet)",
         "it": "Fuochi d'artificio (Viola)",
         "tr": "Mor Havaifişek",
         "hu": "Tűzijáték (Lila)"
@@ -13789,8 +13789,8 @@
         "ru": "Фейерверк (Зеленый)",
         "pt": "Fogos de Artifício (Verde)",
         "es": "Fuegos artificiales (verde)",
-        "de": "Fireworks (Grün)",
-        "fr": "Feux d'artifice (Vert)",
+        "de": "Feuerwerk (Grün)",
+        "fr": "Feux d’artifice (Vert)",
         "it": "Fuochi d'artificio (Verdi)",
         "tr": "Yeşil Havaifişek",
         "hu": "Tűzijáték (Zöld)"
@@ -13846,7 +13846,7 @@
       "displayNames": {
         "en": "Son of Crimsonfish",
         "ja": "クリムゾンフィッシュの息子",
-        "ru": "Сын Кримзонфиш",
+        "ru": "Малек Багрянника",
         "pt": "Filho do Peixe-carmim",
         "es": "Hijo de pez carmesí",
         "de": "Sohn vom Purpurfisch",
@@ -13926,9 +13926,9 @@
       "displayNames": {
         "en": "Glacierfish Jr.",
         "ja": "アイスフィッシュ・ジュニア",
-        "ru": "Ледорыб Мл.",
+        "ru": "Ледорыб-младший",
         "pt": "Peixe-gelo Jr.",
-        "es": "Pez glacial jóven",
+        "es": "Pez glacial joven",
         "de": "Gletscherfisch Junior",
         "fr": "Poisson des glaciers junior",
         "it": "Pesce ghiacciaio Jr.",
@@ -13951,7 +13951,7 @@
         "es": "Refresco de jengibre",
         "de": "Ginger Ale",
         "fr": "Soda au gingembre",
-        "it": "Ginger ale",
+        "it": "Liquore allo zenzero",
         "tr": "Zencefilli Gazoz",
         "hu": "Gyömbérsör"
       },
@@ -13989,7 +13989,7 @@
         "ru": "Манговый клейкий рис",
         "pt": "Arroz Doce de Manga",
         "es": "Arroz pegajoso de mango",
-        "de": "Mango Klebreis",
+        "de": "Mango-Klebreis",
         "fr": "Riz gluant à la mangue",
         "it": "Riso colloso al mango",
         "tr": "Mangolu Pilav",
@@ -14230,7 +14230,7 @@
         "pt": "Solo Retentor Premium",
         "es": "Suelo absorbente de lujo",
         "de": "Deluxe Hydro-Boden",
-        "fr": "Rétention d'eau de luxe",
+        "fr": "Rétention d’eau de luxe",
         "it": "Terriccio rattenente deluxe",
         "tr": "Üstün Tutucu Toprak",
         "hu": "Luxus hidrogél"
@@ -14253,7 +14253,7 @@
         "fr": "Raviolis à l’encre de seiche",
         "it": "Ravioli al nero di seppia",
         "tr": "Mürekkepli Makarna",
-        "hu": "Tintahal tintás ravioli"
+        "hu": "Tintahaltintás ravioli"
       },
       "id": "(O)921",
       "textureName": "a33621936fa4fdb8b593afb5544efc6b137f2224219072f7217adae9a6f7fe7f",
@@ -14267,7 +14267,7 @@
         "en": "SupplyCrate",
         "ja": "供給木枠",
         "ru": "Ящик с припасами",
-        "pt": "SupplyCrate",
+        "pt": "Caixa de Suprimento",
         "es": "Caja de suministros",
         "de": "SupplyCrate",
         "fr": "Caisse d’approvisionnement",
@@ -14287,7 +14287,7 @@
         "en": "SupplyCrate",
         "ja": "供給木枠",
         "ru": "Ящик с припасами",
-        "pt": "SupplyCrate",
+        "pt": "Caixa de Suprimento",
         "es": "Caja de suministros",
         "de": "SupplyCrate",
         "fr": "Caisse d’approvisionnement",
@@ -14307,7 +14307,7 @@
         "en": "SupplyCrate",
         "ja": "供給木枠",
         "ru": "Ящик с припасами",
-        "pt": "SupplyCrate",
+        "pt": "Caixa de Suprimento",
         "es": "Caja de suministros",
         "de": "SupplyCrate",
         "fr": "Caisse d’approvisionnement",
@@ -14326,7 +14326,7 @@
       "displayNames": {
         "en": "Slime Crate",
         "ja": "スライムの木枠",
-        "ru": "Ящик слайма",
+        "ru": "Ящик для слайма",
         "pt": "Caixa de Gosma",
         "es": "Caja baba",
         "de": "Schleimkasten",
@@ -14446,7 +14446,7 @@
       "displayNames": {
         "en": "Far Away Stone",
         "ja": "はるかな石",
-        "ru": "Камень издалека",
+        "ru": "Камень из далеких земель",
         "pt": "Pedra Longínqua",
         "es": "Roca de la lejanía",
         "de": "Weit entfernter Stein",
@@ -14469,7 +14469,7 @@
         "ru": "Яйцо Калико",
         "pt": "Ovo de Calico",
         "es": "Huevo calicó ",
-        "de": "Calico Ei",
+        "de": "Calico-Ei",
         "fr": "Œuf de Calico",
         "it": "Uovo di Calico",
         "tr": "Patisko Yumurtası",
@@ -14529,8 +14529,8 @@
         "ru": "Камень Яйца Калико",
         "pt": "Pedra de Ovos de Calico",
         "es": "Roca de huevo calicó",
-        "de": "Calico Ei Stein",
-        "fr": "Pierre d'œuf de Calico",
+        "de": "Calico-Ei Stein",
+        "fr": "Pierre d’œuf de Calico",
         "it": "Pietra delle Uova di Calico",
         "tr": "Patisko Yumurtası Taşı",
         "hu": "Calico tojás kő"
@@ -14549,8 +14549,8 @@
         "ru": "Камень Яйца Калико",
         "pt": "Pedra de Ovos de Calico",
         "es": "Roca de huevo calicó",
-        "de": "Calico Ei Stein",
-        "fr": "Pierre d'œuf de Calico",
+        "de": "Calico-Ei Stein",
+        "fr": "Pierre d’œuf de Calico",
         "it": "Pietra delle Uova di Calico",
         "tr": "Patisko Yumurtası Taşı",
         "hu": "Calico tojás kő"
@@ -14569,8 +14569,8 @@
         "ru": "Камень Яйца Калико",
         "pt": "Pedra de Ovos de Calico",
         "es": "Roca de huevo calicó",
-        "de": "Calico Ei Stein",
-        "fr": "Pierre d'œuf de Calico",
+        "de": "Calico-Ei Stein",
+        "fr": "Pierre d’œuf de Calico",
         "it": "Pietra delle Uova di Calico",
         "tr": "Patisko Yumurtası Taşı",
         "hu": "Calico tojás kő"
@@ -14849,11 +14849,11 @@
         "ru": "Сонарный поплавок",
         "pt": "Boia Sonar",
         "es": "Corcho sónar",
-        "de": "Sonar Köder",
+        "de": "Sonarköder",
         "fr": "Flotteur à sonar",
         "it": "Galleggiante con sonar",
         "tr": "Radar Mantarı",
-        "hu": "Szonár úszó"
+        "hu": "Szonárúszó"
       },
       "id": "(O)SonarBobber",
       "textureName": "32b9b5528c52bd817b966e37cf81bfb20bbd64ced8fc42a34c8b5b772d00bce3",
@@ -14888,8 +14888,8 @@
         "ja": "テントキット",
         "ru": "Набор с палаткой",
         "pt": "Kit de Barraca",
-        "es": "Kit de tienda de campaña.",
-        "de": "Zelt Bausatz",
+        "es": "Kit de tienda de campaña",
+        "de": "Zelt-Bausatz",
         "fr": "Kit de tente",
         "it": "Kit per tenda",
         "tr": "Çadır Aparatı",
@@ -14926,11 +14926,11 @@
       "displayNames": {
         "en": "Mystic Tree Seed",
         "ja": "神秘の木のタネ",
-        "ru": "Семечко Таинственного дерева",
+        "ru": "Семя таинственного дерева",
         "pt": "Semente de Árvore Mística",
         "es": "Semilla de árbol místico",
         "de": "Mystischer Baumsamen",
-        "fr": "Graine d'arbre mystique",
+        "fr": "Graine d’arbre mystique",
         "it": "Seme dell'albero mistico",
         "tr": "Mistik Ağaç Tohumu",
         "hu": "Rejtélyes famag"
@@ -14986,14 +14986,14 @@
       "displayNames": {
         "en": "Dried",
         "ja": "乾物",
-        "ru": "(Сушен.)",
+        "ru": "Сухофрукты",
         "pt": "Seco(a)",
         "es": "Seca",
         "de": "Getrocknet",
         "fr": "Séché",
         "it": "Essiccato",
         "tr": "Kurutulmuş",
-        "hu": "Szárított"
+        "hu": "Aszalt"
       },
       "id": "(O)DriedFruit",
       "textureName": "d56336c75ff5c6e9d544ff8117b5363c9b8d1e5d81223af353df38dc3bf7b755",
@@ -15006,7 +15006,7 @@
       "displayNames": {
         "en": "Dried",
         "ja": "乾物",
-        "ru": "(Сушен.)",
+        "ru": "Сушеные грибы",
         "pt": "Desidratados",
         "es": "Seco",
         "de": "Getrocknet",
@@ -15028,8 +15028,8 @@
         "ja": "スタードロップティー",
         "ru": "Чай из звездной капли",
         "pt": "Chá de Fruta-Estrela",
-        "es": "Té de fruta estelar.",
-        "de": "Sternentropfen-Tee",
+        "es": "Té de fruta estelar",
+        "de": "Sternenfall-Tee",
         "fr": "Thé de fruit étoilé",
         "it": "Tè di Astropomo",
         "tr": "Yıldızkaydı Çayı",
@@ -15053,7 +15053,7 @@
         "fr": "Ticket gagnant",
         "it": "Biglietto per un premio",
         "tr": "Ödül Bileti",
-        "hu": "Jutalom jegy"
+        "hu": "Jutalomjegy"
       },
       "id": "(O)PrizeTicket",
       "textureName": "4db56e8571bb91e891ec9cf3037dd71c5f02810ce66c2352e97a52f438a71811",
@@ -15070,7 +15070,7 @@
         "pt": "Moeda de Ouro",
         "es": "Moneda de oro",
         "de": "Goldmünze",
-        "fr": "Pièce d'or",
+        "fr": "Pièce d’or",
         "it": "Moneta d'oro",
         "tr": "Altın Para",
         "hu": "Arany érme"
@@ -15088,8 +15088,8 @@
         "ja": "宝のトーテム",
         "ru": "Тотем сокровищ",
         "pt": "Totem de Tesouro",
-        "es": "Totem del tesoro",
-        "de": "Schatz Totem",
+        "es": "Tótem del tesoro",
+        "de": "Schatz-Totem",
         "fr": "Totem de trésor",
         "it": "Totem del tesoro",
         "tr": "Hazine Totemi",
@@ -15132,7 +15132,7 @@
         "de": "Karottensamen",
         "fr": "Graines de carotte",
         "it": "Semi di carota",
-        "tr": "Havuç Tohumları",
+        "tr": "Havuç Tohumu",
         "hu": "Répa magvak"
       },
       "id": "(O)CarrotSeeds",
@@ -15170,9 +15170,9 @@
         "pt": "Sementes de Abobrinha de Verão",
         "es": "Semillas de calabaza amarilla",
         "de": "Sommerkürbis-Samen",
-        "fr": "Graines de courge d'été",
+        "fr": "Graines de courge d’été",
         "it": "Semi di zucca estiva",
-        "tr": "Yaz Kabak Tohumları",
+        "tr": "Yaz Kabağı Tohumu",
         "hu": "Zsenge tök magvak"
       },
       "id": "(O)SummerSquashSeeds",
@@ -15190,7 +15190,7 @@
         "pt": "Abobrinha de Verão",
         "es": "Calabaza amarilla",
         "de": "Sommerkürbis",
-        "fr": "Courge d'été",
+        "fr": "Courge d’été",
         "it": "Zucca estiva",
         "tr": "Yaz Kabağı",
         "hu": "Zsenge tök"
@@ -15212,7 +15212,7 @@
         "de": "Brokkoli-Samen",
         "fr": "Graines de brocoli",
         "it": "Semi di broccoli",
-        "tr": "Brokoli Tohumları",
+        "tr": "Brokoli Tohumu",
         "hu": "Brokkoli magvak"
       },
       "id": "(O)BroccoliSeeds",
@@ -15252,7 +15252,7 @@
         "de": "Pulvermelonen Samen",
         "fr": "Graines de Poudremelon",
         "it": "Semi di melone incipriato",
-        "tr": "Kış Kavunu Tohumları",
+        "tr": "Kış Kavunu Tohumu",
         "hu": "Púderdinnye magvak"
       },
       "id": "(O)PowdermelonSeeds",
@@ -15270,7 +15270,7 @@
         "pt": "Melão-Poeiro",
         "es": "Melón de polvo",
         "de": "Pulvermelone",
-        "fr": "Poudremelon\n",
+        "fr": "Poudremelon",
         "it": "Melone incipriato",
         "tr": "Kış Kavunu",
         "hu": "Púderdinnye"
@@ -15290,7 +15290,7 @@
         "pt": "Ponto de artefato",
         "es": "Lugar de artefacto",
         "de": "Artefakt-Ort",
-        "fr": "Lieu d'artefacts",
+        "fr": "Lieu d’artefacts",
         "it": "Punto Artefatto",
         "tr": "Eser",
         "hu": "Ereklye folt"
@@ -15306,7 +15306,7 @@
       "displayNames": {
         "en": "Smoked",
         "ja": "くんせい",
-        "ru": "(Копчен.)",
+        "ru": "Копченая рыба",
         "pt": "Defumado",
         "es": "Ahumado",
         "de": "Geräuchert",
@@ -15349,10 +15349,10 @@
         "ru": "Альманах Долины Стардью",
         "pt": "Almanaque do Vale do Orvalho",
         "es": "Almanaque de Stardew Valley",
-        "de": "Stardew Valley Almanach",
+        "de": "Sternentautaler Almanach",
         "fr": "Almanach de Stardew Valley",
         "it": "Almanacco di Stardew Valley",
-        "tr": "Stardew Valley Yıllığı",
+        "tr": "Yıldızçiyi Vadisi Yıllığı",
         "hu": "Stardew Valley Almanach"
       },
       "id": "(O)SkillBook_0",
@@ -15370,7 +15370,7 @@
         "pt": "Semanário do Lenhador",
         "es": "Semanal del leñador",
         "de": "Holzfäller Wochenblatt",
-        "fr": "L'hebdomadaire du bûcheron",
+        "fr": "L’hebdomadaire du bûcheron",
         "it": "Settimanale del taglialegna",
         "tr": "Oduncunun Haftalığı",
         "hu": "Favágok hetilapja"
@@ -15410,7 +15410,7 @@
         "pt": "Periódico Mensal de Mineração",
         "es": "Mensual Minero",
         "de": "Bergbau Monatsheft",
-        "fr": "Mensuel de l'exploitation minière",
+        "fr": "Mensuel de l’exploitation minière",
         "it": "Mensile del minatore",
         "tr": "Madencilik Aylığı",
         "hu": "Bányászok havi folyóirata"
@@ -15429,7 +15429,7 @@
         "ru": "Дайджест драчуна",
         "pt": "Periódico Trimestral de Combate",
         "es": "Trimestral de Combate",
-        "de": "Kampf-Vierteljahresschrift",
+        "de": "Kampf-Quartalsheft",
         "fr": "Art de combat trimestriel",
         "it": "Trimestrale del combattente",
         "tr": "Savaşçının Dört Aylığı",
@@ -15466,11 +15466,11 @@
       "displayNames": {
         "en": "The Art O' Crabbing",
         "ja": "カニの学問",
-        "ru": "Искусство крабства",
+        "ru": "Краболовное искусство",
         "pt": "A Arte dos Covos",
         "es": "El Arte del Cangrejo",
         "de": "Die Kunst des Krabbenspiels",
-        "fr": "L'art de la pêche au crabe",
+        "fr": "L’art de la pêche au crabe",
         "it": "L'arte di prendere un granchio",
         "tr": "Yengeçleme Sanatı",
         "hu": "A rákászás művészete"
@@ -15529,7 +15529,7 @@
         "ru": "Журнал Енота",
         "pt": "Diário de Guaxinim",
         "es": "Diario del Mapache",
-        "de": "Waschbär Tagebuch",
+        "de": "Waschbär-Tagebuch",
         "fr": "Journal du raton laveur",
         "it": "Diari del procione",
         "tr": "Rakun Günlüğü",
@@ -15609,7 +15609,7 @@
         "ru": "Компендиум монстров",
         "pt": "Compêndio de Monstros",
         "es": "Compendio de Monstruos",
-        "de": "Monster Kompendium",
+        "de": "Monster-Kompendium",
         "fr": "Manuel des monstres",
         "it": "Compendio dei mostri",
         "tr": "Canavar Külliyatı",
@@ -15626,14 +15626,14 @@
       "displayNames": {
         "en": "Way Of The Wind pt. 1",
         "ja": "風の道 パート1",
-        "ru": "Путь Ветра, ч. 1",
+        "ru": "Путь Ветра, том 1",
         "pt": "Caminho do Vento - Parte 1",
         "es": "Camino del Viento vol. 1",
         "de": "Weg des Windes, Teil 1",
         "fr": "La voie du vent pt. 1",
         "it": "Via del vento pt. 1",
         "tr": "Rüzgarın Yolu, 1. Cilt",
-        "hu": "A Szél útja - 1. rész"
+        "hu": "A szél útja - 1. rész"
       },
       "id": "(O)Book_Speed",
       "textureName": "46db482d091a1a9ff3656c67dee37ecd564f787749ee0d524d42806899d702c8",
@@ -15692,7 +15692,7 @@
         "de": "Königin der Soßen Kochbuch",
         "fr": "Livre de cuisine de la reine des sauces",
         "it": "Ricettario della Regina del sugo",
-        "tr": "Sosun Kraliçesi Yemek Kitabı",
+        "tr": "Soslar Kraliçesi Yemek Kitabı",
         "hu": "A Szószok királynőjének szakácskönyve"
       },
       "id": "(O)Book_QueenOfSauce",
@@ -15750,7 +15750,7 @@
         "pt": "Catálogo de Animais",
         "es": "Catálogo Animal",
         "de": "Tierkatalog",
-        "fr": "Catalogue d'animaux",
+        "fr": "Catalogue d’animaux",
         "it": "Catalogo degli animali",
         "tr": "Hayvan Kataloğu",
         "hu": "Állatkatalógus"
@@ -15766,14 +15766,14 @@
       "displayNames": {
         "en": "Way Of The Wind pt. 2",
         "ja": "風の道 パート2",
-        "ru": "Путь Ветра, ч. 2",
+        "ru": "Путь Ветра, том 2",
         "pt": "Caminho do Vento - Parte 2",
         "es": "Camino del Viento vol. 2",
         "de": "Weg des Windes, Teil 2",
         "fr": "La voie du vent pt. 2",
         "it": "Via del vento pt. 2",
         "tr": "Rüzgarın Yolu, 2. Cilt",
-        "hu": "A Szél útja - 2. rész"
+        "hu": "A szél útja - 2. rész"
       },
       "id": "(O)Book_Speed2",
       "textureName": "78ee70c550c1613e42b438d737562408cf24ab5577f5d1a1f2f8aab956c69659",
@@ -15790,7 +15790,7 @@
         "pt": "Biscoito Dourado de Animal",
         "es": "Galletas para Animal Doradas",
         "de": "Goldener Tierkräcker",
-        "fr": "Biscuit doré en forme d'animal",
+        "fr": "Biscuit doré en forme d’animal",
         "it": "Biscotto per animali dorato",
         "tr": "Altın Hayvan Krakeri",
         "hu": "Arany állatkeksz"
@@ -15808,7 +15808,7 @@
         "ja": "金のミステリーボックス",
         "ru": "Золотая загадочная коробка",
         "pt": "Caixa Misteriosa Dourada",
-        "es": "Caja Misteriosa de Oro",
+        "es": "Caja misteriosa de oro",
         "de": "Goldene Mysteriöse Kiste",
         "fr": "Boîte mystère dorée",
         "it": "Scatola misteriosa dorata",
@@ -15825,15 +15825,15 @@
       "category": 0,
       "displayNames": {
         "en": "Sea Jelly",
-        "ja": "海クラゲ",
+        "ja": "海ゼリー",
         "ru": "Морское желе",
         "pt": "Geléia do Mar",
         "es": "Gelatina de Mar",
         "de": "Seegelee",
-        "fr": "Méduse de l'océan.",
-        "it": "Medusa marina",
+        "fr": "Gelée de mer",
+        "it": "Gelatina marina",
         "tr": "Deniz Jeli",
-        "hu": "Tengeri medúza"
+        "hu": "Tengeri zselé"
       },
       "id": "(O)SeaJelly",
       "textureName": "55beda3b1f0519001654264bcef0cfdefb773fc01322da41097b593b4caa0e4f",
@@ -15845,15 +15845,15 @@
       "category": 0,
       "displayNames": {
         "en": "Cave Jelly",
-        "ja": "洞窟クラゲ",
+        "ja": "洞窟ゼリー",
         "ru": "Пещерное желе",
         "pt": "Geléia da Caverna",
         "es": "Gelatina de Cueva",
         "de": "Höhlengelee",
-        "fr": "Méduse des cavernes",
-        "it": "Medusa di grotta",
+        "fr": "Gelée des cavernes",
+        "it": "Gelatina di grotta",
         "tr": "Mağara Jeli",
-        "hu": "Barlangi medúza"
+        "hu": "Barlangi zselé"
       },
       "id": "(O)CaveJelly",
       "textureName": "5adb3043c85772a234f55db3e92954b81cb7286691e9648d7a8cfc396274e053",
@@ -15865,15 +15865,15 @@
       "category": 0,
       "displayNames": {
         "en": "River Jelly",
-        "ja": "川クラゲ",
+        "ja": "川ゼリー",
         "ru": "Речное желе",
         "pt": "Geléia do Rio",
         "es": "Gelatina de Río",
         "de": "Flussgelee",
-        "fr": "Méduse d'eau douce",
-        "it": "Medusa fluviale",
+        "fr": "Gelée de rivière",
+        "it": "Gelatina fluviale",
         "tr": "Nehir Jeli",
-        "hu": "Folyami medúza"
+        "hu": "Folyami zselé"
       },
       "id": "(O)RiverJelly",
       "textureName": "85feaa0f503e2b6db715ff834806a7543b169d9ee6991c7754ebbcdb4e7f6247",
@@ -15889,10 +15889,10 @@
         "ru": "Бычок",
         "pt": "Gobi",
         "es": "Palometa",
-        "de": "Goby",
+        "de": "Grundeln",
         "fr": "Gobie",
         "it": "Ghiozzo",
-        "tr": "Kayabalığı",
+        "tr": "Taşbalığı",
         "hu": "Géb"
       },
       "id": "(O)Goby",
@@ -15905,12 +15905,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -15925,12 +15925,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -15945,12 +15945,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -15970,7 +15970,7 @@
         "pt": "Tesouros Antigos: Guia de Avaliação",
         "es": "Tesoros Antiguos: Guía de Costos",
         "de": "Antike Schätze: Leitfaden für die Schätzung",
-        "fr": "Trésors anciens : guide d'évaluation",
+        "fr": "Trésors anciens : guide d’évaluation",
         "it": "Tesori antichi: guida all'estimazione",
         "tr": "Hazine Değerlendirme Rehberi",
         "hu": "Ősi kincsek: Értékbecslési útmutató"
@@ -15993,7 +15993,7 @@
         "fr": "Chevaux : le livre",
         "it": "Cavallo: il libro",
         "tr": "At Kitabı",
-        "hu": "Lovak: A Könyv"
+        "hu": "Lovak: A könyv"
       },
       "id": "(O)Book_Horse",
       "textureName": "a494facd707a78cfc054c207cb19e226d0e664b764faa3ff08e1767ff358c645",
@@ -16050,7 +16050,7 @@
         "pt": "Muda de Grama Azul",
         "es": "Parche de hierba azul",
         "de": "Blaugras-Starter",
-        "fr": "Terreau d'herbe bleue",
+        "fr": "Terreau d’herbe bleue",
         "it": "Avvia-erba blu",
         "tr": "Mavi Çimen Yetiştirici",
         "hu": "Kék fűmagvak"
@@ -16090,7 +16090,7 @@
         "pt": "O Perna de Cobra",
         "es": "Serpenteando",
         "de": "Alte Schlitterbeine",
-        "fr": "Pattes d'oie",
+        "fr": "Pattes d’oie",
         "it": "Il vecchio Svicolone",
         "tr": "İhtiyar Sürünayak",
         "hu": "Vén Siklóláb"
@@ -16105,12 +16105,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -16125,12 +16125,12 @@
       "category": -999,
       "displayNames": {
         "en": "Stone",
-        "ja": "Break apart to obtain stone with a chance of coal.",
+        "ja": "石",
         "ru": "Камень",
         "pt": "Pedra",
         "es": "Piedra",
         "de": "Stein",
-        "fr": "Pierre",
+        "fr": "Amas de pierres",
         "it": "Pietra",
         "tr": "Taş",
         "hu": "Kő"
@@ -16413,7 +16413,7 @@
         "fr": "Bocal",
         "it": "Barattolo per conserve",
         "tr": "Kavanoz",
-        "hu": "Tartósító tégely"
+        "hu": "Tartósítótégely"
       },
       "id": "(BC)15",
       "textureName": "d2805e73c3f6141c8564b5447c744c4d4c621b00e9e1e2c6bcd3e8750ecb5943",
@@ -16452,7 +16452,7 @@
         "de": "Webstuhl",
         "fr": "Métier à tisser",
         "it": "Telaio",
-        "tr": "Dokuma Tezgahı",
+        "tr": "Dokuma Tezgâhı",
         "hu": "Szövőszék"
       },
       "id": "(BC)17",
@@ -16693,7 +16693,7 @@
         "fr": "Statue de poulet",
         "it": "Statua di un pollo",
         "tr": "Tavuk Heykelciği",
-        "hu": "Csirke szobor"
+        "hu": "Csirkeszobor"
       },
       "id": "(BC)31",
       "textureName": "21ae77bc4a902b345b221b9f1f73b6bf28c0e00be6c2ad86f3d80eba9c49e30f",
@@ -16705,7 +16705,7 @@
       "category": -9,
       "displayNames": {
         "en": "Stone Cairn",
-        "ja": "石のカイム",
+        "ja": "石のケアン",
         "ru": "Пирамида из камней",
         "pt": "Moledro",
         "es": "Hito de piedra",
@@ -16852,7 +16852,7 @@
         "de": "Dunkles Schild",
         "fr": "Panneau noir",
         "it": "Cartello oscuro",
-        "tr": "Kara İşaret",
+        "tr": "Kara Tabela",
         "hu": "Sötét tábla"
       },
       "id": "(BC)39",
@@ -16866,13 +16866,13 @@
       "displayNames": {
         "en": "Big Green Cane",
         "ja": "グリーンステッキ（大）",
-        "ru": "Большой зеленый тростник",
+        "ru": "Большая зеленая трость",
         "pt": "Doce Verde Grande",
         "es": "Gran mimbre verde",
         "de": "Großer, grüner Stock",
         "fr": "Grande canne verte",
         "it": "Grande bastone verde",
-        "tr": "Büyük Yeşil Şekerkamışı",
+        "tr": "Büyük Yeşil Şeker Kamışı",
         "hu": "Nagy zöld cukorka"
       },
       "id": "(BC)40",
@@ -16886,13 +16886,13 @@
       "displayNames": {
         "en": "Green Canes",
         "ja": "グリーンステッキ（小）",
-        "ru": "Зеленый тростник",
+        "ru": "Зеленые тросточки",
         "pt": "Doces Verdes",
         "es": "Mimbres verdes",
         "de": "Grüne Stöcke",
         "fr": "Cannes vertes",
         "it": "Bastoncini verdi",
-        "tr": "Yeşil Şekerkamışları",
+        "tr": "Yeşil Şeker Kamışları",
         "hu": "Zöld cukorkák"
       },
       "id": "(BC)41",
@@ -16906,13 +16906,13 @@
       "displayNames": {
         "en": "Mixed Cane",
         "ja": "いろいろステッキ",
-        "ru": "Смешанный тростник",
+        "ru": "Смешанные тросточки",
         "pt": "Doces Misturados",
         "es": "Mimbres variados",
         "de": "Gemischte Stöcke",
         "fr": "Cannes mélangées",
         "it": "Bastoncini misti",
-        "tr": "Renkli Şekerkamışları",
+        "tr": "Renkli Şeker Kamışları",
         "hu": "Kevert cukorkák"
       },
       "id": "(BC)42",
@@ -16932,7 +16932,7 @@
         "de": "Rote Stöcke",
         "fr": "Cannes rouges",
         "it": "Bastoncini rossi",
-        "tr": "Kırmızı Şekerkamışları",
+        "tr": "Kırmızı Şeker Kamışları",
         "hu": "Vörös cukorka"
       },
       "id": "(BC)43",
@@ -16946,13 +16946,13 @@
       "displayNames": {
         "en": "Big Red Cane",
         "ja": "レッドステッキ（大）",
-        "ru": "Большой красный тростник",
+        "ru": "Большая красная трость",
         "pt": "Doce Vermelho Grande",
         "es": "Gran mimbre rojo",
         "de": "Großer, roter Stock",
         "fr": "Grande canne rouge",
         "it": "Grande bastone rosso",
-        "tr": "Büyük Kırmızı Şekerkamışı",
+        "tr": "Büyük Kırmızı Şeker Kamışı",
         "hu": "Nagy vörös cukorkák"
       },
       "id": "(BC)44",
@@ -17326,7 +17326,7 @@
       "displayNames": {
         "en": "Tall Torch",
         "ja": "ロングトーチ",
-        "ru": "Стоячий факел",
+        "ru": "Длинный факел",
         "pt": "Tocha Alta",
         "es": "Antorcha alta",
         "de": "Lange Fackel",
@@ -17572,7 +17572,7 @@
         "de": "Faultier-Skelett L",
         "fr": "Squelette de paresseux G",
         "it": "Scheletro di bradipo Sn",
-        "tr": "Tembel Hayvan İskeleti",
+        "tr": "Tembel Hayvan İskeleti (Sol)",
         "hu": "B. Lajhár csontváz"
       },
       "id": "(BC)85",
@@ -17592,7 +17592,7 @@
         "de": "Faultier-Skelett M",
         "fr": "Squelette de paresseux M",
         "it": "Scheletro di bradipo Cen",
-        "tr": "Tembel Hayvan İskeleti",
+        "tr": "Tembel Hayvan İskeleti (Orta)",
         "hu": "K. Lajhár csontváz"
       },
       "id": "(BC)86",
@@ -17612,7 +17612,7 @@
         "de": "Faultier-Skelett R",
         "fr": "Squelette de paresseux D",
         "it": "Scheletro di bradipo Dx",
-        "tr": "Tembel Hayvan İskeleti",
+        "tr": "Tembel Hayvan İskeleti (Sağ)",
         "hu": "J. Lajhár csontváz"
       },
       "id": "(BC)87",
@@ -17626,7 +17626,7 @@
       "displayNames": {
         "en": "Standing Geode",
         "ja": "晶洞石のおきもの",
-        "ru": "Стоячая Жеода",
+        "ru": "Стоячая жеода",
         "pt": "Geodo",
         "es": "Geoda vertical",
         "de": "Stehende Geode",
@@ -17750,7 +17750,7 @@
         "pt": "Funil de Alimentação",
         "es": "Tolva de alimentación",
         "de": "Einfülltrichter",
-        "fr": "Trémie d'alimentation",
+        "fr": "Trémie d’alimentation",
         "it": "Tramoggia per il mangime",
         "tr": "Yem Hunisi",
         "hu": "Etető retesz"
@@ -17852,7 +17852,7 @@
         "de": "Plüschhase",
         "fr": "Lapin en peluche",
         "it": "Coniglietto di peluche",
-        "tr": "Peluş Tavşan",
+        "tr": "Pelüş Tavşan",
         "hu": "Plüss nyúl"
       },
       "id": "(BC)107",
@@ -17877,26 +17877,6 @@
       },
       "id": "(BC)108",
       "textureName": "d2c54d121411ed2ebd887b49e161f63fe2c29b581c431c906fe5c5b92a00ed32",
-      "type": "crafting",
-      "isGiftable": false,
-      "isBigCraftable": true
-    },
-    {
-      "category": -9,
-      "displayNames": {
-        "en": "Tub o' Flowers",
-        "ja": "タルフラワー",
-        "ru": "Цветочный бочонок",
-        "pt": "Barril de Flores",
-        "es": "Arreglo floral",
-        "de": "Blumenfass",
-        "fr": "Bac à fleurs",
-        "it": "Fiorinbotte",
-        "tr": "Çiçek Küveti",
-        "hu": "Hordós virágok"
-      },
-      "id": "(BC)109",
-      "textureName": "7185db0da56953ede573316d0199ce5843a3f33b5f8112bfdb1a92b6c200caeb",
       "type": "crafting",
       "isGiftable": false,
       "isBigCraftable": true
@@ -17952,7 +17932,7 @@
         "de": "Getrocknete Sonnenblumen",
         "fr": "Tournesols séchés",
         "it": "Girasoli essiccati",
-        "tr": "Kurumuş Ayçicekleri",
+        "tr": "Kurumuş Ayçiçekleri",
         "hu": "Száraz napraforgó"
       },
       "id": "(BC)112",
@@ -17993,7 +17973,7 @@
         "fr": "Fourneau à charbon",
         "it": "Fornace per il carbone",
         "tr": "Kömür Fırını",
-        "hu": "Faszén kemence"
+        "hu": "Faszenes kemence"
       },
       "id": "(BC)114",
       "textureName": "67c0fde5b2d0953d115812f4cd367dfae7cdc69bfb9b01b423270e4b4b732131",
@@ -18226,7 +18206,7 @@
       "displayNames": {
         "en": "Statue Of Endless Fortune",
         "ja": "おわりなき幸運の像",
-        "ru": "Статуя Вечной Удачи",
+        "ru": "Статуя бесконечной удачи",
         "pt": "Estátua da Riqueza Eterna",
         "es": "Estatua de la fortuna eterna",
         "de": "Statue des ewigen Glücks",
@@ -18633,7 +18613,7 @@
         "fr": "Bac à compost",
         "it": "Bidone dei vermi",
         "tr": "Solucan Kutusu",
-        "hu": "Gilisztás láda"
+        "hu": "Gilisztásláda"
       },
       "id": "(BC)154",
       "textureName": "1e94492477cdf030fb6dab02828d9130959645707b8af1637b9fcb349b4b62f3",
@@ -18726,7 +18706,7 @@
       "displayNames": {
         "en": "Statue Of Perfection",
         "ja": "完全無欠の像",
-        "ru": "Статуя Совершенства",
+        "ru": "Статуя совершенства",
         "pt": "Estátua da Perfeição",
         "es": "Estatua de la perfección",
         "de": "Statue der Perfektion",
@@ -18792,7 +18772,7 @@
         "de": "Reifefass",
         "fr": "Fût",
         "it": "Botte",
-        "tr": "Fıçı",
+        "tr": "Varil",
         "hu": "Fahordó"
       },
       "id": "(BC)163",
@@ -19032,7 +19012,7 @@
         "de": "Werkbank",
         "fr": "Table de travail",
         "it": "Banco da lavoro",
-        "tr": "Çalışma Tezgahı",
+        "tr": "Çalışma Tezgâhı",
         "hu": "Munkaasztal"
       },
       "id": "(BC)208",
@@ -19145,13 +19125,13 @@
       "category": -9,
       "displayNames": {
         "en": "Item Pedestal",
-        "ja": "Item Pedestal",
+        "ja": "アイテム用の台座",
         "ru": "Пьедестал для предмета",
         "pt": "Pedestal de Itens",
-        "es": "Item Pedestal",
-        "de": "Item Pedestal",
-        "fr": "Item Pedestal",
-        "it": "Item Pedestal",
+        "es": "Pedestal para objetos",
+        "de": "Gegenstand Podest",
+        "fr": "Piédestal",
+        "it": "Piedistallo per oggetto",
         "tr": "Item Pedestal",
         "hu": "Tárgy alapzat"
       },
@@ -19209,11 +19189,11 @@
         "ru": "Фермерский компьютер",
         "pt": "Computador da Fazenda",
         "es": "Ordenador de la granja",
-        "de": "Hof Rechner",
+        "de": "Hof-Rechner",
         "fr": "Ordinateur de ferme",
         "it": "Computer della Fattoria",
         "tr": "Çiftlik Bilgisayarı",
-        "hu": "Farm számítógép"
+        "hu": "Farm-számítógép"
       },
       "id": "(BC)239",
       "textureName": "ed9eba4ed0af25a9811b68617a69a05cd59928264ec3426af3a7517bff072ec2",
@@ -19226,11 +19206,11 @@
       "displayNames": {
         "en": "Mini-Shipping Bin",
         "ja": "ミニ出荷箱",
-        "ru": "Мини-ящик для отгрузок",
+        "ru": "Мини-ящик для отгрузки",
         "pt": "Mini Caixa de Remessas",
         "es": "Mini contendedor de envíos",
         "de": "Mini-Versandbehälter",
-        "fr": "Mini-bac d'expédition",
+        "fr": "Mini-bac d’expédition",
         "it": "Mini-cassetta per spedizioni",
         "tr": "Küçük Gönderi Kutusu",
         "hu": "Mini-szállítós láda"
@@ -19250,9 +19230,9 @@
         "pt": "Incubadora de Avestruzes",
         "es": "Incubadora de avestruces",
         "de": "Straußenbrutkasten",
-        "fr": "Incubateur d'autruche",
+        "fr": "Incubateur d’autruche",
         "it": "Incubatrice per struzzi",
-        "tr": "Devekuşu Kuluçka Makinesi",
+        "tr": "Deve Kuşu Kuluçka Makinesi",
         "hu": "Strucctojás-inkubátor"
       },
       "id": "(BC)254",
@@ -19345,12 +19325,12 @@
       "category": -9,
       "displayNames": {
         "en": "Bone Mill",
-        "ja": "クリスタルチェア",
+        "ja": "骨粉砕機",
         "ru": "Костедробилка",
         "pt": "Moedor de Ossos",
         "es": "Molino de huesos",
         "de": "Knochenmühle",
-        "fr": "Bone Moulin",
+        "fr": "Moulin à os",
         "it": "Macina-ossa",
         "tr": "Kemik Değirmeni",
         "hu": "Csontőrlő"
@@ -19425,7 +19405,7 @@
       "category": -9,
       "displayNames": {
         "en": "Heavy Tapper",
-        "ja": "Heavy Tapper",
+        "ja": "大型樹液採取器",
         "ru": "Тяжелый подсочник",
         "pt": "Torneirinha Pesada",
         "es": "Grifo pesado",
@@ -19526,7 +19506,7 @@
       "displayNames": {
         "en": "Statue Of True Perfection",
         "ja": "真の完璧の像",
-        "ru": "Статуя Истинного Совершенства",
+        "ru": "Статуя истинного совершенства",
         "pt": "Estátua da Verdadeira Perfeição",
         "es": "Estatua de la verdadera perfección",
         "de": "Statue der wahren Perfektion",
@@ -19550,7 +19530,7 @@
         "pt": "Placa de Texto",
         "es": "Cartel de Texto",
         "de": "Schild",
-        "fr": "Panneau d'affichage",
+        "fr": "Panneau d’affichage",
         "it": "Cartello con testo",
         "tr": "Tabela",
         "hu": "Feliratos tábla"
@@ -19590,7 +19570,7 @@
         "pt": "Máquina de Iscas",
         "es": "CreaCebos",
         "de": "Köderhersteller",
-        "fr": "Fabricant d'appâts",
+        "fr": "Fabricant d’appâts",
         "it": "Macchina per esche",
         "tr": "Yem Yapıcı",
         "hu": "Csalikészítő"
@@ -19613,7 +19593,7 @@
         "fr": "Déshydrateur",
         "it": "Essiccatore",
         "tr": "Kurutucu",
-        "hu": "Szárító"
+        "hu": "Aszaló"
       },
       "id": "(BC)Dehydrator",
       "textureName": "7bb828d4966c06fe48e9d0a9d1c30de1e024ff862e3f77d2c024f4f1d3030739",
@@ -19628,7 +19608,7 @@
         "ja": "強力溶鉱炉",
         "ru": "Большая плавильная печь",
         "pt": "Alto-forno",
-        "es": "Heavy Furnace",
+        "es": "Horno pesado",
         "de": "Schwerer Ofen",
         "fr": "Gros Fourneau",
         "it": "Fornace pesante",
@@ -19712,7 +19692,7 @@
         "de": "Mini-Schmiede",
         "fr": "Mini-Forge",
         "it": "Mini-Forgia",
-        "tr": "Mini Dökümhane",
+        "tr": "Mini Demir Ocağı",
         "hu": "Mini-kohó"
       },
       "id": "(BC)MiniForge",
@@ -19749,11 +19729,11 @@
         "ru": "Элитный бак с червями",
         "pt": "Cesto de Minhocas de Luxo",
         "es": "Vividero de Cebo Deluxe",
-        "de": "Luxus-Wurmbehälter",
+        "de": "Luxus-Wurmeimer",
         "fr": "Bac à compost de luxe",
         "it": "Bidone dei vermi deluxe",
         "tr": "Lüks Solucan Kutusu",
-        "hu": "Luxus gilisztás láda"
+        "hu": "Luxus gilisztásláda"
       },
       "id": "(BC)DeluxeWormBin",
       "textureName": "6d59ed737a6e148a93d7e9da122c49aa1c60b8940cb55e6c8c7392afb15abaf4",
